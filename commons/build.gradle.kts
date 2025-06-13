@@ -8,8 +8,8 @@ plugins {
     `maven-publish`
 }
 
-group = "com.goodwy"
-version = "6.1.1"
+group = "com.maxitendo"
+version = "1.0.0"
 
 android {
     namespace = "com.maxitendo.commons"

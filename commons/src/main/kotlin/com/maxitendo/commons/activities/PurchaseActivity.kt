@@ -576,69 +576,9 @@ class PurchaseActivity : BaseSimpleActivity() {
 
     @SuppressLint("NewApi", "SetTextI18n", "UseCompatTextViewDrawableApis")
     private fun setupCollection() {
-        binding.collectionHolder.beVisible()
-        val appDialerPackage = "com.maxitendo.dialer"
-        val appContactsPackage = "com.maxitendo.contacts"
-        val appSmsMessengerPackage = "com.maxitendo.smsmessenger"
-        val appGalleryPackage = "com.maxitendo.gallery"
-        val appAudiobookLitePackage = "com.maxitendo.audiobooklite"
-        val appFilesPackage = "com.maxitendo.filemanager"
-        val appKeyboardPackage = "com.maxitendo.keyboard"
-        val appCalendarPackage = "com.maxitendo.calendar"
-        val appVoiceRecorderPackage = "com.maxitendo.voicerecorderfree"
-
-        val appDialerInstalled = isPackageInstalled(appDialerPackage)
-        val appContactsInstalled = isPackageInstalled(appContactsPackage)
-        val appSmsMessengerInstalled = isPackageInstalled(appSmsMessengerPackage)
-        val appGalleryInstalled = isPackageInstalled(appGalleryPackage)
-        val appAudiobookLiteInstalled = isPackageInstalled(appAudiobookLitePackage)
-        val appFilesInstalled = isPackageInstalled(appFilesPackage)
-        val appKeyboardInstalled = isPackageInstalled(appKeyboardPackage)
-        val appCalendarInstalled = isPackageInstalled(appCalendarPackage)
-        val appVoiceRecorderInstalled = isPackageInstalled(appVoiceRecorderPackage)
-
-        val appAllInstalled = appDialerInstalled && appContactsInstalled && appSmsMessengerInstalled && appGalleryInstalled &&
-            appAudiobookLiteInstalled && appFilesInstalled && appKeyboardInstalled && appCalendarInstalled && appVoiceRecorderInstalled
-
-        if (!appAllInstalled) binding.collectionLogo.applyColorFilter(primaryColor)
-        binding.collectionChevron.applyColorFilter(getProperTextColor())
-        binding.collectionSubtitle.background.applyColorFilter(getBottomNavigationBackgroundColor())
-
-        val items = arrayOf(
-            SimpleListItem(1, R.string.right_dialer, imageRes = R.drawable.ic_dialer, selected = appDialerInstalled, packageName = appDialerPackage),
-            SimpleListItem(2, R.string.right_contacts, imageRes = R.drawable.ic_contacts, selected = appContactsInstalled, packageName = appContactsPackage),
-            SimpleListItem(3, R.string.right_sms_messenger, imageRes = R.drawable.ic_sms_messenger, selected = appSmsMessengerInstalled, packageName = appSmsMessengerPackage),
-            SimpleListItem(4, R.string.right_gallery, imageRes = R.drawable.ic_gallery, selected = appGalleryInstalled, packageName = appGalleryPackage),
-            SimpleListItem(5, R.string.right_files, imageRes = R.drawable.ic_files, selected = appFilesInstalled, packageName = appFilesPackage),
-            SimpleListItem(6, R.string.playbook, imageRes = R.drawable.ic_playbook, selected = appAudiobookLiteInstalled, packageName = appAudiobookLitePackage),
-            SimpleListItem(7, R.string.right_keyboard, imageRes = R.drawable.ic_inkwell, selected = appKeyboardInstalled, packageName = appKeyboardPackage),
-            SimpleListItem(8, R.string.right_calendar, imageRes = R.drawable.ic_calendar_app, selected = appCalendarInstalled, packageName = appCalendarPackage),
-            SimpleListItem(8, R.string.right_voice_recorder, imageRes = R.drawable.ic_voice_recorder, selected = appVoiceRecorderInstalled, packageName = appVoiceRecorderPackage)
-        )
-
-        val percentage = items.filter { it.selected }.size.toString() + "/" + items.size.toString()
-        binding.collectionTitle.text = getString(stringsR.string.collection) + "  $percentage"
-
-        binding.collectionHolder.setOnClickListener {
-            BottomSheetChooserDialog.createChooser(
-                fragmentManager = supportFragmentManager,
-                title = stringsR.string.collection,
-                items = items,
-                collection = true
-            ) {
-                if (it.selected) {
-                    launchApp(it.packageName)
-                } else {
-                    if (ruStoreInstalled && !baseConfig.useGooglePlay) {
-                        val urlRS = "https://www.rustore.ru/catalog/app/${it.packageName}"
-                        launchViewIntent(urlRS)
-                    } else {
-                        val urlGP = "https://play.google.com/store/apps/details?id=${it.packageName}"
-                        launchViewIntent(urlGP)
-                    }
-                }
-            }
-        }
+        // Disabled: Collection functionality removed for Special Contacts app
+        // We don't want to promote other Goodwy apps anymore
+        binding.collectionHolder.beGone()
     }
 
     private fun launchApp(packageName: String) {

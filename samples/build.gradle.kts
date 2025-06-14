@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.android)
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.detekt)
+    alias(libs.plugins.composeCompiler)
 }
 
 val keystorePropertiesFile: File = rootProject.file("keystore.properties")

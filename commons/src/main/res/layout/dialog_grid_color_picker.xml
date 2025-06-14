@@ -9,7 +9,7 @@
     <RelativeLayout
     android:id="@+id/line_color_picker_holder"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <RelativeLayout
         android:id="@+id/grid_color_title_holder"

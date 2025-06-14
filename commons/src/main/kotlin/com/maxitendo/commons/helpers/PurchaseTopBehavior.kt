@@ -51,7 +51,7 @@ class PurchaseTopBehavior(
                 BRuleScale(min = 0.5f, max = 1f)
             ),
             RuledView(
-                binding.topDetails.purchaseApps,
+                binding.topDetails.purchaseAppsTitle,
                 BRuleXOffset(
                     min = 0f, max = pixels(R.dimen.purchase_name_right_margin),
                     interpolator = ReverseInterpolator(LinearInterpolator())

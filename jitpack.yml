@@ -1,3 +1,4 @@
 jdk: openjdk17
 install:
-  - ./gradlew clean build publishToMavenLocal -x test -x detekt -x lint
+  - ./gradlew clean build publishToMavenLocal
+# Enable all quality checks for proper library build - updated

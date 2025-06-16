@@ -53,7 +53,7 @@ class AboutActivity : BaseComposeActivity() {
                                     showRateStarsDialog = rateStarsAlertDialogState::show
                                 )
                             },
-                            onMoreAppsClick = ::launchMoreAppsFromUsIntent,
+                            onMoreAppsClick = ::onMoreAppsClick,
                             onPrivacyPolicyClick = ::onPrivacyPolicyClick,
                             onFAQClick = ::launchFAQActivity,
                             onTipJarClick = ::onTipJarClick,
@@ -116,6 +116,15 @@ class AboutActivity : BaseComposeActivity() {
         showConfirmationAdvancedDialog: () -> Unit,
         showRateStarsDialog: () -> Unit,
     ) {
+        // Check if this is Special Contacts app
+        val appId = baseConfig.appId.removeSuffix(".debug")
+        if (appId == "com.maxitendo.contacts") {
+            // Show placeholder message for Special Contacts
+            toast("Rate Us functionality coming soon! Thank you for your patience.")
+            return
+        }
+
+        // Original functionality for other apps
         if (baseConfig.wasBeforeRateShown) {
             launchRateUsPrompt(showRateStarsDialog)
         } else {
@@ -162,7 +171,33 @@ class AboutActivity : BaseComposeActivity() {
         launchViewIntent(url)
     }
 
+    private fun onMoreAppsClick() {
+        // Check if this is Special Contacts app
+        val appId = baseConfig.appId.removeSuffix(".debug")
+        if (appId == "com.maxitendo.contacts") {
+            // Show placeholder message for Special Contacts
+            toast("More Apps section coming soon! Stay tuned for more great apps.")
+            return
+        }
+
+        // Original functionality for other apps
+        launchMoreAppsFromUsIntent(
+            appId = appId,
+            playStoreInstalled = intent.getBooleanExtra(PLAY_STORE_INSTALLED, true),
+            ruStoreInstalled = intent.getBooleanExtra(RU_STORE, false)
+        )
+    }
+
     private fun onTipJarClick() {
+        // Check if this is Special Contacts app
+        val appId = baseConfig.appId.removeSuffix(".debug")
+        if (appId == "com.maxitendo.contacts") {
+            // Show placeholder message for Special Contacts
+            toast("Tip Jar coming soon! Thank you for your support.")
+            return
+        }
+
+        // Original functionality for other apps
         Intent(applicationContext, PurchaseActivity::class.java).apply {
             putExtra(APP_ICON_IDS, intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList<String>())
             putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
@@ -187,7 +222,7 @@ class AboutActivity : BaseComposeActivity() {
 
         // Special handling for com.maxitendo.contacts to redirect to Special-Contacts repository
         val url = if (appId == "com.maxitendo.contacts") {
-            "https://github.com/Maxitendo/Special-Contacts"
+            "https://github.com/Maxi"
         } else {
             "https://github.com/Maxitendo/$repositoryName"
         }

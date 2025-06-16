@@ -55,7 +55,6 @@ android {
     flavorDimensions.add("variants")
     productFlavors {
         register("foss")
-        register("prepaid")
     }
 
     compileOptions {

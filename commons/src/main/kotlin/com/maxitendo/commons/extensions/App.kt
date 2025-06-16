@@ -13,6 +13,4 @@ fun Application.checkUseEnglish() {
     }
 }
 
-fun Application.isRuStoreInstalled(): Boolean {
-    return isPackageInstalled("ru.vk.store")
-}
+

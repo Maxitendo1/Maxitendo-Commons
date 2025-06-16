@@ -86,7 +86,7 @@ fun Activity.appLaunched(appId: String) {
     if (!isTalkBackOn()) {
         if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
             if (!resources.getBoolean(R.bool.hide_google_relations)) {
-                if (isPlayStoreInstalled() || isRuStoreInstalled()) RateStarsDialog(this)
+                if (isPlayStoreInstalled()) RateStarsDialog(this)
             }
         }
     }
@@ -289,12 +289,7 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 }
 
 fun Activity.launchMoreAppsFromUsIntent() {
-    if (isRuStoreInstalled() && !baseConfig.useGooglePlay) {
-        val urlRS = "rustore://apps.rustore.ru/developer/d01f495d"
-        launchViewIntent(urlRS)
-    } else {
-        launchViewIntent(getString(googlePlayDevUrlRes()))
-    }
+    launchViewIntent(getString(googlePlayDevUrlRes()))
 }
 
 fun Activity.launchViewIntent(id: Int) = launchViewIntent(getString(id))

@@ -30,7 +30,7 @@ import com.maxitendo.commons.compose.lists.SimpleColumnScaffold
 import com.maxitendo.commons.compose.theme.AppThemeSurface
 import com.maxitendo.commons.extensions.baseConfig
 import com.maxitendo.commons.extensions.isPlayStoreInstalled
-import com.maxitendo.commons.extensions.isRuStoreInstalled
+
 import com.maxitendo.strings.R as stringsR
 
 @Composable

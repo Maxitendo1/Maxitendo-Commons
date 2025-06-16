@@ -1513,11 +1513,9 @@ fun Context.isPlayStoreInstalled(): Boolean {
         || isPackageInstalled("com.google.market")
 }
 
-fun Context.isRuStoreInstalled(): Boolean {
-    return isPackageInstalled("ru.vk.store")
-}
 
-fun Context.isPro() = baseConfig.isPro || baseConfig.isProSubs || baseConfig.isProRuStore ||
+
+fun Context.isPro() = baseConfig.isPro || baseConfig.isProSubs ||
     (resources.getBoolean(R.bool.using_no_gp) && baseConfig.isProNoGP)
 
 fun Context.isCollection(): Boolean {

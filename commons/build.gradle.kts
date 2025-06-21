@@ -104,7 +104,7 @@ dependencies {
     debugImplementation(libs.bundles.compose.preview)
 
     api(libs.joda.time)
-    api(libs.recyclerView.fastScroller)
+    // recyclerView.fastScroller now integrated locally
     api(libs.reprint)
     api(libs.rtl.viewpager)
     api(libs.patternLockView)

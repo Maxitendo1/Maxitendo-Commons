@@ -41,7 +41,7 @@
                 android:textSize="@dimen/bigger_text_size"
                 android:textStyle="italic" />
 
-            <com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
+            <com.maxitendo.recyclerfastscroller.RecyclerViewFastScroller
                 android:id="@+id/filepicker_fastscroller"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,7 +55,7 @@
                 android:scrollbars="none"
                 app:layoutManager="com.maxitendo.commons.views.MyLinearLayoutManager" />
 
-            </com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller>
+            </com.maxitendo.recyclerfastscroller.RecyclerViewFastScroller>
         </RelativeLayout>
 
         <RelativeLayout

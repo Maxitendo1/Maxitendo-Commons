@@ -1,11 +1,4 @@
 <resources>
-    <!-- Fast Scroller dimensions (from integrated libraries) -->
-    <dimen name="fast_scroller_icon_size">20dp</dimen>
-    <dimen name="fast_scroller_thumb_elevation">2dp</dimen>
-    <dimen name="fast_scroller_thumb_size">32dp</dimen>
-    <dimen name="fast_scroller_default_text_padding">4dp</dimen>
-
-    <!-- Core Commons dimensions (from Goodwy Commons) -->
     <dimen name="one_dp">1dp</dimen>
     <dimen name="tiny_margin">2dp</dimen>
     <dimen name="small_margin">4dp</dimen>
@@ -119,4 +112,16 @@
     <dimen name="fast_scroller_thumb_elevation">2dp</dimen>
     <dimen name="fast_scroller_thumb_size">32dp</dimen>
     <dimen name="fast_scroller_default_text_padding">4dp</dimen>
+
+    <!-- RecyclerViewFastScroller dimensions -->
+    <dimen name="fs_corner_radius">16dp</dimen>
+    <dimen name="default_handle_width">32dp</dimen>
+    <dimen name="default_handle_height">40dp</dimen>
+    <dimen name="default_popup_padding">16dp</dimen>
+    <dimen name="default_handle_right_padding">4dp</dimen>
+    <dimen name="default_handle_left_padding">24dp</dimen>
+    <dimen name="fs_popup_min_width">52dp</dimen>
+    <dimen name="fs_popup_min_height">52dp</dimen>
+    <dimen name="fs_popup_padding_start">20dp</dimen>
+    <dimen name="fs_popup_padding_end">20dp</dimen>
 </resources>

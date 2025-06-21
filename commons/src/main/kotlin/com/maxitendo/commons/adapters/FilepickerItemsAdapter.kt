@@ -11,7 +11,7 @@ import com.bumptech.glide.load.resource.bitmap.CenterCrop
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions.withCrossFade
 import com.bumptech.glide.request.RequestOptions
-import com.qtalk.recyclerviewfastscroller.RecyclerViewFastScroller
+import com.maxitendo.recyclerfastscroller.RecyclerViewFastScroller
 import com.maxitendo.commons.R
 import com.maxitendo.commons.activities.BaseSimpleActivity
 import com.maxitendo.commons.databinding.ItemFilepickerListBinding

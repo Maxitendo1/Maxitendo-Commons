@@ -3154,7 +3154,7 @@
     </style>
 
 
-    <!--Maxitendo-->
+    <!--Goodwy-->
     <style name="AppTheme.BW_20" parent="AppTheme.Base">
         <item name="colorPrimary">@color/bw_20</item>
         <item name="colorPrimaryDark">@color/bw_30</item>
@@ -4973,6 +4973,21 @@
         <item name="colorPrimary">@color/green_900</item>
         <item name="colorPrimaryDark">@color/bw_000</item>
         <item name="colorAccent">@color/green_900</item>
+    </style>
+
+    <!-- IndicatorFastScroll styles -->
+    <style name="Widget.IndicatorFastScroll.FastScroller" parent="android:Widget">
+        <item name="fastScrollerIconColor">?android:textColorPrimary</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="fastScrollerTextPadding">@dimen/fast_scroller_default_text_padding</item>
+    </style>
+
+    <style name="Widget.IndicatorFastScroll.FastScrollerThumb" parent="android:Widget">
+        <item name="fastScrollerThumbColor">?colorPrimary</item>
+        <item name="fastScrollerIconColor">?android:textColorPrimaryInverse</item>
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
     </style>
 
 </resources>

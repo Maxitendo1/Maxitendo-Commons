@@ -181,11 +181,7 @@ class AboutActivity : BaseComposeActivity() {
         }
 
         // Original functionality for other apps
-        launchMoreAppsFromUsIntent(
-            appId = appId,
-            playStoreInstalled = intent.getBooleanExtra(PLAY_STORE_INSTALLED, true),
-            ruStoreInstalled = intent.getBooleanExtra(RU_STORE, false)
-        )
+        launchMoreAppsFromUsIntent()
     }
 
     private fun onTipJarClick() {
@@ -203,14 +199,10 @@ class AboutActivity : BaseComposeActivity() {
             putExtra(APP_LAUNCHER_NAME, intent.getStringExtra(APP_LAUNCHER_NAME) ?: "")
             putExtra(APP_NAME, intent.getStringExtra(APP_NAME) ?: "")
             putExtra(PRODUCT_ID_LIST, intent.getStringArrayListExtra(PRODUCT_ID_LIST) ?: arrayListOf("", "", ""))
-            putExtra(PRODUCT_ID_LIST_RU, intent.getStringArrayListExtra(PRODUCT_ID_LIST_RU) ?: arrayListOf("", "", ""))
             putExtra(SUBSCRIPTION_ID_LIST, intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST) ?: arrayListOf("", "", ""))
-            putExtra(SUBSCRIPTION_ID_LIST_RU, intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST_RU) ?: arrayListOf("", "", ""))
             putExtra(SUBSCRIPTION_YEAR_ID_LIST, intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST) ?: arrayListOf("", "", ""))
-            putExtra(SUBSCRIPTION_YEAR_ID_LIST_RU, intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST_RU) ?: arrayListOf("", "", ""))
             putExtra(SHOW_LIFEBUOY, resources.getBoolean(R.bool.show_lifebuoy))
             putExtra(PLAY_STORE_INSTALLED, intent.getBooleanExtra(PLAY_STORE_INSTALLED, true))
-            putExtra(RU_STORE, intent.getBooleanExtra(RU_STORE, false))
             putExtra(SHOW_COLLECTION, resources.getBoolean(R.bool.show_collection))
             startActivity(this)
         }

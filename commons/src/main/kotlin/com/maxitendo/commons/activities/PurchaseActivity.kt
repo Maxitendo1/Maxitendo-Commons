@@ -18,39 +18,24 @@ import com.maxitendo.commons.dialogs.ConfirmationAdvancedDialog
 import com.maxitendo.commons.dialogs.ConfirmationDialog
 import com.maxitendo.commons.extensions.*
 import com.maxitendo.commons.helpers.*
-import com.maxitendo.commons.helpers.rustore.RuStoreHelper
-import com.maxitendo.commons.helpers.rustore.RuStoreModule
-import com.maxitendo.commons.helpers.rustore.model.BillingEvent
-import com.maxitendo.commons.helpers.rustore.model.BillingState
-import com.maxitendo.commons.helpers.rustore.model.StartPurchasesEvent
+
 import com.maxitendo.commons.models.SimpleListItem
 import com.maxitendo.strings.R as stringsR
 import kotlinx.coroutines.*
-import ru.rustore.sdk.billingclient.RuStoreBillingClient
-import ru.rustore.sdk.billingclient.utils.resolveForBilling
-import ru.rustore.sdk.core.exception.RuStoreException
-import ru.rustore.sdk.core.feature.model.FeatureAvailabilityResult
+
 
 class PurchaseActivity : BaseSimpleActivity() {
 
     private var appName = ""
     private var primaryColor = 0
     private var productIdList: ArrayList<String> = ArrayList()
-    private var productIdListRu: ArrayList<String> = ArrayList()
     private var subscriptionIdList: ArrayList<String> = ArrayList()
-    private var subscriptionIdListRu: ArrayList<String> = ArrayList()
     private var subscriptionYearIdList: ArrayList<String> = ArrayList()
-    private var subscriptionYearIdListRu: ArrayList<String> = ArrayList()
     private var showLifebuoy = true
     private var playStoreInstalled = true
-    private var ruStoreInstalled = false
     private var showCollection = false
 
-    private var ruStoreIsConnected = false
-
     private val purchaseHelper = PurchaseHelper(this)
-    private var ruStoreHelper: RuStoreHelper? = null
-    private var ruStoreBillingClient: RuStoreBillingClient? = null
 
     override fun getAppIconIDs() = intent.getIntegerArrayListExtra(APP_ICON_IDS) ?: ArrayList()
 
@@ -66,25 +51,15 @@ class PurchaseActivity : BaseSimpleActivity() {
         setContentView(binding.root)
         appName = intent.getStringExtra(APP_NAME) ?: ""
         productIdList = intent.getStringArrayListExtra(PRODUCT_ID_LIST) ?: arrayListOf("", "", "")
-        productIdListRu = intent.getStringArrayListExtra(PRODUCT_ID_LIST_RU) ?: arrayListOf("", "", "")
         subscriptionIdList = intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST) ?: arrayListOf("", "", "")
-        subscriptionIdListRu = intent.getStringArrayListExtra(SUBSCRIPTION_ID_LIST_RU) ?: arrayListOf("", "", "")
         subscriptionYearIdList = intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST) ?: arrayListOf("", "", "")
-        subscriptionYearIdListRu = intent.getStringArrayListExtra(SUBSCRIPTION_YEAR_ID_LIST_RU) ?: arrayListOf("", "", "")
         primaryColor = getProperPrimaryColor()
         showLifebuoy = intent.getBooleanExtra(SHOW_LIFEBUOY, true)
         playStoreInstalled = intent.getBooleanExtra(PLAY_STORE_INSTALLED, true)
-        ruStoreInstalled = intent.getBooleanExtra(RU_STORE, false)
         showCollection = intent.getBooleanExtra(SHOW_COLLECTION, false)
 
 
-        if (ruStoreInstalled) {
-            ruStoreHelper = RuStoreHelper()
-            ruStoreBillingClient = RuStoreModule.provideRuStoreBillingClient()
-        }
-        if (savedInstanceState == null && ruStoreInstalled) {
-            ruStoreBillingClient!!.onNewIntent(intent)
-        }
+        // RuStore removed for FOSS compliance
 
         // TODO TRANSPARENT Navigation Bar
         setWindowTransparency(true) { _, _, leftNavigationBarSize, rightNavigationBarSize ->
@@ -96,8 +71,7 @@ class PurchaseActivity : BaseSimpleActivity() {
             binding.purchaseNestedScrollview,
             binding.topDetails.root
         ).forEach {
-            it.beInvisibleIf(resources.getBoolean(R.bool.using_no_gp) || (!playStoreInstalled && !ruStoreInstalled))
-//            it.beInvisibleIf(!ruStoreInstalled)
+            it.beInvisibleIf(resources.getBoolean(R.bool.using_no_gp) || !playStoreInstalled)
         }
 
         arrayOf(
@@ -105,10 +79,10 @@ class PurchaseActivity : BaseSimpleActivity() {
             binding.proDonateText,
             binding.proDonateButton
         ).forEach {
-            it.beGoneIf((!resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled) || ruStoreInstalled)
+            it.beGoneIf(!resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled)
         }
 
-        if ((playStoreInstalled && !ruStoreInstalled) || (playStoreInstalled && ruStoreInstalled && baseConfig.useGooglePlay)) {
+        if (playStoreInstalled) {
             //PlayStore
             purchaseHelper.initBillingClient()
             val subscriptionIdListAll: ArrayList<String> = subscriptionIdList
@@ -157,63 +131,13 @@ class PurchaseActivity : BaseSimpleActivity() {
             purchaseHelper.isSupPurchasedList.observe(this) {
                 setupButtonSupChecked()
             }
-        } else if ((!playStoreInstalled && ruStoreInstalled) || (playStoreInstalled && ruStoreInstalled && !baseConfig.useGooglePlay)) {
-            //RuStore
-            ruStoreHelper!!.checkPurchasesAvailability(this)
-
-//            lifecycleScope.launch {
-//                ruStoreHelper!!.stateStart
-//                    .flowWithLifecycle(lifecycle)
-//                    .collect { state ->
-//                        // update button
-//                    }
-//            }
-            lifecycleScope.launch {
-                ruStoreHelper!!.eventStart
-                    .flowWithLifecycle(lifecycle)
-                    .collect { event ->
-                        handleEventStart(event)
-                    }
-            }
-
-            lifecycleScope.launch {
-                ruStoreHelper!!.stateBilling
-                    .flowWithLifecycle(lifecycle)
-                    .collect { state ->
-                        if (!state.isLoading) {
-                            //price update
-                            setupButtonRuStore(state)
-                        }
-                    }
-            }
-            lifecycleScope.launch {
-                ruStoreHelper!!.eventBilling
-                    .flowWithLifecycle(lifecycle)
-                    .collect { event ->
-                        handleEventBilling(event)
-                    }
-            }
-
-            lifecycleScope.launch {
-                ruStoreHelper!!.statePurchased
-                    .flowWithLifecycle(lifecycle)
-                    .collect { state ->
-                        if (!state.isLoading && ruStoreIsConnected) {
-                            //update of purchased
-                            setupButtonCheckedRuStore(state.purchases)
-                            //update pro version
-                            baseConfig.isProRuStore = state.purchases.isNotEmpty()
-                        }
-                    }
-            }
         }
+        // RuStore section removed for FOSS compliance
     }
 
     override fun onNewIntent(intent: Intent) {
         super.onNewIntent(intent)
-        if (ruStoreInstalled) {
-            ruStoreBillingClient!!.onNewIntent(intent)
-        }
+        // RuStore billing client removed for FOSS compliance
     }
 
     override fun onResume() {
@@ -228,16 +152,11 @@ class PurchaseActivity : BaseSimpleActivity() {
         setupChangeStoreMenu()
         setupEmail()
         if (showCollection) setupCollection()
-        if ((!resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled) || ruStoreInstalled) {
+        if ((!resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled)) {
             setupIcon()
         } else {
             setupNoPlayStoreInstalled()
         }
-//        if (ruStoreInstalled) {
-//            setupIcon()
-//        } else {
-//            setupNoPlayStoreInstalled()
-//        }
 
         val isProApp = resources.getBoolean(R.bool.is_pro_app)
         binding.themeHolder.beVisibleIf(!isProApp)
@@ -245,7 +164,7 @@ class PurchaseActivity : BaseSimpleActivity() {
     }
 
     private fun setupOptionsMenu() {
-        val visible = (!resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled) || ruStoreInstalled
+        val visible = (!resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled)
         binding.purchaseToolbar.menu.apply {
             findItem(R.id.restorePurchases).isVisible = visible
             findItem(R.id.openSubscriptions).isVisible = visible
@@ -254,16 +173,13 @@ class PurchaseActivity : BaseSimpleActivity() {
             when (menuItem.itemId) {
                 R.id.restorePurchases -> {
                     setupButtonReset()
-                    if (ruStoreInstalled && !baseConfig.useGooglePlay) updateProducts()
-                    else {
-                        val subscriptionIdListAll: ArrayList<String> = subscriptionIdList
-                        subscriptionIdListAll.addAll(subscriptionYearIdList)
-                        purchaseHelper.retrieveDonation(productIdList, subscriptionIdListAll)
-                    }
+                    val subscriptionIdListAll: ArrayList<String> = subscriptionIdList
+                    subscriptionIdListAll.addAll(subscriptionYearIdList)
+                    purchaseHelper.retrieveDonation(productIdList, subscriptionIdListAll)
                     true
                 }
                 R.id.openSubscriptions -> {
-                    val url = if (ruStoreInstalled && !baseConfig.useGooglePlay) "rustore://profile/subscriptions" else "https://play.google.com/store/account/subscriptions"
+                    val url = "https://play.google.com/store/account/subscriptions"
                     launchViewIntent(url)
                     true
                 }
@@ -274,21 +190,8 @@ class PurchaseActivity : BaseSimpleActivity() {
 
     private fun setupChangeStoreMenu() {
         binding.purchaseToolbar.menu.findItem(R.id.changeStore).apply {
-            isVisible = !resources.getBoolean(R.bool.using_no_gp) && playStoreInstalled && ruStoreInstalled
-            title = if (baseConfig.useGooglePlay) getString(stringsR.string.billing_change_to_ru_store) else getString(stringsR.string.billing_change_to_google_play)
-            icon = if (baseConfig.useGooglePlay) AppCompatResources.getDrawable(this@PurchaseActivity, R.drawable.ic_google_play_vector)
-            else AppCompatResources.getDrawable(this@PurchaseActivity, R.drawable.ic_rustore)
-            icon?.setTint(getProperTextColor())
-            setOnMenuItemClickListener {
-                if (baseConfig.useGooglePlay) {
-                    baseConfig.useGooglePlay = false
-                    recreate()
-                } else {
-                    baseConfig.useGooglePlay = true
-                    recreate()
-                }
-                true
-            }
+            // Store switching removed for FOSS compliance - only Google Play supported
+            isVisible = false
         }
     }
 
@@ -600,263 +503,5 @@ class PurchaseActivity : BaseSimpleActivity() {
         }
     }
 
-    //RuStore
-    private fun setupButtonRuStore(state: BillingState) {
-        binding.appOneButton.apply {
-            val product = state.products.firstOrNull {  it.productId == productIdListRu[0]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            isEnabled = price != getString(stringsR.string.no_connection)
-            val resultPrice = price.replace(".00","",true)
-            text = resultPrice
-            setOnClickListener {
-                if (product != null) {
-                    ruStoreHelper!!.purchaseProduct(product)
-                }
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appTwoButton.apply {
-            val product = state.products.firstOrNull {  it.productId == productIdListRu[1]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            isEnabled = price != getString(stringsR.string.no_connection)
-            val resultPrice = price.replace(".00","",true)
-            text = resultPrice
-            setOnClickListener {
-                if (product != null) {
-                    ruStoreHelper!!.purchaseProduct(product)
-                }
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appThreeButton.apply {
-            val product = state.products.firstOrNull {  it.productId == productIdListRu[2]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            isEnabled = price != getString(stringsR.string.no_connection)
-            val resultPrice = price.replace(".00","",true)
-            text = resultPrice
-            setOnClickListener {
-                if (product != null) {
-                    ruStoreHelper!!.purchaseProduct(product)
-                }
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appOneSubButton.apply {
-            val product = state.products.firstOrNull {  it.productId == subscriptionIdListRu[0]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            if (price != getString(stringsR.string.no_connection)) {
-                isEnabled = true
-                val resultPrice = price.replace(".00","",true)
-                val textPrice = String.format(getString(stringsR.string.per_month), resultPrice)
-                text = textPrice
-                setOnClickListener {
-                    if (product != null) {
-                        ruStoreHelper!!.purchaseProduct(product)
-                    }
-                }
-            } else {
-                text = price
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appTwoSubButton.apply {
-            val product = state.products.firstOrNull {  it.productId == subscriptionIdListRu[1]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            if (price != getString(stringsR.string.no_connection)) {
-                isEnabled = true
-                val resultPrice = price.replace(".00","",true)
-                val textPrice = String.format(getString(stringsR.string.per_month), resultPrice)
-                text = textPrice
-                setOnClickListener {
-                    if (product != null) {
-                        ruStoreHelper!!.purchaseProduct(product)
-                    }
-                }
-            } else {
-                text = price
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appThreeSubButton.apply {
-            val product = state.products.firstOrNull {  it.productId == subscriptionIdListRu[2]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            if (price != getString(stringsR.string.no_connection)) {
-                isEnabled = true
-                val resultPrice = price.replace(".00","",true)
-                val textPrice = String.format(getString(stringsR.string.per_month), resultPrice)
-                text = textPrice
-                setOnClickListener {
-                    if (product != null) {
-                        ruStoreHelper!!.purchaseProduct(product)
-                    }
-                }
-            } else {
-                text = price
-            }
-            background.setTint(primaryColor)
-        }
-
-
-        binding.appOneSubYearButton.apply {
-            val product = state.products.firstOrNull {  it.productId == subscriptionYearIdListRu[0]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            if (price != getString(stringsR.string.no_connection)) {
-                isEnabled = true
-                val resultPrice = price.replace(".00","",true)
-                val textPrice = String.format(getString(stringsR.string.per_year), resultPrice)
-                text = textPrice
-                setOnClickListener {
-                    if (product != null) {
-                        ruStoreHelper!!.purchaseProduct(product)
-                    }
-                }
-            } else {
-                text = price
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appTwoSubYearButton.apply {
-            val product = state.products.firstOrNull {  it.productId == subscriptionYearIdListRu[1]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            if (price != getString(stringsR.string.no_connection)) {
-                isEnabled = true
-                val resultPrice = price.replace(".00","",true)
-                val textPrice = String.format(getString(stringsR.string.per_year), resultPrice)
-                text = textPrice
-                setOnClickListener {
-                    if (product != null) {
-                        ruStoreHelper!!.purchaseProduct(product)
-                    }
-                }
-            } else {
-                text = price
-            }
-            background.setTint(primaryColor)
-        }
-
-        binding.appThreeSubYearButton.apply {
-            val product = state.products.firstOrNull {  it.productId == subscriptionYearIdListRu[2]  }
-            val price = product?.priceLabel ?: getString(stringsR.string.no_connection)
-            if (price != getString(stringsR.string.no_connection)) {
-                isEnabled = true
-                val resultPrice = price.replace(".00","",true)
-                val textPrice = String.format(getString(stringsR.string.per_year), resultPrice)
-                text = textPrice
-                setOnClickListener {
-                    if (product != null) {
-                        ruStoreHelper!!.purchaseProduct(product)
-                    }
-                }
-            } else {
-                text = price
-            }
-            background.setTint(primaryColor)
-        }
-    }
-
-    private fun setupButtonCheckedRuStore(state: List<ru.rustore.sdk.billingclient.model.purchase.Purchase>) {
-        val check = AppCompatResources.getDrawable(this@PurchaseActivity, R.drawable.ic_check_circle_mini)
-        if (state.firstOrNull {  it.productId == productIdListRu[0]  } != null) {
-            binding.appOneButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appOneButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == productIdListRu[1]  } != null) {
-            binding.appTwoButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appTwoButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == productIdListRu[2]  } != null) {
-            binding.appThreeButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appThreeButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == subscriptionIdListRu[0]  } != null) {
-            binding.appOneSubButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appOneSubButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == subscriptionIdListRu[1]  } != null) {
-            binding.appTwoSubButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appTwoSubButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == subscriptionIdListRu[2]  } != null) {
-            binding.appThreeSubButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appThreeSubButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == subscriptionYearIdListRu[0]  } != null) {
-            binding.appOneSubYearButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appOneSubYearButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == subscriptionYearIdListRu[1]  } != null) {
-            binding.appTwoSubYearButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appTwoSubYearButton.isEnabled = false
-        }
-        if (state.firstOrNull {  it.productId == subscriptionYearIdListRu[2]  } != null) {
-            binding.appThreeSubYearButton.setCompoundDrawablesWithIntrinsicBounds(null, null, null, check)
-            binding.appThreeSubYearButton.isEnabled = false
-        }
-    }
-
-    private fun updateProducts() {
-        val productList: ArrayList<String> = productIdListRu
-        productList.addAll(subscriptionIdListRu)
-        productList.addAll(subscriptionYearIdListRu)
-        ruStoreHelper!!.getProducts(productList)
-    }
-
-    private fun handleEventStart(event: StartPurchasesEvent) {
-        when (event) {
-            is StartPurchasesEvent.PurchasesAvailability -> {
-                when (event.availability) {
-                    is FeatureAvailabilityResult.Available -> {
-                        //Process purchases available
-                        updateProducts()
-                        ruStoreIsConnected = true
-                    }
-
-                    is FeatureAvailabilityResult.Unavailable -> {
-                        val error = event.availability.cause.message ?: "Process purchases unavailable"
-                        if (error == "Application signature not correct") {
-                            ConfirmationAdvancedDialog(
-                                activity = this,
-                                messageId = stringsR.string.billing_error_application_signature_not_correct,
-                                positive = stringsR.string.get,
-                                negative = R.string.cancel
-                            ) { success ->
-                                if (success) {
-                                    val url = "https://apps.rustore.ru/app/$packageName"
-                                    this.launchViewIntent(url)
-                                }
-                            }
-                        } else event.availability.cause.resolveForBilling(this) //Show error dialog
-                        //showErrorToast(event.availability.cause.message ?: "Process purchases unavailable", Toast.LENGTH_LONG)
-                    }
-
-                    else -> {}
-                }
-            }
-
-            is StartPurchasesEvent.Error -> {
-                showErrorToast(event.throwable.message ?: "Process unknown error", Toast.LENGTH_LONG)
-            }
-        }
-    }
-
-    private fun handleEventBilling(event: BillingEvent) {
-        when (event) {
-            is BillingEvent.ShowDialog -> {
-                toast(event.dialogInfo.titleRes, Toast.LENGTH_LONG)
-            }
-
-            is BillingEvent.ShowError -> {
-                if (event.error is RuStoreException) {
-                    event.error.resolveForBilling(this)
-                }
-                showErrorToast(event.error.message.orEmpty(), Toast.LENGTH_LONG)
-            }
-        }
-    }
+    // RuStore methods removed for FOSS compliance (and suspicious)
 }

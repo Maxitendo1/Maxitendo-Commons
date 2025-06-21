@@ -2,280 +2,93 @@ package com.maxitendo.commons.helpers
 
 import android.app.Activity
 import androidx.lifecycle.MutableLiveData
-import com.android.billingclient.api.*
-import com.android.billingclient.api.BillingFlowParams.ProductDetailsParams
-import com.android.billingclient.api.QueryProductDetailsParams.Product
-import com.maxitendo.commons.extensions.toast
-import com.maxitendo.strings.R as stringsR
-import kotlinx.coroutines.*
-import java.util.*
 
+/**
+ * FOSS-compliant PurchaseHelper stub implementation
+ * This version removes all Google Play Billing dependencies for FOSS builds
+ */
 class PurchaseHelper (
     val activity: Activity,
     ) {
-    private lateinit var billingClient: BillingClient
-    private val iapSkuDetails: ArrayList<ProductDetails> = arrayListOf()
-    private val subSkuDetails: ArrayList<ProductDetails> = arrayListOf()
+    // FOSS stub - no billing functionality
     val iapSkuDetailsInitialized = MutableLiveData(false)
     val subSkuDetailsInitialized = MutableLiveData(false)
-
+    
     private var iapList = ArrayList<String>()
     private var subList = ArrayList<String>()
     private var iapPurchased: ArrayList<String> = arrayListOf()
     private var subPurchased: ArrayList<String> = arrayListOf()
+    
     val isIapPurchasedList = MutableLiveData<ArrayList<String>>()
     val isSupPurchasedList = MutableLiveData<ArrayList<String>>()
     val isIapPurchased = MutableLiveData<Tipping>()
     val isSupPurchased = MutableLiveData<Tipping>()
-
-    private val consumeResponseListener =
-        ConsumeResponseListener { _: BillingResult?, _: String? ->
-            //activity.toast(R.string.donation_thanks)
-        }
-
-    private fun handlePurchaseIAP(purchase: Purchase) {
-        val consumeParams = ConsumeParams.newBuilder()
-            .setPurchaseToken(purchase.purchaseToken)
-        billingClient.consumeAsync(consumeParams.build(), consumeResponseListener)
-    }
-
-    private val acknowledgePurchaseResponseListener =
-        AcknowledgePurchaseResponseListener {
-            //activity.toast(R.string.donation_thanks)
-        }
-
-    private fun handlePurchaseSub(purchase: Purchase) {
-        val acknowledgePurchaseParams = AcknowledgePurchaseParams
-            .newBuilder().setPurchaseToken(purchase.purchaseToken)
-        billingClient.acknowledgePurchase(
-            acknowledgePurchaseParams.build(),
-            acknowledgePurchaseResponseListener
-        )
-    }
-
-    private fun handlePurchase(purchase: Purchase) {
-        if (purchase.purchaseState == Purchase.PurchaseState.PURCHASED) {
-            if (!purchase.isAcknowledged) {
-                iapList.forEach {
-                    isIapPurchasedList.postValue(iapPurchased)
-                    if (purchase.products.contains(it)) handlePurchaseIAP(purchase)
-                }
-                subList.forEach {
-                    isSupPurchasedList.postValue(subPurchased)
-                    if (purchase.products.contains(it)) handlePurchaseSub(purchase)
-                }
-            }
-        }
-    }
-
-    private val purchasesUpdatedListener =
-        PurchasesUpdatedListener { billingResult: BillingResult, purchases: List<Purchase>? ->
-            if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
-                purchases?.forEach {
-                    handlePurchase(it)
-                }
-            }
-        }
-    private val subsPurchased: ArrayList<String> = arrayListOf()
-    private val subsOwnedListener = PurchasesResponseListener {
-            billingResult: BillingResult, purchases: List<Purchase> ->
-            if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
-                run breaking@{
-                    purchases.forEach {
-                        it.products.forEach { sku ->
-                            if (subsPurchased.contains(sku)) {
-                                isSupPurchased.postValue(Tipping.Succeeded)
-                                subPurchased.add(sku)
-                                isSupPurchasedList.postValue(subPurchased)
-                                return@breaking
-                            } else {
-                                isSupPurchased.postValue(Tipping.NoTips)
-                                isSupPurchasedList.postValue(subPurchased)
-                            }
-                        }
-                    }
-                }
-            } else {
-                isSupPurchased.postValue(Tipping.FailedToLoad)
-                isSupPurchasedList.postValue(subPurchased)
-            }
-        }
-    private val subHistoryListener = PurchaseHistoryResponseListener {
-            billingResult: BillingResult, purchases: List<PurchaseHistoryRecord>? ->
-            if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
-                purchases?.forEach {
-                    subsPurchased.addAll(it.products)
-                    isSupPurchasedList.postValue(subPurchased)
-                }
-                billingClient.queryPurchasesAsync(
-                    QueryPurchasesParams.newBuilder().setProductType(
-                        BillingClient.ProductType.SUBS
-                    ).build(), subsOwnedListener
-                )
-            } else {
-                isSupPurchased.postValue(Tipping.FailedToLoad)
-                isSupPurchasedList.postValue(subPurchased)
-            }
-        }
-    private val iapHistoryListener = PurchaseHistoryResponseListener {
-            billingResult: BillingResult, purchases: List<PurchaseHistoryRecord>? ->
-            if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
-                run breaking@{
-                    purchases?.forEach {
-                        it.products.forEach { sku ->
-                            if (sku != null) {
-                                isIapPurchased.postValue(Tipping.Succeeded)
-                            } else {
-                                isIapPurchased.postValue(Tipping.NoTips)
-                            }
-                            //activity.baseConfig.isPro = sku != null
-                            iapPurchased.add(sku)
-                            isIapPurchasedList.postValue(iapPurchased)
-                        }
-                    }
-                }
-            } else {
-                isIapPurchased.postValue(Tipping.FailedToLoad)
-                isIapPurchasedList.postValue(iapPurchased)
-            }
-        }
-
+    
+    // FOSS stub methods - no actual billing functionality
     fun initBillingClient() {
-        billingClient = BillingClient.newBuilder(activity)
-            .setListener(purchasesUpdatedListener).enablePendingPurchases().build()
+        // No-op for FOSS builds
     }
-
+    
     fun retrieveDonation(iaps: ArrayList<String>, subs: ArrayList<String>) {
-        iapSkuDetails.clear()
-        subSkuDetails.clear()
-
-        billingClient.startConnection(object : BillingClientStateListener {
-            override fun onBillingServiceDisconnected() {
-                billingClient.endConnection()
-            }
-            override fun onBillingSetupFinished(billingResult: BillingResult) {
-                iapList = iaps
-                subList = subs
-                if (billingResult.responseCode == BillingClient.BillingResponseCode.OK) {
-                    CoroutineScope(Dispatchers.Main).launch {
-                        val job1 = async {
-                            iapList.forEach {
-                                val productList = Product.newBuilder().setProductId(it)
-                                    .setProductType(BillingClient.ProductType.INAPP).build()
-                                val params = QueryProductDetailsParams
-                                    .newBuilder().setProductList(listOf(productList))
-                                billingClient.queryProductDetailsAsync(
-                                    params.build()
-                                ) { _: BillingResult?, productDetailsList: List<ProductDetails> ->
-                                    iapSkuDetails.addAll(productDetailsList)
-                                    iapSkuDetailsInitialized.postValue(true)
-                                    billingClient.queryPurchaseHistoryAsync(
-                                        QueryPurchaseHistoryParams.newBuilder().setProductType(
-                                            BillingClient.ProductType.INAPP
-                                        ).build(), iapHistoryListener
-                                    )
-                                }
-                            }
-                        }
-                        val job2 = async {
-                            subList.forEach {
-                                val productList = Product.newBuilder().setProductId(it)
-                                    .setProductType(BillingClient.ProductType.SUBS).build()
-                                val params = QueryProductDetailsParams
-                                    .newBuilder().setProductList(listOf(productList))
-                                billingClient.queryProductDetailsAsync(
-                                    params.build()
-                                ) { _: BillingResult?, productDetailsList: List<ProductDetails> ->
-                                    subSkuDetails.addAll(productDetailsList)
-                                    subSkuDetailsInitialized.postValue(true)
-                                    billingClient.queryPurchaseHistoryAsync(
-                                        QueryPurchaseHistoryParams.newBuilder().setProductType(
-                                            BillingClient.ProductType.SUBS
-                                        ).build(), subHistoryListener
-                                    )
-                                }
-                            }
-                        }
-                        joinAll(job1, job2)
-                    }
-                }
-            }
-        })
+        // No-op for FOSS builds
+        this.iapList = iaps
+        this.subList = subs
     }
-
+    
+    fun queryIapPurchases() {
+        // No-op for FOSS builds
+    }
+    
+    fun querySubPurchases() {
+        // No-op for FOSS builds
+    }
+    
+    fun queryIapPurchasesHistory() {
+        // No-op for FOSS builds
+    }
+    
+    fun querySubPurchasesHistory() {
+        // No-op for FOSS builds
+    }
+    
+    fun initIapPurchases(iapList: ArrayList<String>) {
+        this.iapList = iapList
+    }
+    
+    fun initSubPurchases(subList: ArrayList<String>) {
+        this.subList = subList
+    }
+    
+    fun purchaseIap(product: String) {
+        // No-op for FOSS builds
+    }
+    
+    fun purchaseSub(product: String, planId: String? = null) {
+        // No-op for FOSS builds
+    }
+    
     fun getPriceDonation(product: String): String {
-        return if (iapSkuDetails.isNotEmpty()) {
-            try {
-                val iapSku = iapSkuDetails.firstOrNull { it.productId == product }
-                if (iapSku != null) iapSku.oneTimePurchaseOfferDetails!!.formattedPrice
-                else activity.getString(stringsR.string.no_connection)
-            } catch (e: Exception) {
-                activity.getString(stringsR.string.no_connection)
-            }
-        } else activity.getString(stringsR.string.no_connection)
+        return "Free" // Always free for FOSS builds
     }
-
+    
     fun getDonation(product: String) {
-        if (iapSkuDetails.isNotEmpty()) {
-            val iapSku = iapSkuDetails.firstOrNull { it.productId == product }
-            if (iapSku != null) {
-                val productDetailsParamsList = ProductDetailsParams
-                    .newBuilder().setProductDetails(iapSku).build()
-                billingClient.launchBillingFlow(
-                    activity, BillingFlowParams.newBuilder()
-                        .setProductDetailsParamsList(listOf(productDetailsParamsList))
-                        .build()
-                )
-            } else activity.toast("Product not found")
-        } else activity.toast("Product not found")
+        // No-op for FOSS builds
     }
-
-    fun getPriceSubscription(product: String, planId: String? = null): String {
-        return if (subSkuDetails.isNotEmpty()) {
-            try {
-                val subSku = subSkuDetails.firstOrNull { it.productId == product }
-                if (subSku != null) {
-                    val plan =
-                        if (planId != null) subSku.subscriptionOfferDetails!!.firstOrNull { it.basePlanId == planId }
-                        else subSku.subscriptionOfferDetails!![0]
-                    if (plan != null) {
-                        plan.pricingPhases
-                            .pricingPhaseList[0].formattedPrice
-                    } else activity.getString(stringsR.string.no_connection)
-                } else activity.getString(stringsR.string.no_connection)
-            } catch (e: Exception) {
-                activity.getString(stringsR.string.no_connection)
-            }
-        } else activity.getString(stringsR.string.no_connection)
-    }
-
-    fun getSubscription(product: String, planId: String? = null) {
-        if (subSkuDetails.isNotEmpty()) {
-            val subSku = subSkuDetails.firstOrNull { it.productId == product }
-            if (subSku != null) {
-                val plan =
-                    if (planId != null) subSku.subscriptionOfferDetails!!.firstOrNull { it.basePlanId == planId }
-                    else subSku.subscriptionOfferDetails!![0]
-                if (plan != null) {
-                    val productDetailsParamsList = ProductDetailsParams.newBuilder()
-                        .setOfferToken(plan.offerToken)
-                        .setProductDetails(subSku).build()
-                    billingClient.launchBillingFlow(
-                        activity, BillingFlowParams.newBuilder()
-                            .setProductDetailsParamsList(listOf(productDetailsParamsList))
-                            .build()
-                    )
-                } else activity.toast("Plan not found")
-            } else activity.toast("Subscription not found")
-        } else activity.toast("Subscription not found")
-    }
-
+    
     fun isIapPurchased(product: String): Boolean {
-        return iapPurchased.contains(product)
+        return false // Always false for FOSS builds
     }
-
+    
     fun isSubPurchased(product: String): Boolean {
-        return subPurchased.contains(product)
+        return false // Always false for FOSS builds
+    }
+    
+    fun getPriceSubscription(product: String): String {
+        return "Free" // Always free for FOSS builds
+    }
+    
+    fun getSubscription(product: String) {
+        // No-op for FOSS builds
     }
 }
 

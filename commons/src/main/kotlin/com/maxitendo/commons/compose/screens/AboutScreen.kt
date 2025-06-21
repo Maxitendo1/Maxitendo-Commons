@@ -95,7 +95,7 @@ internal fun AboutNewSection(
         val context = LocalContext.current
         val textColor = MaterialTheme.colorScheme.onSurface
         val playStoreInstalled = context.isPlayStoreInstalled()
-        val ruStoreInstalled = context.isRuStoreInstalled()
+        val ruStoreInstalled = false
         val hideAllExternalLinks = try {
             context.resources.getBoolean(R.bool.hide_all_external_links)
         } catch (e: Exception) {

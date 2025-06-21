@@ -1,4 +1,11 @@
 <resources>
+    <!-- Fast Scroller dimensions (from integrated libraries) -->
+    <dimen name="fast_scroller_icon_size">20dp</dimen>
+    <dimen name="fast_scroller_thumb_elevation">2dp</dimen>
+    <dimen name="fast_scroller_thumb_size">32dp</dimen>
+    <dimen name="fast_scroller_default_text_padding">4dp</dimen>
+
+    <!-- Core Commons dimensions (from Goodwy Commons) -->
     <dimen name="one_dp">1dp</dimen>
     <dimen name="tiny_margin">2dp</dimen>
     <dimen name="small_margin">4dp</dimen>
@@ -106,4 +113,10 @@
 
     <!--Swipe-->
     <dimen name="swipe_width">180dp</dimen>
+
+    <!--Fast Scroller-->
+    <dimen name="fast_scroller_icon_size">20dp</dimen>
+    <dimen name="fast_scroller_thumb_elevation">2dp</dimen>
+    <dimen name="fast_scroller_thumb_size">32dp</dimen>
+    <dimen name="fast_scroller_default_text_padding">4dp</dimen>
 </resources>

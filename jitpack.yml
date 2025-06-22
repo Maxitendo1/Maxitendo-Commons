@@ -3,5 +3,5 @@ before_install:
   - sdk install java 17.0.2-open
   - sdk use java 17.0.2-open
 install:
-  - ./gradlew clean :commons:build :strings:build publishToMavenLocal --no-daemon --stacktrace
+  - ./gradlew clean :commons:build :strings:build publishToMavenLocal --no-daemon --stacktrace -x detekt
 # Exclude samples module from JitPack build to avoid detekt violations

@@ -106,7 +106,7 @@ dependencies {
     api(libs.joda.time)
     // recyclerView.fastScroller now integrated locally
     api(libs.reprint)
-    api(libs.rtl.viewpager)
+    // rtl-viewpager removed - deprecated library, using standard ViewPager with built-in RTL support
     api(libs.patternLockView)
     api(libs.androidx.core.ktx)
     api(libs.androidx.appcompat)

@@ -1,6 +1,6 @@
 <div align="center">
 </br>
-<img src="https://raw.githubusercontent.com/Maxitendo1/Maxitendo-Commons/main/commons/src/main/res/drawable/ic_launcher.svg" width="200" />
+<img src="https://raw.githubusercontent.com/Maxitendo1/Maxitendo-Commons/main/commons/src/main/res/drawable/ic_launcher.png" width="200" />
 
 </div>
 
@@ -18,7 +18,9 @@
   <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/></a>
   <img alt="material" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/></a>
   </br>
+</p>
 
+<p align="center">
  <img src="https://tokei.rs/b1/github/Maxitendo1/Maxitendo-Commons?category=code&style=for-the-badge&color=aeff4d&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BCiAgICA8cGF0aCBkPSJNMTIuODksM0wxNC44NSwzLjRMMTEuMTEsMjFMOS4xNSwyMC42TDEyLjg5LDNNMTkuNTksMTJMMTYsOC40MVY1LjU4TDIyLjQyLDEyTDE2LDE4LjQxVjE1LjU4TDE5LjU5LDEyTTEuNTgsMTJMOCw1LjU4VjguNDFMNC40MSwxMkw4LDE1LjU4VjE4LjQxTDEuNTgsMTJaIgogICAgICAgIGZpbGw9IndoaXRlIiAvPgo8L3N2Zz4%3D&label=Lines%20of%20code&labelColor=4b731a"/>
  <a href="https://jitpack.io/#Maxitendo1/Maxitendo-Commons">
   <img src="https://img.shields.io/badge/JitPack-Available-orange?style=for-the-badge&logo=gradle&logoColor=white&labelColor=700f63"/>

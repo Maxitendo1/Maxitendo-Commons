@@ -46,7 +46,8 @@ class IconListDialog(
                         imageView.setImageResource(items[index])
                     }
                 }
-                12 -> {
+                12, 24 -> {
+                    // For 12 or 24 icons, show the first 12
                     arrayOf(icon1, icon2, icon3, icon4, icon5, icon6,
                         icon7, icon8, icon9, icon10, icon11, icon12
                     ).forEachIndexed { index, imageView ->

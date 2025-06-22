@@ -1,61 +1,150 @@
+<div align="center">
+</br>
+<img src="./commons/src/main/res/drawable/ic_launcher.png" width="200" />
+
+</div>
+
+<div align="center">
+
 # Maxitendo Commons
 
-A comprehensive Android library providing common functionality for Maxitendo apps, including UI components, utilities, and shared resources.
+</div>
 
-## Overview
+</br>
 
-Maxitendo Commons is a fork of Goodwy Commons, specifically adapted for Maxitendo applications with enhanced functionality and branding updates.
+<p align="center">
+  <img alt="API" src="https://img.shields.io/badge/Api%2021+-50f270?logo=android&logoColor=black&style=for-the-badge"/></a>
+  <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-a503fc?logo=kotlin&logoColor=white&style=for-the-badge"/></a>
+  <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/></a>
+  <img alt="material" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/></a>
+  </br>
+  </br>
 
-## Features
+<div align="center">
+ <img src="https://img.shields.io/badge/50K+-aeff4d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BCiAgICA8cGF0aCBkPSJNMTIuODksM0wxNC44NSwzLjRMMTEuMTEsMjFMOS4xNSwyMC42TDEyLjg5LDNNMTkuNTksMTJMMTYsOC40MVY1LjU4TDIyLjQyLDEyTDE2LDE4LjQxVjE1LjU4TDE5LjU5LDEyTTEuNTgsMTJMOCw1LjU4VjguNDFMNC40MSwxMkw4LDE1LjU4VjE4LjQxTDEuNTgsMTJaIgogICAgICAgIGZpbGw9IndoaXRlIiAvPgo8L3N2Zz4%3D&label=Lines%20of%20code&labelColor=4b731a"/>
+<img src="https://img.shields.io/github/commits-since/Maxitendo1/Maxitendo-Commons/v1.0?color=palegreen&label=Commits&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPnNvdXJjZS1jb21taXQ8L3RpdGxlPjxwYXRoIGQ9Ik0xNywxMkMxNywxNC40MiAxNS4yOCwxNi40NCAxMywxNi45VjIxSDExVjE2LjlDOC43MiwxNi40NCA3LDE0LjQyIDcsMTJDNyw5LjU4IDguNzIsNy41NiAxMSw3LjFWM0gxM1Y3LjFDMTUuMjgsNy41NiAxNyw5LjU4IDE3LDEyTTEyLDlBMywzIDAgMCwwIDksMTJBMywzIDAgMCwwIDEyLDE1QTMsMyAwIDAsMCAxNSwxMkEzLDMgMCAwLDAgMTIsOVoiIGZpbGw9IndoaXRlIiAvPjwvc3ZnPg==&labelColor=07ab4e">
+<img src="https://img.shields.io/github/languages/code-size/Maxitendo1/Maxitendo-Commons?style=for-the-badge&color=8ce2ff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPndlaWdodDwvdGl0bGU+PHBhdGggZD0iTTEyLDNBNCw0IDAgMCwxIDE2LDdDMTYsNy43MyAxNS44MSw4LjQxIDE1LjQ2LDlIMThDMTguOTUsOSAxOS43NSw5LjY3IDE5Ljk1LDEwLjU2QzIxLjk2LDE4LjU3IDIyLDE4Ljc4IDIyLDE5QTIsMiAwIDAsMSAyMCwyMUg0QTIsMiAwIDAsMSAyLDE5QzIsMTguNzggMi4wNCwxOC41NyA0LjA1LDEwLjU2QzQuMjUsOS42NyA1LjA1LDkgNiw5SDguNTRDOC4xOSw4LjQxIDgsNy43MyA4LDdBNCw0IDAgMCwxIDEyLDNNMTIsNUEyLDIgMCAwLDAgMTAsN0EyLDIgMCAwLDAgMTIsOUEyLDIgMCAwLDAgMTQsN0EyLDIgMCAwLDAgMTIsNVoiIGZpbGw9IndoaXRlIiAvPjwvc3ZnPg==&labelColor=0782ab">
+<a href="https://jitpack.io/#Maxitendo1/Maxitendo-Commons">
 
-### Core Components
+  <img src="https://img.shields.io/jitpack/version/com.github.Maxitendo1/Maxitendo-Commons?color=a1168e&style=for-the-badge&label=JitPack&labelColor=700f63"/>
+
+</div>
+
+</a>
+
+</br>
+</br>
+
+<div align="center">
+
+# 🗺️ Project Overview
+
+Maxitendo Commons is a comprehensive Android library providing common functionality for Special Contacts, including UI components, utilities, and shared resources. Originally forked from Goodwy Commons, it has been specifically adapted and enhanced for Maxitendo applications with modern Android development practices.
+
+
+
+# ✨ Features
+
+</div>
+
+## **Core Components**
 - **BaseSimpleActivity**: Foundation activity class with common functionality
 - **AboutActivity**: Standardized about screen with app information
 - **SettingsActivity**: Common settings interface
 - **PrivacyPolicyActivity**: Privacy policy display
 - **FAQActivity**: Frequently asked questions interface
+- **CustomizationActivity**: App theming and customization
 
-### UI Components
+## **UI Components**
 - **Compose Screens**: Modern Jetpack Compose UI components
-- **Alert Dialogs**: Reusable dialog components
-- **Theme System**: Consistent theming across apps
-- **Icon Customization**: App icon selection and customization
+- **Alert Dialogs**: Reusable dialog components (IconListDialog, RadioGroupDialog, etc.)
+- **Theme System**: Consistent Material You theming across apps
+- **Icon Customization**: App icon selection and customization (24 icons supported)
+- **FastScroller**: Integrated fast scrolling components for lists
+- **SwipeActionView**: Swipe-to-action functionality for list items
+- **GestureViews**: Advanced gesture handling for images and content
 
-### Utilities
-- **Extensions**: Kotlin extensions for common operations
-- **Helpers**: Utility classes for various tasks
-- **Database**: Room database components
-- **Permissions**: Permission handling utilities
+## **Utilities & Extensions**
+- **Kotlin Extensions**: Comprehensive extensions for common operations
+- **Helper Classes**: Utility classes for various tasks (Config, Constants, etc.)
+- **Database Components**: Room database setup and utilities
+- **Permission Handling**: Streamlined permission request utilities
+- **File Operations**: File management and I/O utilities
+- **Image Processing**: Image manipulation and optimization tools
 
-### Special Features
-- **Hide External Links**: Control visibility of external sections in About screen
+## **Integrated Libraries**
+- **IndicatorFastScroll**: Fast scrolling with visual indicators
+- **RecyclerView-FastScroller**: Enhanced RecyclerView scrolling
+- **SwipeActionView**: Swipe gesture actions for list items
+- **GestureViews**: Advanced image and content gesture handling
+
+## **Special Features**
 - **App-Specific Handling**: Custom behavior for different Maxitendo apps
 - **GitHub Integration**: Direct links to appropriate repositories
 - **Privacy Policy Integration**: Launch activities instead of web browsers
+- **JitPack Distribution**: Easy integration via JitPack repository
+- **FOSS Compliance**: Fully open source and libre components
 
-## Integration
+<div align="center">
 
-### Gradle Dependency
+# 💻 Integration
 
-Add to your app's `build.gradle.kts`:
+</div>
 
-```kotlin
-dependencies {
-    implementation("com.github.Maxitendo:Maxitendo-Commons:main-SNAPSHOT")
-}
-```
+## **Gradle Dependency**
+
+### Add JitPack Repository
 
 Add to your project's `settings.gradle.kts`:
 
 ```kotlin
 dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
+        google()
+        mavenCentral()
         maven { setUrl("https://jitpack.io") }
     }
 }
 ```
 
-### Basic Usage
+### Add Dependencies
+
+Add to your app's `build.gradle.kts`:
+
+```kotlin
+dependencies {
+    // Maxitendo Commons (All UI libraries integrated locally)
+    implementation("com.github.Maxitendo1.Maxitendo-Commons:commons:dfda1ebf72")
+    implementation("com.github.Maxitendo1.Maxitendo-Commons:strings:dfda1ebf72")
+}
+```
+
+### Version Catalog (Recommended)
+
+Add to your `gradle/libs.versions.toml`:
+
+```toml
+[versions]
+maxitendo-commons = "dfda1ebf72"
+
+[libraries]
+maxitendo-commons = { module = "com.github.Maxitendo1.Maxitendo-Commons:commons", version.ref = "maxitendo-commons" }
+maxitendo-strings = { module = "com.github.Maxitendo1.Maxitendo-Commons:strings", version.ref = "maxitendo-commons" }
+```
+
+Then in your `build.gradle.kts`:
+
+```kotlin
+dependencies {
+    implementation(libs.maxitendo.commons)
+    implementation(libs.maxitendo.strings)
+}
+```
+
+## **Basic Usage**
+
+### Activity Integration
 
 ```kotlin
 class MainActivity : BaseSimpleActivity() {
@@ -63,6 +152,14 @@ class MainActivity : BaseSimpleActivity() {
         super.onCreate(savedInstanceState)
         // Your activity code
     }
+
+    override fun getAppIconIDs() = arrayListOf(
+        R.mipmap.ic_launcher,
+        R.mipmap.ic_launcher_one,
+        // ... more icons
+    )
+
+    override fun getAppLauncherName() = "Your App Name"
 }
 ```
 
@@ -78,56 +175,99 @@ startAboutActivity(
 )
 ```
 
-## Configuration
+### Icon Customization
 
-### Hide External Links
-
-Add to your app's `values/bools.xml`:
-
-```xml
-<bool name="hide_all_external_links">true</bool>
+```kotlin
+// Show icon selection dialog
+IconListDialog(
+    activity = this,
+    items = getAppIconIDs(),
+    checkedItemId = currentIconId + 1,
+    titleId = R.string.app_icon_color
+) { wasPositivePressed, newValue ->
+    if (wasPositivePressed) {
+        // Handle icon selection
+        updateAppIcon(newValue - 1)
+    }
+}
 ```
 
-This will hide Rate Us, More Apps, GitHub, and Tip Jar sections in the About screen while keeping Privacy Policy and FAQ visible.
+<div align="center">
 
-### App-Specific Behavior
+# 📚 Tech Stack & Requirements
 
-The library automatically detects your app package and provides appropriate behavior:
+</div>
 
-- **com.maxitendo.contacts**: Redirects to Special-Contacts repository, launches PrivacyPolicyActivity
-- **Other apps**: Uses standard repository naming and web privacy policy
+## **Requirements**
+- **Minimum SDK**: Android API 21+
+- **Kotlin**: 2.1.0+
+- **Android Gradle Plugin**: 8.5.2+
+- **Jetpack Compose**: Latest stable
+- **Material Design 3**: Full support
 
-## Supported Apps
+## **Dependencies**
+- **AndroidX Libraries**: Core, AppCompat, Lifecycle, Room
+- **Jetpack Compose**: UI toolkit with Material 3
+- **Kotlin Coroutines**: Asynchronous programming
+- **Material Components**: Material Design components
+- **Glide**: Image loading and caching
+- **Room Database**: Local data persistence
+- **Biometric**: Fingerprint and face authentication
 
-- Special Contacts (`com.maxitendo.contacts`)
-- Dialer (`com.maxitendo.dialer`)
-- Messages (`com.maxitendo.smsmessenger`)
-- Gallery (`com.maxitendo.gallery`)
-- File Manager (`com.maxitendo.filemanager`)
-- Voice Recorder (`com.maxitendo.voicerecorder`)
-- Calendar (`com.maxitendo.calendar`)
+</div>
 
-## Requirements
+<div align="center">
 
-- Android API 21+
-- Kotlin 2.1.0+
-- Android Gradle Plugin 8.9.0+
-- Jetpack Compose
+# 🌟 Contributing
 
-## License
+</div>
 
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
+We welcome contributions to Maxitendo Commons! Here's how you can help:
 
-## Contributing
-
+## **Getting Started**
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'Add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## Acknowledgments
+## **Development Setup**
+```bash
+git clone https://github.com/Maxitendo1/Maxitendo-Commons.git
+cd Maxitendo-Commons
+./gradlew commons:build
+```
 
-- Based on Goodwy Commons by Goodwy
-- Adapted and enhanced for Maxitendo applications
-- Special thanks to the Android development community
+## **Reporting Issues**
+- Use the GitHub issue tracker
+- Provide detailed information about the bug or feature request
+- Include steps to reproduce the issue (if applicable)
+
+<div align="center">
+
+# 👏 Credits
+
+</div>
+
+[Goodwy Commons](https://github.com/Goodwy/Goodwy-Commons)
+</div>
+
+<div align="center">
+
+# ⚖️ License
+
+```xml
+Licensed under the GNU General Public License, Version 3.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+https://www.gnu.org/licenses/gpl-3.0.en.html
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+License for the specific language governing permissions and
+limitations under the License.
+```
+
+</div>

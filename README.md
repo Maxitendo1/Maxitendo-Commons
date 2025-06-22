@@ -1,6 +1,6 @@
 <div align="center">
 </br>
-<img src="./commons/src/main/res/drawable/ic_launcher.png" width="200" />
+<img src="https://raw.githubusercontent.com/Maxitendo1/Maxitendo-Commons/main/commons/src/main/res/drawable/ic_launcher.svg" width="200" />
 
 </div>
 
@@ -18,22 +18,17 @@
   <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/></a>
   <img alt="material" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/></a>
   </br>
-  </br>
 
-<div align="center">
- <img src="https://img.shields.io/badge/50K+-aeff4d?style=for-the-badge&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BCiAgICA8cGF0aCBkPSJNMTIuODksM0wxNC44NSwzLjRMMTEuMTEsMjFMOS4xNSwyMC42TDEyLjg5LDNNMTkuNTksMTJMMTYsOC40MVY1LjU4TDIyLjQyLDEyTDE2LDE4LjQxVjE1LjU4TDE5LjU5LDEyTTEuNTgsMTJMOCw1LjU4VjguNDFMNC40MSwxMkw4LDE1LjU4VjE4LjQxTDEuNTgsMTJaIgogICAgICAgIGZpbGw9IndoaXRlIiAvPgo8L3N2Zz4%3D&label=Lines%20of%20code&labelColor=4b731a"/>
-<img src="https://img.shields.io/github/commits-since/Maxitendo1/Maxitendo-Commons/v1.0?color=palegreen&label=Commits&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPnNvdXJjZS1jb21taXQ8L3RpdGxlPjxwYXRoIGQ9Ik0xNywxMkMxNywxNC40MiAxNS4yOCwxNi40NCAxMywxNi45VjIxSDExVjE2LjlDOC43MiwxNi40NCA3LDE0LjQyIDcsMTJDNyw5LjU4IDguNzIsNy41NiAxMSw3LjFWM0gxM1Y3LjFDMTUuMjgsNy41NiAxNyw5LjU4IDE3LDEyTTEyLDlBMywzIDAgMCwwIDksMTJBMywzIDAgMCwwIDEyLDE1QTMsMyAwIDAsMCAxNSwxMkEzLDMgMCAwLDAgMTIsOVoiIGZpbGw9IndoaXRlIiAvPjwvc3ZnPg==&labelColor=07ab4e">
-<img src="https://img.shields.io/github/languages/code-size/Maxitendo1/Maxitendo-Commons?style=for-the-badge&color=8ce2ff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPndlaWdodDwvdGl0bGU+PHBhdGggZD0iTTEyLDNBNCw0IDAgMCwxIDE2LDdDMTYsNy43MyAxNS44MSw4LjQxIDE1LjQ2LDlIMThDMTguOTUsOSAxOS43NSw5LjY3IDE5Ljk1LDEwLjU2QzIxLjk2LDE4LjU3IDIyLDE4Ljc4IDIyLDE5QTIsMiAwIDAsMSAyMCwyMUg0QTIsMiAwIDAsMSAyLDE5QzIsMTguNzggMi4wNCwxOC41NyA0LjA1LDEwLjU2QzQuMjUsOS42NyA1LjA1LDkgNiw5SDguNTRDOC4xOSw4LjQxIDgsNy43MyA4LDdBNCw0IDAgMCwxIDEyLDNNMTIsNUEyLDIgMCAwLDAgMTAsN0EyLDIgMCAwLDAgMTIsOUEyLDIgMCAwLDAgMTQsN0EyLDIgMCAwLDAgMTIsNVoiIGZpbGw9IndoaXRlIiAvPjwvc3ZnPg==&labelColor=0782ab">
-<a href="https://jitpack.io/#Maxitendo1/Maxitendo-Commons">
+ <img src="https://tokei.rs/b1/github/Maxitendo1/Maxitendo-Commons?category=code&style=for-the-badge&color=aeff4d&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BCiAgICA8cGF0aCBkPSJNMTIuODksM0wxNC44NSwzLjRMMTEuMTEsMjFMOS4xNSwyMC42TDEyLjg5LDNNMTkuNTksMTJMMTYsOC40MVY1LjU4TDIyLjQyLDEyTDE2LDE4LjQxVjE1LjU4TDE5LjU5LDEyTTEuNTgsMTJMOCw1LjU4VjguNDFMNC40MSwxMkw4LDE1LjU4VjE4LjQxTDEuNTgsMTJaIgogICAgICAgIGZpbGw9IndoaXRlIiAvPgo8L3N2Zz4%3D&label=Lines%20of%20code&labelColor=4b731a"/>
+ <a href="https://jitpack.io/#Maxitendo1/Maxitendo-Commons">
+  <img src="https://img.shields.io/badge/JitPack-Available-orange?style=for-the-badge&logo=gradle&logoColor=white&labelColor=700f63"/>
+<img src="https://img.shields.io/github/repo-size/Maxitendo1/Maxitendo-Commons?style=for-the-badge&color=8ce2ff&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPndlaWdodDwvdGl0bGU+PHBhdGggZD0iTTEyLDNBNCw0IDAgMCwxIDE2LDdDMTYsNy43MyAxNS44MSw4LjQxIDE1LjQ2LDlIMThDMTguOTUsOSAxOS43NSw5LjY3IDE5Ljk1LDEwLjU2QzIxLjk2LDE4LjU3IDIyLDE4Ljc4IDIyLDE5QTIsMiAwIDAsMSAyMCwyMUg0QTIsMiAwIDAsMSAyLDE5QzIsMTguNzggMi4wNCwxOC41NyA0LjA1LDEwLjU2QzQuMjUsOS42NyA1LjA1LDkgNiw5SDguNTRDOC4xOSw4LjQxIDgsNy43MyA4LDdBNCw0IDAgMCwxIDEyLDNNMTIsNUEyLDIgMCAwLDAgMTAsN0EyLDIgMCAwLDAgMTIsOUEyLDIgMCAwLDAgMTQsN0EyLDIgMCAwLDAgMTIsNVoiIGZpbGw9IndoaXRlIiAvPjwvc3ZnPg==&labelColor=0782ab">
+</br>
 
-  <img src="https://img.shields.io/jitpack/version/com.github.Maxitendo1/Maxitendo-Commons?color=a1168e&style=for-the-badge&label=JitPack&labelColor=700f63"/>
-
-</div>
+<br>
+<br>
 
 </a>
-
-</br>
-</br>
 
 <div align="center">
 
@@ -115,8 +110,8 @@ Add to your app's `build.gradle.kts`:
 ```kotlin
 dependencies {
     // Maxitendo Commons (All UI libraries integrated locally)
-    implementation("com.github.Maxitendo1.Maxitendo-Commons:commons:dfda1ebf72")
-    implementation("com.github.Maxitendo1.Maxitendo-Commons:strings:dfda1ebf72")
+    implementation("com.github.Maxitendo1.Maxitendo-Commons:commons:d8bb080")
+    implementation("com.github.Maxitendo1.Maxitendo-Commons:strings:d8bb080")
 }
 ```
 
@@ -126,7 +121,7 @@ Add to your `gradle/libs.versions.toml`:
 
 ```toml
 [versions]
-maxitendo-commons = "dfda1ebf72"
+maxitendo-commons = "d8bb080"
 
 [libraries]
 maxitendo-commons = { module = "com.github.Maxitendo1.Maxitendo-Commons:commons", version.ref = "maxitendo-commons" }

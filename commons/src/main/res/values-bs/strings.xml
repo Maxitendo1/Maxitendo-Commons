@@ -343,7 +343,7 @@
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
+            Molimo kupite <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> za otključavanje ove funkcije i podršku razvoju. Hvala!
         ]]>
     </string>
     <string name="light_theme">Svijetla</string>
@@ -881,7 +881,7 @@
     <string name="donate_please">
         <![CDATA[
             Pozdrav,<br><br>
-            nadam se da uživate u aplikaciji. Ne sadrži reklame, zato nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
+            nadam se da uživate u aplikaciji. Ne sadrži reklame, zato nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
             Hvala Vam!
         ]]>
     </string>
@@ -940,7 +940,7 @@
     <string name="faq_7_title_commons">Novac je već povučen sa mog računa, ali ne mogu skinuti aplikaciju. Šta da radim\?</string>
     <string name="faq_7_text_commons">Uplatama upravlja Google. Njihov sistem nekada ima problema. Očistite cache vaše Google Play aplikacije i ponovno pokrenite vaš uređaj i pokušajte ponovo.</string>
     <string name="faq_8_title_commons">Zašto bih trebao kupiti Pro verziju\?</string>
-    <string name="faq_8_text_commons">S obzirom da se vaša verzija aplikacije više ne ažurira, problemi koje pronađete neće biti popravljeni. Također neće biti ni novih funkcionalnosti. Možete kupiti Pro verziju na Google Play-u za simboličnu sumu novca. Jednokratna je uplata, što znači kada je kupite, nikada nećete morati platiti opet. Čak ni nakon mijenjanja uređadaj. Ukoliko Vam se ne sviđa Pro verzija, možete je ukloniti u nekoliko sati nakon kupovine i automatski ćete dobiti novac nazad. Ukoliko želite povrat novca bilo kada kasnije, kontaktirajte nas na hello@fossify.org i dobit ćete ga (na engleskom).</string>
+    <string name="faq_8_text_commons">S obzirom da se vaša verzija aplikacije više ne ažurira, problemi koje pronađete neće biti popravljeni. Također neće biti ni novih funkcionalnosti. Možete kupiti Pro verziju na Google Play-u za simboličnu sumu novca. Jednokratna je uplata, što znači kada je kupite, nikada nećete morati platiti opet. Čak ni nakon mijenjanja uređadaj. Ukoliko Vam se ne sviđa Pro verzija, možete je ukloniti u nekoliko sati nakon kupovine i automatski ćete dobiti novac nazad. Ukoliko želite povrat novca bilo kada kasnije, kontaktirajte nas na maxitendo01@proton.me i dobit ćete ga (na engleskom).</string>
     <string name="faq_9_title_commons">Kako mogu izabrati više stavki\?</string>
     <string name="faq_9_text_commons">Ima više načina za to. Možete započeti izbor dugim pritiskom na jednu stavku, a zatim kratkim pritiskom na ostale stavke. Drugi način je sličan korištenju miša na računaru, započnite na isti način dugim priskom, a zatim nastavite prstom vući preko drugih stavki. Treći način je da se dugim pritiskom izabere jedna stavka, a zatim dugim pritiskom na drugu stavku izabirete sve stavke između njih. Ukoliko želite izabrati sve stavke, izaberite jednu stavku dugim pritiskom, a zatim u gornjem desnom uglu pritinite na broj izabranih stavki. To će izabrati sve stavke ili ih ukloniti sve iz izbora.</string>
     <string name="faq_10_title_commons">Kupio sam aplikaciju, ali je ne mogu skinuti na drugi uređaj.</string>
@@ -1077,7 +1077,7 @@
         <item quantity="other">Tvoj probni period ističe za %d dana.</item>
     </plurals>
     <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
+    <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na maxitendo01@proton.me. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
     <string name="filter">Filter</string>
     <string name="filter_pro">Filter (Pro)</string>

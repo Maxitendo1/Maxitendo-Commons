@@ -160,11 +160,11 @@
     <string name="update_thank_you_g">يرجى تحديث تطبيق (Maxitendo Thank You) إلى أحدث إصدار</string>
     <string name="faq_2_text_commons_g">
         <![CDATA[
-        نعم طبعاً. يمكنك نشر الكلمة عن التطبيقات أو تقديم تعليقات وتقييمات جيدة. يمكنك أيضاً المساعدة من خلال ترجمة التطبيقات بلغة جديدة ، أو تحديث بعض الترجمات الموجودة فقط.يمكنك العثور على الدليل على https://github.com/Maxitendo/Discussion ، أو فقط أرسل رسالة على <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> إذا كنت بحاجة إلى مساعدة.
+        نعم طبعاً. يمكنك نشر الكلمة عن التطبيقات أو تقديم تعليقات وتقييمات جيدة. يمكنك أيضاً المساعدة من خلال ترجمة التطبيقات بلغة جديدة ، أو تحديث بعض الترجمات الموجودة فقط.يمكنك العثور على الدليل على https://github.com/Maxitendo/Discussion ، أو فقط أرسل رسالة على <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> إذا كنت بحاجة إلى مساعدة.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">تنشأ هذه المشكلة عندما لا يدعم المشغل تخصيص الرمز بشكل كامل. حاول تشغيل التطبيق من خلال Google Play أو عنصر واجهة مستخدم ، إذا كان يمكن الوصول إليه.         بعد التشغيل ، قم باستعادة لون رمز التطبيق الافتراضي. في الحالات القصوى ، قد تكون إعادة تثبيت التطبيق ضرورية.</string>
-    <string name="faq_8_text_commons_g">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على github.com/Maxitendo@gmail.com وستحصل عليه.</string>
+    <string name="faq_8_text_commons_g">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على maxitendo01@proton.me وستحصل عليه.</string>
     <string name="faq_100_title_commons_g">What is a private contact?</string>
     <string name="faq_100_text_commons_g">A private contact is created within an application. This contact will not be visible to other applications.
         If you uninstall the app, all private contacts will be deleted along with the app, so back up your contacts before uninstalling the app.</string>
@@ -173,12 +173,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Maxitendo suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
     <string name="deprecated_app_g">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على github.com/Maxitendo@gmail.com وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
+    <string name="pro_app_refund_g">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على maxitendo01@proton.me وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
 
     <!-- Contacts -->
     <string name="add_number">إضافة رقم</string>
@@ -310,21 +310,3 @@
     <string name="relation_brother_in_law_g">Brother-in-law</string>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="date">تاريخ</string>
-    <string name="starts">يبدا</string>
-    <string name="ends">ينتهي</string>
-    <string name="time_zone">المنطقة الزمنية</string>
-    <string name="event_type">نوع الحدث</string>
-    <string name="availability">توافر</string>
-    <string name="attendees">الحضور</string>
-    <string name="typeface">محرف</string>
-</resources>

@@ -1,5 +1,6 @@
 package com.maxitendo.commons.compose.screens
 
+import android.app.Activity
 import android.widget.TextView
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
@@ -111,17 +112,29 @@ internal fun AboutNewSection(
                         contentAlignment = Alignment.Center
                     )
                     {
+                        // Get the current app icon from the activity
+                        val activity = context as? Activity
+                        val appIconIds = activity?.intent?.getIntegerArrayListExtra("app_icon_ids") ?: arrayListOf()
+                        val currentIconId = if (appIconIds.isNotEmpty()) {
+                            // Use the first icon as default, or implement logic to get current selected icon
+                            appIconIds[0]
+                        } else {
+                            // Fallback to a default icon
+                            R.drawable.ic_people_vector
+                        }
+
                         Icon(
                             modifier = Modifier
                                 .size(68.dp)
                                 .shadow(elevation = 10.dp, shape = RoundedCornerShape(34.dp), clip = true),
-                            painter = painterResource(id = R.drawable.ic_launcher),
+                            painter = painterResource(id = currentIconId),
                             contentDescription = null,
+                            tint = Color.Unspecified
                         )
                         Icon(
                             modifier = Modifier
                                 .size(72.dp),
-                            painter = painterResource(id = R.drawable.ic_launcher),
+                            painter = painterResource(id = currentIconId),
                             contentDescription = appName,
                             tint = Color.Unspecified
                         )

@@ -184,12 +184,12 @@ Będziemy bardzo wdzięczni.
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Maxitendo suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
     <string name="deprecated_app_g">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana, pobierz wersję Pro na stronie https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">Nie zapomnij, że jeśli odinstalujesz jakąkolwiek płatną aplikację w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na github.com/Maxitendo@gmail.com i dostaniesz go. To sprawia, że są łatwe do wypróbowania :)</string>
+    <string name="pro_app_refund_g">Nie zapomnij, że jeśli odinstalujesz jakąkolwiek płatną aplikację w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na maxitendo01@proton.me i dostaniesz go. To sprawia, że są łatwe do wypróbowania :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Dodaj numer</string>
@@ -321,21 +321,3 @@ Będziemy bardzo wdzięczni.
     <string name="relation_brother_in_law_g">Brother-in-law</string>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="date">Data</string>
-    <string name="starts">Zaczyna się</string>
-    <string name="ends">Kończy się</string>
-    <string name="time_zone">Strefa czasowa</string>
-    <string name="event_type">Typ zdarzenia</string>
-    <string name="availability">Dostępność</string>
-    <string name="attendees">Uczestników</string>
-    <string name="typeface">Krój pisma</string>
-</resources>

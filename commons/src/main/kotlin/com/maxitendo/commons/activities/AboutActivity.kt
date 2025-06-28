@@ -211,12 +211,10 @@ class AboutActivity : BaseComposeActivity() {
     private fun onGithubClick() {
         val appId = baseConfig.appId.removeSuffix(".debug")
         val repositoryName = intent.getStringExtra(APP_REPOSITORY_NAME) ?: return
-
-        // Special handling for com.maxitendo.contacts to redirect to Special-Contacts repository
         val url = if (appId == "com.maxitendo.contacts") {
-            "https://github.com/Maxi"
+            "https://github.com/Maxitendo1/Special-Contacts"
         } else {
-            "https://github.com/Maxitendo/$repositoryName"
+            "https://github.com/Maxitendo/Special-Contacts"
         }
         launchViewIntent(url)
     }

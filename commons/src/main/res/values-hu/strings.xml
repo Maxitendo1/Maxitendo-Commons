@@ -903,7 +903,7 @@
     <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek\?</string>
     <string name="faq_7_text_commons">A fizetéseket teljesen a Google kezeli, és néha problémák vannak a rendszerükkel. Csak törölje a Google Play alkalmazása gyorsítótárát és indítsa újra az eszközé, majd próbálja újra letölteni.</string>
     <string name="faq_8_title_commons">Miért érdemes frissítenem a Pro verzióra\?</string>
-    <string name="faq_8_text_commons">Mivel ezt az alkalmazásverziót már nem frissítjük, az esetleges hibák sosem lesznek kijavítva, ahogy új funkciókat sem fog kapni az alkalmazás. A Pro verziót egy egyszeri kis összegért megvásárolhatja a Google Play áruházban. Az egyszeri fizetés azt jelenti, hogy ha egyszer megvette, soha többé nem kell fizetnie, még egy új eszközön sem. Ha nem tetszik a Pro verzió, a vásárlás után pár órán belül eltávolítva automatikusan visszakapja az árát. Ha később szeretne visszatérítést, csak írjon nekünk a hello@fossify.org címre, és meg fogja kapni.</string>
+    <string name="faq_8_text_commons">Mivel ezt az alkalmazásverziót már nem frissítjük, az esetleges hibák sosem lesznek kijavítva, ahogy új funkciókat sem fog kapni az alkalmazás. A Pro verziót egy egyszeri kis összegért megvásárolhatja a Google Play áruházban. Az egyszeri fizetés azt jelenti, hogy ha egyszer megvette, soha többé nem kell fizetnie, még egy új eszközön sem. Ha nem tetszik a Pro verzió, a vásárlás után pár órán belül eltávolítva automatikusan visszakapja az árát. Ha később szeretne visszatérítést, csak írjon nekünk a maxitendo01@proton.me címre, és meg fogja kapni.</string>
     <string name="faq_9_title_commons">Hogyan tudok egyszerre több elemet kiválasztani\?</string>
     <string name="faq_9_text_commons">Több mód is van rá. Megnyomhatja hosszan az első elemet, majd röviden megérintheti a továbbiakat. Lehet az egérrel ellátott számítógépekhez hasonlóan egy elemet hosszan megnyomva megkezdeni a kijelölést, majd – az ujjat közben nem felengedve – húzással kijelölni a többit. Egy harmadik lehetőség hosszan megnyomni az első elemet, majd szintén hosszan megnyomni az utolsót: ez a kettő közötti összes elemet kijelöli. Ha minden elemet egyszerre ki akar jelölni, nyomja meg hosszan bármelyik elemet, majd érintse meg a bal felső sarokban lévő számlálót, ez minden elemet kijelöl, vagy minden elem kijelölését törli.</string>
     <string name="faq_10_title_commons">Megvásároltam az alkalmazást, de nem tudom letölteni egy másik eszközön.</string>
@@ -1037,31 +1037,31 @@
         <item quantity="other">A próbaverzió %d nap múlva lejár.</item>
     </plurals>
     <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro címről</string>
-    <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@fossify.org címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
+    <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a maxitendo01@proton.me címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
     <string name="developer_description">Egyszerű, nyílt forráskódú androidos alkalmazásgyűjtemény testreszabható modulokkal, hirdetések és felesleges engedélykérések nélkül.</string>
     <string name="album">Album</string>
     <string name="genre">Műfaj</string>
     <string name="exif">EXIF</string>
     <string name="ok">Rendben</string>
     <string name="audio">Hang</string>
-    <string name="apply_to_all_apps">Színek alkalmazása az összes Fossify alkalmazásra</string>
+    <string name="apply_to_all_apps">Színek alkalmazása az összes Maxitendo alkalmazásra</string>
     <string name="deletion_confirmation_short">Törli: %s?</string>
-    <string name="purchase_simple_thank_you">Fossify Köszönet megvásárlása</string>
+    <string name="purchase_simple_thank_you">Maxitendo Köszönet megvásárlása</string>
     <string name="notification_sound">Értesítési hang</string>
-    <string name="donate_new">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat és adatokat sem gyűjtünk, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával. Ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
+    <string name="donate_new">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat és adatokat sem gyűjtünk, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Köszönet&lt;/a&gt; alkalmazás megvásárlásával. Ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
     <string name="contributors_label"><![CDATA[
-            A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik,
-            tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti.
+            A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Maxitendo csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik,
+            tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> címen is felteheti.
             Köszönjük az összes közreműködőnknek és támogatónknak!
         ]]></string>
     <string name="faq_2_text_commons"><![CDATA[
             Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat.
-            A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.
+            A fordítási útmutató megtalálható <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> címre.
         ]]></string>
     <string name="app_icon_color_warning">Figyelem: egyes indítók lehet, hogy nem helyesen kezelik az ikonok testreszábását. Ha az ikon eltűnik, próbálja a Google Playen vagy egy modulon keresztül elindítani, ha elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése is szükséges lehet.</string>
-    <string name="shared_theme_note">Vegye figyelembe, hogy bár a Pro alkalmazásverziót használja, műszaki okokból továbbra is szükséges lesz a Fossify Köszönet alkalmazásra. Az végzi a színek szinkronizálását.</string>
+    <string name="shared_theme_note">Vegye figyelembe, hogy bár a Pro alkalmazásverziót használja, műszaki okokból továbbra is szükséges lesz a Maxitendo Köszönet alkalmazásra. Az végzi a színek szinkronizálását.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Vásárolja meg a <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Köszönet</a> alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!
+            Vásárolja meg a <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Köszönet</a> alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!
         ]]></string>
     <string name="system_default">Rendszer alapértelmezése</string>
     <string name="enter_password">Adja meg a jelszót</string>
@@ -1072,15 +1072,15 @@
     <string name="november">november</string>
     <string name="december">december</string>
     <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+\nCopyright © Maxitendo %2$d</string>
     <string name="donate_please"><![CDATA[
             Üdv!<br><br>
-            Reméljük élvezi az alkalmazást. Nem tartalmaz reklámokat, így arra kérjük, támogassa a fejlesztést a <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Köszönet</a> alkalmazás megvásárlásával, ekkor ezt a párbeszédablakot sem fogja többet látni.<br><br>
+            Reméljük élvezi az alkalmazást. Nem tartalmaz reklámokat, így arra kérjük, támogassa a fejlesztést a <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Köszönet</a> alkalmazás megvásárlásával, ekkor ezt a párbeszédablakot sem fogja többet látni.<br><br>
             Köszönjük!
         ]]></string>
-    <string name="donate_short">Támogasson minket a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.</string>
-    <string name="update_thank_you">Frissítse a Fossify Köszönet alkalmazást a legfrissebb verzióra</string>
-    <string name="features_locked">Ez a funkció zárolva van, vásárolja meg a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazást a teljes verzió feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem elégedett, akkor visszafizetjük az árát.</string>
+    <string name="donate_short">Támogasson minket a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.</string>
+    <string name="update_thank_you">Frissítse a Maxitendo Köszönet alkalmazást a legfrissebb verzióra</string>
+    <string name="features_locked">Ez a funkció zárolva van, vásárolja meg a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Köszönet&lt;/a&gt; alkalmazást a teljes verzió feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem elégedett, akkor visszafizetjük az árát.</string>
     <string name="translation_breton">Breton</string>
     <string name="translation_bulgarian">Bolgár</string>
     <string name="translation_english">Angol</string>
@@ -1091,14 +1091,14 @@
     <string name="translation_esperanto">Eszperantó</string>
     <string name="translation_chuvash">Csuvas</string>
     <string name="theme_and_colors">Téma és színek</string>
-    <string name="all_fossify_apps">Az összes Fossify alkalmazás</string>
+    <string name="all_fossify_apps">Az összes Maxitendo alkalmazás</string>
     <string name="cryptocurrency">Kriptovaluta</string>
     <string name="translation_belarusian">Fehérorosz</string>
     <string name="translation_central_kurdish">Közép-kurd</string>
     <string name="translation_gujarati">Gudzsaráti</string>
     <string name="platforms">Platformok</string>
     <string name="format_phone_numbers">Telefonszámok formázása</string>
-    <string name="donate_to_fossify">Adományozzon a Fossify-nak</string>
+    <string name="donate_to_fossify">Adományozzon a Maxitendo-nak</string>
     <string name="little_to_no_fee">Keveset vagy díjmentes</string>
     <string name="fee_up_to_pct">Legfeljebb %1$d%% díj</string>
     <string name="known_issues">Ismert problémák</string>

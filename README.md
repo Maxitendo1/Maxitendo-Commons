@@ -1,21 +1,20 @@
 <div align="center">
 </br>
-<img src="https://raw.githubusercontent.com/Maxitendo1/Maxitendo-Commons/main/commons/src/main/res/drawable/ic_launcher.png" width="200" />
+<img src="commons/src/main/res/drawable/ic_launcher.png" width="200" />
 
 </div>
 
 <div align="center">
 
-# Maxitendo Commons
+# **Maxitendo Commons**
 
 </div>
 
 </br>
 
 <p align="center">
-  <img alt="API" src="https://img.shields.io/badge/Api%2021+-50f270?logo=android&logoColor=black&style=for-the-badge"/></a>
+  <img alt="API" src="https://img.shields.io/badge/Android-50f270?logo=android&logoColor=black&style=for-the-badge"/></a>
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-a503fc?logo=kotlin&logoColor=white&style=for-the-badge"/></a>
-  <img alt="Jetpack Compose" src="https://img.shields.io/static/v1?style=for-the-badge&message=Jetpack+Compose&color=4285F4&logo=Jetpack+Compose&logoColor=FFFFFF&label="/></a>
   <img alt="material" src="https://custom-icon-badges.demolab.com/badge/material%20you-lightblue?style=for-the-badge&logoColor=333&logo=material-you"/></a>
   </br>
 </p>

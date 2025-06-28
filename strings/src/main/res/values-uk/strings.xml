@@ -172,13 +172,13 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Так, звичайно. Ви можете поширити інформацію про додатки або залишити хороший відгук і оцінки. Ви також можете допомогти перекласти додатки на нові мови або просто оновити існуючі переклади.
-        Ви знайдете вказівки за адресою https://github.com/Maxitendo/Discussion або просто напишіть мені повідомлення на github.com/Maxitendo@gmail.com, якщо вам необхідна допомога.
+        Ви знайдете вказівки за адресою https://github.com/Maxitendo/Discussion або просто напишіть мені повідомлення на maxitendo01@proton.me, якщо вам необхідна допомога.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Ця проблема виникає, коли ваша програма запуску не повністю підтримує налаштування піктограм. Спробуйте запустити програму через Google Play або віджет, якщо він доступний.         Після запуску відновіть колір піктограми програми за замовчуванням. У крайніх випадках може знадобитися перевстановлення програми.</string>
     <string name="faq_8_text_commons_g">Оскільки версія вашого додатка більше не оновлюється, помилки, які ви можливо виявили, ніколи не будуть виправлені. Також не буде додано ніяких нових функцій. Ви можете придбати версію Pro через Google Play за деяку незначну плату.
         Це одноразова плата і означає, що як тільки ви придбаєте його, вам більше не доведеться знову платити. Навіть якщо ви придбаєте новий пристрій. Якщо вам не сподобається версія Pro, ви можете просто деінсталювати її протягом кількох годин, і ви автоматично отримаєте сплачені кошти назад.
-        Якщо ви захочете повернути кошти пізніше, просто напишіть нам сюди github.com/Maxitendo@gmail.com, і ви їх отримаєте.</string>
+        Якщо ви захочете повернути кошти пізніше, просто напишіть нам сюди maxitendo01@proton.me, і ви їх отримаєте.</string>
     <string name="faq_100_title_commons_g">Що таке особистий контакт?</string>
     <string name="faq_100_text_commons_g">Особистий контакт створюється всередині програми. Цей контакт не буде видно іншим додаткам.
         Якщо ви видалите застосунок, то всі особисті контакти видаляться разом із застосунком, тому перед видаленням застосунку зробіть резервну копію контактів.</string>
@@ -187,12 +187,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             У цьому списку перераховані всі, хто помітно допоміг будь-якому додатку Maxitendo, а не лише цьому. Переклади виконуються волонтерами,
-             дайте нам знати, якщо ви хочете допомогти. Посібник з перекладу знаходиться <a href="https://github.com/Maxitendo/Discussion">тут</a>. Можна просто зв\'язатися з нами електронною поштою <a href="github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a>, якщо у вас є які-небудь питання.
+             дайте нам знати, якщо ви хочете допомогти. Посібник з перекладу знаходиться <a href="https://github.com/Maxitendo/Discussion">тут</a>. Можна просто зв\'язатися з нами електронною поштою <a href="maxitendo01@proton.me">maxitendo01@proton.me</a>, якщо у вас є які-небудь питання.
              Дякуємо всім учасникам та іншим помічникам!
         ]]>
     </string>
     <string name="deprecated_app_g">Застаріла: Ця версія додатка більше не підтримується, встановіть версію Pro за адресою https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">Пам\'ятайте: якщо ви видалите будь-який платний додаток протягом 2 годин, вам буде автоматично повернена сума покупки. Якщо ви захочете повернути гроші пізніше, сконтактуйте з нами за адресою github.com/Maxitendo@gmail.com, і ви їх отримаєте. Таким чином ви можете легко спробувати додаток :)</string>
+    <string name="pro_app_refund_g">Пам\'ятайте: якщо ви видалите будь-який платний додаток протягом 2 годин, вам буде автоматично повернена сума покупки. Якщо ви захочете повернути гроші пізніше, сконтактуйте з нами за адресою maxitendo01@proton.me, і ви їх отримаєте. Таким чином ви можете легко спробувати додаток :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Додати номер</string>
@@ -324,16 +324,6 @@
     <string name="relation_brother_in_law_g">Шурин</string>
     <string name="relation_sister_in_law_g">Золовка</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Помилка</string>
-    <string name="billing_purchase_confirm_in_progress">Підтверджуємо покупку…</string>
-    <string name="billing_purchase_delete_in_progress">Видаляємо покупку…</string>
-    <string name="billing_product_confirmed">Продукт підтверджено/спожито</string>
-    <string name="billing_product_deleted">Купівлю скасовано</string>
-    <string name="billing_subscriptions">Підписки</string>
-    <string name="billing_change_to_google_play">Використовувати Google Play</string>
-    <string name="billing_change_to_ru_store">Використовувати RuStore</string>
-    <string name="billing_error_application_signature_not_correct">Для оплати через RuStore необхідно встановити версію програми з RuStore</string>
 
     <!-- Calendar -->
     <string name="date">Дата</string>

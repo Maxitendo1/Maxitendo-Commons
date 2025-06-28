@@ -332,7 +332,7 @@
     <string name="global_theme_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
+            Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> för att låsa upp denna funktion och stödja utvecklingen. Tack!
         ]]>
     </string>
     <string name="light_theme">Ljust</string>
@@ -826,7 +826,7 @@
     <string name="donate_please">
         <![CDATA[
             Hej,<br><br>
-            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
+            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
             Tack!
         ]]>
     </string>
@@ -894,7 +894,7 @@
     <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>
     <string name="faq_8_title_commons">Varför ska jag uppgradera till Pro-versionen\?</string>
-    <string name="faq_8_text_commons">Eftersom din appversion inte längre är uppdaterad kommer de buggar du kanske har upptäckt aldrig att fixas. Det kommer inte heller att läggas till några nya funktioner. Du kan köpa Pro-versionen på Google Play för en liten summa pengar. Det är en engångsbetalning, vilket innebär att när du väl köpt den behöver du aldrig betala igen. Inte ens efter att ha skaffat en ny enhet. Om du inte gillar Pro-versionen kan du bara avinstallera den inom några timmar så får du automatiskt tillbaka dina pengar. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det.</string>
+    <string name="faq_8_text_commons">Eftersom din appversion inte längre är uppdaterad kommer de buggar du kanske har upptäckt aldrig att fixas. Det kommer inte heller att läggas till några nya funktioner. Du kan köpa Pro-versionen på Google Play för en liten summa pengar. Det är en engångsbetalning, vilket innebär att när du väl köpt den behöver du aldrig betala igen. Inte ens efter att ha skaffat en ny enhet. Om du inte gillar Pro-versionen kan du bara avinstallera den inom några timmar så får du automatiskt tillbaka dina pengar. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på maxitendo01@proton.me så får du det.</string>
     <string name="faq_9_title_commons">Hur kan jag välja flera objekt samtidigt\?</string>
     <string name="faq_9_text_commons">Det finns flera sätt att göra det på. Den första är att starta valläget genom att trycka länge på ett objekt, sedan kortklicka på andra för att välja dem. Det andra sättet liknar att välja objekt på datorer med en mus, starta bara valläget genom att trycka länge på ett objekt, och sedan med fingret nedåt och dra det över andra objekt för att välja. Det tredje sättet att välja flera objekt är att länge trycka på ett objekt, sedan länge på ett annat och allt däremellan väljs. Om du vill markera alla objekt, tryck bara länge på ett objekt och klicka sedan på den valda objekträknaren i det övre vänstra hörnet. Det kommer att välja eller avmarkera allt.</string>
     <string name="faq_10_title_commons">Jag har köpt appen, men jag kan inte ladda ner den på en annan enhet.</string>
@@ -1027,13 +1027,13 @@
         <item quantity="other">Din prövotid tar slut om %d dagar.</item>
     </plurals>
     <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
+    <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på maxitendo01@proton.me så får du det. Det gör det enkelt att testa :)</string>
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
-    <string name="purchase_simple_thank_you">Köp Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Köp Maxitendo Thank You</string>
     <string name="translation_bengali">Bengali</string>
     <string name="translation_bulgarian">Bulgariska</string>
     <string name="translation_tamil">Tamil</string>
-    <string name="update_thank_you">Uppdatera Fossify Thank You till den senaste versionen</string>
+    <string name="update_thank_you">Uppdatera Maxitendo Thank You till den senaste versionen</string>
     <string name="translation_hindi">Hindi</string>
     <string name="translation_nepali">Nepali</string>
     <string name="why_upgrade_pro_version">Pro</string>
@@ -1043,14 +1043,14 @@
     <string name="theme_and_colors">Tema och färger</string>
     <string name="april">April</string>
     <string name="friday_letter">F</string>
-    <string name="all_fossify_apps">Alla Fossify-appar</string>
+    <string name="all_fossify_apps">Alla Maxitendo-appar</string>
     <string name="platforms">Plattformar</string>
     <string name="why_upgrade_recents_tab">Flik med de senaste filerna</string>
     <string name="known_issues">Kända problem</string>
     <string name="tuesday_letter">T</string>
     <string name="thursday_letter">T</string>
     <string name="ok">OK</string>
-    <string name="apply_to_all_apps">Använd färger på alla Fossify-appar</string>
+    <string name="apply_to_all_apps">Använd färger på alla Maxitendo-appar</string>
     <string name="alarm">Alarm</string>
     <string name="text">Text</string>
     <string name="usb">USB</string>
@@ -1059,7 +1059,7 @@
     <string name="december">December</string>
     <string name="sunday_letter">S</string>
     <string name="monday_letter">M</string>
-    <string name="donate_to_fossify">Donera till Fossify</string>
+    <string name="donate_to_fossify">Donera till Maxitendo</string>
     <string name="little_to_no_fee">Liten eller ingen avgift</string>
     <string name="fee_up_to_pct">Upp till %1$d%% avgift</string>
     <string name="cryptocurrency">Kryptovaluta</string>

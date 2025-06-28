@@ -325,7 +325,7 @@
     <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
+            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
         ]]>
     </string>
     <string name="light_theme">Lys</string>
@@ -762,7 +762,7 @@
     <string name="donate_please">
         <![CDATA[
             Hej<br><br>
-            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
+            Håber du kan lide denne app. Den indeholder ingen reklamer, så vær sød at købe appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a>, som også vil forhindre at denne besked vises igen.<br><br>
             På forhånd tak!
         ]]>
     </string>
@@ -818,7 +818,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Ja, selvfølgelig. Du kan sprede budskabet om vores apps eller give god feedback og gode vurderinger. Du kan også hjælpe ved at oversætte apps til et nyt sprog eller blot opdatere nogle af de eksisterende oversættelser.
-            Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dette websted</a>, eller mail til os på adressen <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
+            Vejledningen til oversættelse findes på <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dette websted</a>, eller mail til os på adressen <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a>, hvis du har spørgsmål.
         ]]>
     </string>
     <string name="faq_3_title_commons">Jeg fik slettet nogle filer ved en fejl, hvordan kan jeg gendanne dem?</string>
@@ -833,7 +833,7 @@
     <string name="faq_8_title_commons">Hvorfor skulle jeg opgradere til Pro-versionen?</string>
     <string name="faq_8_text_commons">Da din version af appen ikke opdateres længere, kan den indeholde fejl der aldrig bliver rettet. Der vil heller ikke komme nye funktioner til den. Du kan købe Pro-versionen på Google Play for et lille beløb.
         Det er en engangsinvestering, har du betalt een gang skal du aldrig gøre det igen, heller ikke hvis du skifter mobil eller tablet. Kan du ikke lide Pro-versionen, kan du afinstallere den indenfor nogle få timer og du vil automatisk få dine penge tilbage.
-        Vil du på et senere tidspunkt have pengene refunderet, skal du blot sende en mail til hello@fossify.org, så klarer vi det.</string>
+        Vil du på et senere tidspunkt have pengene refunderet, skal du blot sende en mail til maxitendo01@proton.me, så klarer vi det.</string>
     <string name="faq_9_title_commons">Hvordan kan jeg vælge flere elementer på én gang?</string>
     <string name="faq_9_text_commons">Der er flere måder at gøre det på. Den første er at starte valgtilstanden ved at trykke længe på et element og derefter klikke kort på andre elementer for at vælge dem. Den anden måde svarer til at vælge elementer på en pc med en mus.
         Du skal bare starte valgtilstanden ved at trykke længe på et element og derefter mens fingeren stadig er nede, trække den hen over andre elementer for at vælge dem. Den tredje måde at vælge flere elementer på er ved at trykke længe på et element og derefter trykke længe på et andet element, og alt derimellem bliver valgt. Hvis du
@@ -846,8 +846,8 @@
     <string name="other_help">Anden hjælp</string>
     <string name="contributors_label">
         <![CDATA[
-            Denne liste indeholder alle, der har hjulpet med en app i Fossify-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
-            så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
+            Denne liste indeholder alle, der har hjulpet med en app i Maxitendo-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
+            så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">denne hjemmeside</a>, eller send en mail til <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a>, hvis du har spørgsmål.
             Tak til alle bidragydere og andre støtter!
         ]]>
     </string>
@@ -971,7 +971,7 @@
         <item quantity="other">Din prøveperiode udløber om %d dage.</item>
     </plurals>
     <string name="deprecated_app">FORÆLDET: Denne version af appen vedligeholdes ikke længere, skift til Pro-versionen her https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til hello@fossify.org. På den måde kan du prøvekøre appen uden omkostninger :)</string>
+    <string name="pro_app_refund">Husk at hvis du afinstallerer en betalt app indenfor 2 timer, får du automatisk pengene tilbage. Vil du have refunderet beløbet på et senere tidspunkt, så send en mail til maxitendo01@proton.me. På den måde kan du prøvekøre appen uden omkostninger :)</string>
     <string name="developer_description">En gruppe simple, open source apps til Android med widgets, der kan tilpasses, uden reklamer og unødvendige tilladelser.</string>
     <string name="ok">OK</string>
     <string name="format_phone_numbers">Formatér telefonnumre</string>

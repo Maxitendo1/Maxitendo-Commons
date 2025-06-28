@@ -798,7 +798,7 @@
     <string name="donate">Toeta meid</string>
     <string name="follow_us">Jälgi meid</string>
     <string name="copyright">v %1$s
-\nAutoriõigused © Fossify (Lihtsad mobiiitarvikud) %2$d</string>
+\nAutoriõigused © Maxitendo (Lihtsad mobiiitarvikud) %2$d</string>
     <string name="support">Kasutajatugi</string>
     <string name="help_us">Osale arenduses</string>
     <string name="social">Sotsiaalmeedia</string>
@@ -875,7 +875,7 @@
     <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
     <string name="faq_8_title_commons">Miks peaksin kasutusele võtma Pro-versiooni\?</string>
-    <string name="faq_8_text_commons">Kuna seda rakenduse versiooni enam ei uuendata, siis ei parandata kunagi sinu ja teiste kasutajate poolt avastatud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saad osta Google Play\'st väikese summa eest. See on ühekordne makse, mis tähendab, et kui oled selle ostnud, ei pea sa selle rakenduse eest enam kunagi maksma. Isegi mitte pärast uue seadme soetamist. Kui Pro-versioon ei meeldi sulle, saad selle mõne tunni pärast lihtsalt eemaldada ja saad automaatselt oma raha tagasi. Kui soovid tagasimakset mingil ajal hiljem, võta meiega ühendust aadressil hello@fossify.org ja me korraldame makse vastavat sinu soovidele.</string>
+    <string name="faq_8_text_commons">Kuna seda rakenduse versiooni enam ei uuendata, siis ei parandata kunagi sinu ja teiste kasutajate poolt avastatud vigu. Samuti ei lisata uusi funktsioone. Pro-versiooni saad osta Google Play\'st väikese summa eest. See on ühekordne makse, mis tähendab, et kui oled selle ostnud, ei pea sa selle rakenduse eest enam kunagi maksma. Isegi mitte pärast uue seadme soetamist. Kui Pro-versioon ei meeldi sulle, saad selle mõne tunni pärast lihtsalt eemaldada ja saad automaatselt oma raha tagasi. Kui soovid tagasimakset mingil ajal hiljem, võta meiega ühendust aadressil maxitendo01@proton.me ja me korraldame makse vastavat sinu soovidele.</string>
     <string name="faq_9_title_commons">Kuidas ma saan valida mitu objekti korraga\?</string>
     <string name="faq_9_text_commons">Selleks on mitu võimalust. Esimene neist on valikurežiimi käivitamine, vajutades pikalt ühe objektile ja seejärel teiste valimine lühikese vajutusega. Teine viis on sarnane arvutites kasutatavale sisu valimisele hiirega, lihtsalt alusta valimist vajutades pikalt ühele kirjel, seejärel lohista teiste kirjete valimiseks sõrmega üle nende. Kolmas viis mitme kirje valimiseks on ühe kirje pikalt vajutamine, seejärel teise kirje pikalt vajutamine ja kõik vahepealsed kirjed saavad ka valituks. Kui soovid valida kõik kirjed, vajuta pikalt ühte kirjet, seejärel klõpsa vasakus ülanurgas asuval valitud kirjete loenduril. See valib või tühistab kõikide kirjete valiku.</string>
     <string name="faq_10_title_commons">Ma olen rakenduse ostnud, kuid ma ei saa seda teise seadmesse alla laadida.</string>
@@ -1008,23 +1008,23 @@
         <item quantity="other">Selle rakenduse prooviperiood lõppeb %d päeva pärast.</item>
     </plurals>
     <string name="deprecated_app">AEGUNUD: Selle rakenduse versiooni arendus on lõppenud, laadi PRO-versioon aadressilt https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri hello@fossify.org aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
+    <string name="pro_app_refund">Palun arvesta, et kui eemaldad tasulise rakenduse nutiseadmest 2 tunni jooksul, siis ostusumma tagastatakse automaatselt. Kui soovit tagastust hiljem, siis saada e-kiri maxitendo01@proton.me aadressile ning korraldame tagastuse. Mõlemal juhul on sul võimalik meie tasulisi rakendusi testida :)</string>
     <string name="developer_description">Arendame Androidi jaoks avatud lähtekoodil põhinevaid lihtsaid tarvikuid ja milles pole reklaame ega vajadust asjatute õiguste jaoks.</string>
     <string name="exif">EXIF</string>
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dt</string>
     <string name="friday_letter">R</string>
-    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
-    <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
+    <string name="donate_new">Tere,&lt;br&gt;&lt;br&gt; loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Suur Tänu&lt;/a&gt;. Seejärel muutuvad kasutatavaks ka rakenduse lisafunktsionaalsused ja värvide kohandamine.&lt;br&gt;&lt;br&gt;Aitäh!</string>
+    <string name="update_thank_you">Palun uuenda rakendus Maxitendo Suur Tänu viimase versioonini</string>
     <string name="contributors_label"><![CDATA[
-            Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,
-            anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Maxitendo nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,
+            anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a>.
             Aitäh kõigile panustajatele ja teistele toetajatele!
         ]]></string>
     <string name="app_icon_color_warning">Hoiatus: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi roheline toon #106D1F tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="faq_6_text_commons">Selle põhjuseks on asjaolu, et see käivitaja ei toeta ikoonide kohandamist korralikult. Proovi käivitada rakendus Google Play või mõne sarnase saadaoleva vidina abil. Peale käivitamist, seadista lihtsalt tagasi ikooni vaikimisi roheline toon #106D1F. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="audio">Audio</string>
-    <string name="purchase_simple_thank_you">Palun osta Fossify Suur Tänu</string>
+    <string name="purchase_simple_thank_you">Palun osta Maxitendo Suur Tänu</string>
     <string name="march_short">Mär</string>
     <string name="april_short">Apr</string>
     <string name="july_short">Juuli</string>
@@ -1036,8 +1036,8 @@
     <string name="thursday_short">Neljap</string>
     <string name="friday_short">Reede</string>
     <string name="saturday_short">Laup</string>
-    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
-    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt; ning kogu see rakendus on siis kasutatav. See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
+    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="features_locked">See funktsionaalsus on lukus, palun osta rakendus &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Suur Tänu&lt;/a&gt; ning kogu see rakendus on siis kasutatav. See on ainult ühekordne makse ja kui sa ei jää rahule, saame raha tagasi maksta.</string>
     <string name="translation_english">inglise keel</string>
     <string name="translation_bengali">bengali keel</string>
     <string name="translation_hindi">hindi keel</string>
@@ -1049,10 +1049,10 @@
     <string name="album">Album</string>
     <string name="genre">Žanr</string>
     <string name="f_number">F-number</string>
-    <string name="apply_to_all_apps">Kasuta neid värve kõikides Fossify rakendustes</string>
-    <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Fossify Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Fossify rakenduste.</string>
+    <string name="apply_to_all_apps">Kasuta neid värve kõikides Maxitendo rakendustes</string>
+    <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Maxitendo Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Maxitendo rakenduste.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Aitäh juba ette!
+            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Suur Tänu</a>. Aitäh juba ette!
         ]]></string>
     <string name="deletion_confirmation_short">Kas kustutame %s?</string>
     <string name="pin">PIN</string>
@@ -1080,18 +1080,18 @@
     <string name="sunday_short">Pühap</string>
     <string name="donate_please"><![CDATA[
             Tere,<br><br>
-            loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a> ja samaga väldid selle vaate uuesti kuvamist.<br><br>
+            loodame, et sulle meie rakendus meeldib. See ei sisalda reklaame, palun toeta selle arendamist, ostes rakenduse <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Suur Tänu</a> ja samaga väldid selle vaate uuesti kuvamist.<br><br>
             Täname!
         ]]></string>
     <string name="faq_2_text_commons"><![CDATA[
             Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega.
-            Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Tõlkimise juhend asub <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a>.
         ]]></string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="translation_esperanto">esperanto</string>
     <string name="translation_chuvash">tšuvašši</string>
     <string name="translation_gujarati">gudžarati</string>
-    <string name="donate_to_fossify">Toeta Fossify projektide arendust</string>
+    <string name="donate_to_fossify">Toeta Maxitendo projektide arendust</string>
     <string name="platforms">Platvormid</string>
     <string name="format_phone_numbers">Vorminda telefoninumbreid</string>
     <string name="little_to_no_fee">Praktiliselt tasuta</string>
@@ -1100,7 +1100,7 @@
     <string name="translation_belarusian">valgevene keel</string>
     <string name="translation_central_kurdish">sorani keel</string>
     <string name="theme_and_colors">Välimus ja värvid</string>
-    <string name="all_fossify_apps">Kõik Fossify rakendused</string>
+    <string name="all_fossify_apps">Kõik Maxitendo rakendused</string>
     <string name="known_issues">Teadaolevad vead</string>
     <string name="translation_kabyle">kabiili keel</string>
     <string name="number_of_items">Objektide arv</string>

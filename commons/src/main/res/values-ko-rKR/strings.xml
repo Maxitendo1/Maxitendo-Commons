@@ -187,7 +187,7 @@
     <string name="global_theme_success">색상이 성공적으로 변경되었습니다. \'공유\'라는 새로운 테마가 추가되었습니다. 앞으로 모든 앱의 색상을 변경할때 사용하세요.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 앱을 구매해주세요. 감사합니다!
+            이 기능을 이용하시려면 개발지원을 위해 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> 앱을 구매해주세요. 감사합니다!
         ]]>
     </string>
     <string name="custom">사용자 정의</string>
@@ -508,7 +508,7 @@
     <string name="additional_info">추가 정보</string>
     <string name="app_version">앱 버전: %s</string>
     <string name="device_os">기기 OS: %s</string>
-    <string name="donate_please">안녕하세요.&lt;br&gt; 우리의 애플리케이션이 도움이 되길 바랍니다.&lt;br&gt; 사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션으로 별도의 수익이 발생하지 않습니다.&lt;br&gt; 당신이 원하신다면 개발지원을 위해 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 앱을 다운받아 지원 하실 수 있습니다.&lt;br&gt; \'Fossify Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.&lt;br&gt; 감사합니다!</string>
+    <string name="donate_please">안녕하세요.&lt;br&gt; 우리의 애플리케이션이 도움이 되길 바랍니다.&lt;br&gt; 사용하고 계신 애플리케이션은 광고 및 인앱 결제가 없는 무료 애플리케이션으로 별도의 수익이 발생하지 않습니다.&lt;br&gt; 당신이 원하신다면 개발지원을 위해 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; 앱을 다운받아 지원 하실 수 있습니다.&lt;br&gt; \'Maxitendo Thank You\' 앱이 설치되면 이 다이얼로그는 비 활성화 됩니다.&lt;br&gt; 감사합니다!</string>
     <string name="purchase">구매</string>
     <string name="before_asking_question_read_faq">질문하기 전에 FAQ를 먼저 읽어 주세요. 해답이 있을지도 모릅니다.</string>
     <string name="read_it">읽어보기</string>
@@ -581,7 +581,7 @@
     <string name="filters_title">Android Photo Filters (이미지 필터)</string>
     <string name="gesture_views_title">Gesture Views (확대 가능한 이미지)</string>
     <string name="deprecated_app">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, hello@fossify.org 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
+    <string name="pro_app_refund">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, maxitendo01@proton.me 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
     <string name="error">오류: %s</string>
     <string name="edit">편집</string>
     <string name="close">닫기</string>
@@ -636,7 +636,7 @@
         <item quantity="other">%d개 연락처</item>
     </plurals>
     <string name="remove_exif">EXIF 제거</string>
-    <string name="apply_to_all_apps">모든 Fossify 앱에 색상 적용</string>
+    <string name="apply_to_all_apps">모든 Maxitendo 앱에 색상 적용</string>
     <string name="auto_light_dark_theme">자동 밝은/어두운 테마</string>
     <string name="storage">저장공간</string>
     <string name="shortcut">바로가기</string>

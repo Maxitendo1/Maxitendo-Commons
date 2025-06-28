@@ -314,7 +314,7 @@
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="global_theme_success">Het huidige thema is toegepast op alle Fossify apps. Toekomstige aanpassingen zullen automatisch worden doorgevoerd in alle apps.</string>
+    <string name="global_theme_success">Het huidige thema is toegepast op alle Maxitendo apps. Toekomstige aanpassingen zullen automatisch worden doorgevoerd in alle apps.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Automatisch</string>
@@ -776,7 +776,7 @@
     <string name="device_os">Besturingssysteem: %s</string>
     <string name="donate_please"><![CDATA[
             Hallo,<br><br>
-            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
+            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
              Dankjewel!
         ]]></string>
     <string name="purchase">Kopen</string>
@@ -836,7 +836,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Maar natuurlijk! Vertel anderen over deze apps of geef feedback en beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-            Een handleiding voor vertaling is te vinden op <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">deze website</a>, of stuur een bericht naar <a href="mailto:hello@fossify.org">hello@fossify.org</a> voor hulp.
+            Een handleiding voor vertaling is te vinden op <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">deze website</a>, of stuur een bericht naar <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> voor hulp.
         ]]>
     </string>
     <string name="faq_3_title_commons">Ik heb per ongeluk bestanden verwijderd, hoe kan ik deze herstellen?</string>
@@ -849,7 +849,7 @@
     <string name="faq_7_title_commons">Het geld is afgeschreven van mijn rekening, maar ik kan de app nog niet downloaden. Wat moet ik doen?</string>
     <string name="faq_7_text_commons">Betalingen worden verwerkt door Google, maar dit systeem vertoont soms wat problemen. Leeg de cache van de Google Play Store app en start daarna het apparaat opnieuw. Probeer vervolgens nogmaals de app te downloaden.</string>
     <string name="faq_8_title_commons">Waarom zou ik upgraden naar de Pro-versie?</string>
-    <string name="faq_8_text_commons">Omdat deze versie van de app niet meer zal worden bijgewerkt, zullen eventuele fouten nooit meer worden opgelost. Ook zullen er geen nieuwe functies meer worden toegevoegd. De Pro-versie is voor een bescheiden bedrag te vinden in de Google Play Store. Dit bedrag hoeft maar een keer te worden betaald, daarna nooit meer. Ook niet voor nieuwe apparaten. Als de Pro-versie toch niet bevalt, verwijder de app dan binnen enkele uren en het bedrag zal worden teruggestort. Ook een latere restitutie is nog mogelijk. Neem hiervoor contact op via hello@fossify.org en het geld zal alsnog worden teruggestort.</string>
+    <string name="faq_8_text_commons">Omdat deze versie van de app niet meer zal worden bijgewerkt, zullen eventuele fouten nooit meer worden opgelost. Ook zullen er geen nieuwe functies meer worden toegevoegd. De Pro-versie is voor een bescheiden bedrag te vinden in de Google Play Store. Dit bedrag hoeft maar een keer te worden betaald, daarna nooit meer. Ook niet voor nieuwe apparaten. Als de Pro-versie toch niet bevalt, verwijder de app dan binnen enkele uren en het bedrag zal worden teruggestort. Ook een latere restitutie is nog mogelijk. Neem hiervoor contact op via maxitendo01@proton.me en het geld zal alsnog worden teruggestort.</string>
     <string name="faq_9_title_commons">Hoe kan ik meerdere items tegelijk selecteren?</string>
     <string name="faq_9_text_commons">Dit kan op verschillende manieren. De eerste is door met een lange druk op een enkel item de selectiemodus in te schakelen, waarna kort klikken op andere items de selectie zal uitbreiden. De tweede manier is vergelijkbaar met het selecteren van items op een PC met de muis:
         druk lang op een item en sleep vervolgens over andere items om ook die te selecteren. De derde manier is door lang te drukken op het eerste item en vervolgens ook lang te drukken op het laatste item, waarna alle items ertussen zullen worden geselecteerd. Om alle
@@ -955,7 +955,7 @@
         <item quantity="other">Deze proefversie verloopt over %d dagen.</item>
     </plurals>
     <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@fossify.org en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
+    <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via maxitendo01@proton.me en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
     <string name="developer_description">Een verzameling eenvoudige opensource Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
     <string name="ok">OK</string>
     <string name="later">Later</string>
@@ -977,21 +977,21 @@
     <string name="genre">Genre</string>
     <string name="camera">Camera</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Kleuren toepassen op alle Fossify apps</string>
-    <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Fossify Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
+    <string name="apply_to_all_apps">Kleuren toepassen op alle Maxitendo apps</string>
+    <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Maxitendo Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
+            Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
         ]]></string>
     <string name="system_default">Systeeminstelling</string>
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
-    <string name="purchase_simple_thank_you">Fossify Bedankje aanschaffen</string>
-    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps tegelijk aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
-    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
-    <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
+    <string name="purchase_simple_thank_you">Maxitendo Bedankje aanschaffen</string>
+    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps tegelijk aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
+    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
+    <string name="update_thank_you">Update Maxitendo Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
     <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+\nCopyright © Maxitendo %2$d</string>
     <string name="seconds_letter">%ds</string>
     <string name="minutes_letter">%dm</string>
     <string name="week_number_short">wk.</string>
@@ -1020,17 +1020,17 @@
     <string name="camera_short">Camera</string>
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="contributors_label"><![CDATA[
-            Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
-            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>. Bedankt voor alle bijdragen en andere ondersteuning!
+            Deze lijst bevat de namen van iedereen die aan een app binnen de Maxitendo suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
+            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:maxitendo01@proton.me>maxitendo01@proton.me</a>. Bedankt voor alle bijdragen en andere ondersteuning!
         ]]></string>
-    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
+    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
     <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
     <string name="translation_tamil">Tamil</string>
     <string name="format_phone_numbers">Telefoonnummers automatisch opmaken</string>
     <string name="little_to_no_fee">Weinig tot geen kosten</string>
     <string name="platforms">Platformen</string>
-    <string name="donate_to_fossify">Doneer aan Fossify</string>
+    <string name="donate_to_fossify">Doneer aan Maxitendo</string>
     <string name="cryptocurrency">Cryptocurrency</string>
     <string name="fee_up_to_pct">Kosten tot %1$d%%</string>
     <string name="translation_hindi">Hindi</string>
@@ -1042,7 +1042,7 @@
     <string name="gson_title">Gson (JSON-parser)</string>
     <string name="translation_belarusian">Wit-Russisch</string>
     <string name="translation_central_kurdish">Centraal Koerdisch</string>
-    <string name="all_fossify_apps">Alle Fossify apps</string>
+    <string name="all_fossify_apps">Alle Maxitendo apps</string>
     <string name="theme_and_colors">Thema en kleuren</string>
     <string name="known_issues">Bekende problemen</string>
     <string name="during_day_at">Overdag om %1$02d.%2$02du</string>

@@ -294,8 +294,8 @@
     <string name="undo_changes_confirmation">変更を元に戻してもよろしいですか？</string>
     <string name="cannot_be_undone">この操作は元に戻せません。</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
-    <string name="global_theme_success">現在のテーマがFossifyの全アプリに適用されました。今後テーマに変更を行った場合、変更は自動的に同期されます。</string>
-    <string name="purchase_thank_you">この機能のロックを解除して開発者をサポートするには、&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;アプリを購入してください。</string>
+    <string name="global_theme_success">現在のテーマがMaxitendoの全アプリに適用されました。今後テーマに変更を行った場合、変更は自動的に同期されます。</string>
+    <string name="purchase_thank_you">この機能のロックを解除して開発者をサポートするには、&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;アプリを購入してください。</string>
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
     <string name="auto_theme">自動</string>
@@ -736,7 +736,7 @@
     <string name="additional_info">追加情報</string>
     <string name="app_version">アプリバージョン: %s</string>
     <string name="device_os">デバイスOS: %s</string>
-    <string name="donate_please">こんにちは。&lt;br&gt;&lt;br&gt;アプリを楽しんでもらえているでしょうか。このアプリには広告は含まれていません。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;アプリを購入し、開発をサポートしてください。購入すれば、このダイアログが今後表示されることはありません。 &lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
+    <string name="donate_please">こんにちは。&lt;br&gt;&lt;br&gt;アプリを楽しんでもらえているでしょうか。このアプリには広告は含まれていません。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;アプリを購入し、開発をサポートしてください。購入すれば、このダイアログが今後表示されることはありません。 &lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
     <string name="purchase">購入</string>
     <string name="before_asking_question_read_faq">お問い合わせいただく前に、アプリの設定を確認し、よくある質問を見てください。答えが載っているかもしれません。</string>
     <string name="before_rate_read_faq">当社を評価していただく前に、アプリの設定を確認し、よくある質問を見てください。問題が発生しているなら、答えが見つかるかもしれません。</string>
@@ -795,7 +795,7 @@
     <string name="faq_7_title_commons">銀行口座から引き落としされていますが、アプリがダウンロードできません。どうしたらいいですか？</string>
     <string name="faq_7_text_commons">お支払いはGoogleが対応していますが、時にシステム上で不具合があるようです。Google Playのアプリキャッシュを削除し、デバイスを再起動してダウンロードしてみてください。</string>
     <string name="faq_8_title_commons">なぜPro版にアップグレードしたほうがいいのですか？</string>
-    <string name="faq_8_text_commons">あなたのアプリのバージョンは既にアップデートの対象ではないため、バグが発見されても修復は行われず、新機能も追加されません。Pro版はGoogle Playで少額で販売されています。支払いは1度のみで、購入後に追加の支払いを行う必要はありません。これは機種の変更を行った場合も同じです。購入後、数時間以内にアンインストールすれば自動的に返金されます。 それ以降に払い戻しが必要な場合は hello@fossify.org までご連絡ください。</string>
+    <string name="faq_8_text_commons">あなたのアプリのバージョンは既にアップデートの対象ではないため、バグが発見されても修復は行われず、新機能も追加されません。Pro版はGoogle Playで少額で販売されています。支払いは1度のみで、購入後に追加の支払いを行う必要はありません。これは機種の変更を行った場合も同じです。購入後、数時間以内にアンインストールすれば自動的に返金されます。 それ以降に払い戻しが必要な場合は maxitendo01@proton.me までご連絡ください。</string>
     <string name="faq_9_title_commons">一度に複数のアイテムを選択する方法はありますか？</string>
     <string name="faq_9_text_commons">いくつかの方法があります。1つ目は、アイテムを長押しして選択モードを開始し、他のアイテムを短くタップして選択する方法です。2つ目は、パソコンのマウスでアイテムを選択するのと同じように、アイテムを長押しして選択モードを開始し、そのまま指を他のアイテムにドラッグして選択する方法です。3つ目は、1つ目のアイテムを長押ししてから別のアイテムを長押しする方法で、間にある全てのアイテムが選択されます。全てのアイテムを選択したい場合は、アイテムを長押ししてから、左上にあるアイテムカウンターをタップしてください。アイテムカウンターで全て選択をしたり、解除したりできます。</string>
     <string name="faq_10_title_commons">アプリを購入しましたが、違うデバイスでダウンロードできません。</string>
@@ -886,7 +886,7 @@
         <item quantity="other">試用期間の残りは %d 日です。</item>
     </plurals>
     <string name="deprecated_app">非推奨: このバージョンのアプリはメンテナンスが行われなくなります。こちらのURLからPro版を入手してください。https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@fossify.org
+    <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。maxitendo01@proton.me
 お試ししやすいかと思います :)</string>
     <string name="developer_description">広告や不要な権限がなく、カスタマイズ可能なウィジェットを備えたシンプルな複数のオープンソースAndroidアプリ。</string>
     <string name="ok">OK</string>
@@ -895,7 +895,7 @@
     <string name="translation_danish">デンマーク語</string>
     <string name="translation_english">英語</string>
     <string name="unblock_contact_success">連絡先のブロックを解除しました</string>
-    <string name="apply_to_all_apps">色を全てのFossifyアプリに適用</string>
+    <string name="apply_to_all_apps">色を全てのMaxitendoアプリに適用</string>
     <string name="add_password">パスワードを追加</string>
     <string name="translation_bengali">ベンガル語</string>
     <string name="translation_german">ドイツ語</string>
@@ -924,8 +924,8 @@
     <string name="theme_and_colors">テーマと色</string>
     <string name="skip_the_recycle_bin">ごみ箱に入れずに直接ファイルを削除</string>
     <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
-    <string name="all_fossify_apps">Fossifyの全アプリ</string>
+\nCopyright © Maxitendo %2$d</string>
+    <string name="all_fossify_apps">Maxitendoの全アプリ</string>
     <string name="thank_you_short">ありがとうございます</string>
     <string name="cryptocurrency">暗号通貨</string>
     <string name="translation_belarusian">ベラルーシ語</string>
@@ -999,7 +999,7 @@
     <string name="format_phone_numbers">電話番号の形式</string>
     <string name="hello">こんにちは</string>
     <string name="about_footer">スロバキアより❤️を込めて</string>
-    <string name="donate_to_fossify">Fossifyに寄付</string>
+    <string name="donate_to_fossify">Maxitendoに寄付</string>
     <string name="platforms">プラットフォーム</string>
     <string name="translation_czech">チェコ語</string>
     <string name="translation_hindi">ヒンディー語</string>
@@ -1008,11 +1008,11 @@
     <string name="translation_turkish">トルコ語</string>
     <string name="translation_chinese_hk">中国語（香港）</string>
     <string name="purchase_simple_thank_you">Simple Thank Youを購入</string>
-    <string name="shared_theme_note">なお、Proアプリのバージョンを使用している場合でも、技術上の理由でFossify Thank Youは必要となります。このアプリは色の同期を実行します。</string>
+    <string name="shared_theme_note">なお、Proアプリのバージョンを使用している場合でも、技術上の理由でMaxitendo Thank Youは必要となります。このアプリは色の同期を実行します。</string>
     <string name="translation_lithuanian">リトアニア語</string>
     <string name="translation_nepali">ネパール語</string>
     <string name="why_upgrade_many_other_improvements">その他多くの改善</string>
-    <string name="faq_2_text_commons">はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。翻訳のガイドは&lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;このウェブサイト&lt;/a&gt;にあります。質問があれば、&lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;までご連絡ください。</string>
+    <string name="faq_2_text_commons">はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。翻訳のガイドは&lt;a href=https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;このウェブサイト&lt;/a&gt;にあります。質問があれば、&lt;a href=mailto:maxitendo01@proton.me&gt;maxitendo01@proton.me&lt;/a&gt;までご連絡ください。</string>
     <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。
 \n
 \n%Y - 年
@@ -1026,7 +1026,7 @@
 \n無料版からアップグレードされたようですね。データやお気に入りの移行が完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。アンインストールしたら、このダイアログは表示されなくなります。
 \n
 \nありがとうございます！</string>
-    <string name="features_locked">この機能はロックされています。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;の購入でロックを解除できます。&lt;br&gt;&lt;br&gt;これは1回きりの支払いで、もし満足できなかった場合は、返金にも対応します。</string>
+    <string name="features_locked">この機能はロックされています。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;の購入でロックを解除できます。&lt;br&gt;&lt;br&gt;これは1回きりの支払いで、もし満足できなかった場合は、返金にも対応します。</string>
     <string name="faq_6_text_commons">この問題は、使用しているランチャーがアイコンのカスタマイズを完全にサポートしていない場合に生じます。Google Play、または、利用可能な場合はウィジェットからアプリを起動してみてください。開始したら、既定の緑のアイコンの色 #106D1F を復元してください。ごくまれに、アプリの再インストールが必要になる場合があります。</string>
     <string name="too_many_incorrect_attempts">間違ったロック解除の試行回数が多すぎます。
 \n%d秒後に再度試してください。</string>
@@ -1036,9 +1036,9 @@
 \n
 \nありがとうございます！</string>
     <string name="version_placeholder">バージョン %s</string>
-    <string name="donate_new">こんにちは。&lt;br&gt;&lt;br&gt;アプリの使い勝手はいかがでしょうか。アプリには広告は含まれておらず、ユーザーのデータの収集も行っていません。よろしければ&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して、アプリの開発を支援してください。アプリには、全アプリで色のカスタマイズを有効にするなどの機能もあります。&lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
-    <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して私たちを援助してください。アプリには、全アプリで色をカスタマイズするなどの機能もあります。</string>
-    <string name="update_thank_you">Fossify Thank Youを最新バージョンに更新してください</string>
+    <string name="donate_new">こんにちは。&lt;br&gt;&lt;br&gt;アプリの使い勝手はいかがでしょうか。アプリには広告は含まれておらず、ユーザーのデータの収集も行っていません。よろしければ&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;を購入して、アプリの開発を支援してください。アプリには、全アプリで色のカスタマイズを有効にするなどの機能もあります。&lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
+    <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;を購入して私たちを援助してください。アプリには、全アプリで色をカスタマイズするなどの機能もあります。</string>
+    <string name="update_thank_you">Maxitendo Thank Youを最新バージョンに更新してください</string>
     <string name="little_to_no_fee">ゼロまたはわずか</string>
     <string name="fee_up_to_pct">最大%1$d%%</string>
 </resources>

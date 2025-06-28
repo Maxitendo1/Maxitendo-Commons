@@ -170,13 +170,13 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Evet, tabi ki. Uygulamalar hakkında tanıtım yapabilir veya iyi geribildirim ve derecelendirmeler verebilirsiniz.
-        Kılavuzu https://github.com/Maxitendo/Discussion adresinde bulabilir, veya yardıma ihtiyacınız varsa bana github.com/Maxitendo@gmail.com adresinden bir mesaj gönderebilirsiniz.
+        Kılavuzu https://github.com/Maxitendo/Discussion adresinde bulabilir, veya yardıma ihtiyacınız varsa bana maxitendo01@proton.me adresinden bir mesaj gönderebilirsiniz.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Bu sorun, başlatıcınız simge özelleştirmesini tam olarak desteklemediğinde ortaya çıkar. Uygulamayı Google Play veya erişilebilir bir widget üzerinden başlatmayı deneyin.         Başlattıktan sonra, varsayılan uygulama simgesi rengini geri yükleyin. Aşırı durumlarda, uygulamayı yeniden yüklemek gerekebilir.</string>
     <string name="faq_8_text_commons_g">Uygulama sürümünüz artık güncellenmediğinden, tespit ettiğiniz hatalar asla düzeltilmeyecektir. Ayrıca yeni işlevler eklenmeyecektir. Pro sürümünü Google Play\'den az miktarda para karşılığında satın alabilirsiniz.
         Bir kerelik ödeme, yani bir kez satın aldığınızda, bir daha asla ödeme yapmanız gerekmeyeceği anlamına gelir. Yeni bir cihaz aldıktan sonra bile. Pro sürümünü beğenmediyseniz, birkaç saat içinde kaldırabilirsiniz ve paranızı otomatik olarak geri alırsınız.
-        Daha sonra istediğiniz zaman geri ödeme almak isterseniz, github.com/Maxitendo@gmail.com adresinden bizimle iletişime geçmeniz yeterlidir.</string>
+        Daha sonra istediğiniz zaman geri ödeme almak isterseniz, maxitendo01@proton.me adresinden bizimle iletişime geçmeniz yeterlidir.</string>
     <string name="faq_100_title_commons_g">Özel Kişi-Kişiler nedir?</string>
     <string name="faq_100_text_commons_g">Özel Kişi-Kişiler uygulama içinde oluşturulur. Bu Kişi-Kişiler diğer uygulamalara gözükmeyecektir.
         Eğer uygulamayı silerseniz özel Kişi-Kişiler de uygulamayla birlikte silinecektir, bu yüzden uygulamayı silmeden önce lütfen kişilerinizi yedekleyiniz.</string>
@@ -185,12 +185,12 @@
     <string name="contributors_label_g">
         <![CDATA[
            Bu liste, sadece bu uygulamaya değil, Maxitendo paketi içindeki herhangi bir uygulamaya belirgin bir şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılmaktadır,
-            siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/Maxitendo/Discussion">this website</a> sitesindedir. Herhangi bir sorunuz olursa <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> adresinden ulaşabilirsiniz (ingilizce)
+            siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/Maxitendo/Discussion">this website</a> sitesindedir. Herhangi bir sorunuz olursa <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> adresinden ulaşabilirsiniz (ingilizce)
             Tüm destekçi ve katılımcılara teşekkürler!
         ]]>
     </string>
     <string name="deprecated_app_g">Kullanımdan kaldırıldı: Uygulamanın bu sürümü artık sağlanmıyor, Pro sürümünü şuradan indirin: https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro (Eski link düzeltilmeli) </string>
-    <string name="pro_app_refund_g">Ücretli herhangi bir uygulamayı 2 saat içinde kaldırırsanız, otomatik olarak iade edileceğini unutmayın. İstediğiniz zaman geri ödeme almak isterseniz, github.com/Maxitendo@gmail.com adresinden bizimle iletişime geçmeniz yeterli olacaktır. Bu denemeyi kolaylaştırır :)</string>
+    <string name="pro_app_refund_g">Ücretli herhangi bir uygulamayı 2 saat içinde kaldırırsanız, otomatik olarak iade edileceğini unutmayın. İstediğiniz zaman geri ödeme almak isterseniz, maxitendo01@proton.me adresinden bizimle iletişime geçmeniz yeterli olacaktır. Bu denemeyi kolaylaştırır :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Numara ekle</string>
@@ -322,21 +322,3 @@
     <string name="relation_brother_in_law_g">Kayınbirader</string>
     <string name="relation_sister_in_law_g">Baldız</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Hata</string>
-    <string name="billing_purchase_confirm_in_progress">Satın alım onaylanıyor…</string>
-    <string name="billing_purchase_delete_in_progress">Satın alım siliniyor…</string>
-    <string name="billing_product_confirmed">Ürün onaylandı/tasdik edildi</string>
-    <string name="billing_product_deleted">Satın alım iptal edildi</string>
-    <string name="billing_subscriptions">Abonelikler</string>
-    <string name="billing_change_to_google_play">Google Play ile değiştir</string>
-    <string name="billing_change_to_ru_store">RuStore ile değiştir</string>
-    <string name="date">Tarih</string>
-    <string name="starts">Başlar</string>
-    <string name="ends">Biter</string>
-    <string name="time_zone">Zaman dilimi</string>
-    <string name="event_type">Olay türü</string>
-    <string name="availability">Kullanılabilirlik</string>
-    <string name="attendees">Katılımcı</string>
-    <string name="typeface">Yazı tipi</string>
-</resources>

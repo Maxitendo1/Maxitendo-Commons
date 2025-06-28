@@ -300,7 +300,7 @@
     <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
+            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
         ]]>
     </string>
     <string name="light_theme">Светла</string>
@@ -780,7 +780,7 @@
     <string name="donate_please">
         <![CDATA[
             Поздрав,<br><br>
-            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
+            надамо се да уживате у апликацији. Она не садржи огласе, молимо вас да подржите њен развој куповином <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> апликације, то ће такође спречити овај дијалог од поновног појављивања.<br><br>
             Хвала вам!
         ]]>
     </string>
@@ -930,6 +930,6 @@
     <string name="android_lame_title">АндроидЛаме (мп3 кодер)</string>
     <string name="zip4j_title">Zip4j (ЗИП компресија и декомпресија)</string>
     <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.ккк.про</string>
-    <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@fossify.org и добићете га. То олакшава испробавање :)</string>
+    <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на maxitendo01@proton.me и добићете га. То олакшава испробавање :)</string>
     <string name="developer_description">Група једноставних Андроид апликација отвореног кода са прилагодљивим виџетима, без огласа и непотребних дозвола.</string>
 </resources>

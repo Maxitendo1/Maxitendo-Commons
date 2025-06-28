@@ -416,7 +416,7 @@
     <string name="remove_exif_confirmation">Ĉu vi vere volas forigi la EXIF-datumojn kiel la GPS-koordinatoj, kameramodelo ktp.?</string>
     <string name="exif_removed">EXIF-datumoj sukcese forigitaj</string>
     <string name="change_color">Ŝanĝi koloron</string>
-    <string name="shared_theme_note">Rimarku ke kvankam vi uzas la version Pro de la aplikaĵo, vi bezonas Fossify Dankon pro teknikaj kialoj. Ĝi ebligas la sinkronigadon de koloroj.</string>
+    <string name="shared_theme_note">Rimarku ke kvankam vi uzas la version Pro de la aplikaĵo, vi bezonas Maxitendo Dankon pro teknikaj kialoj. Ĝi ebligas la sinkronigadon de koloroj.</string>
     <string name="restore_defaults">Restaŭri defaŭltojn</string>
     <string name="custom">Laŭmenda</string>
     <string name="system_default">Sistema defaŭlto</string>
@@ -434,7 +434,7 @@
     <string name="cannot_be_undone">Oni ne povas malfari tiun ĉi akcion.</string>
     <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>
     <string name="purchase_thank_you"><![CDATA[
-            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por malbloki ĉi tiun funkcion kaj subteni la programadon. Dankon!
+            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Dankon</a> por malbloki ĉi tiun funkcion kaj subteni la programadon. Dankon!
         ]]></string>
     <string name="light_theme">Hela</string>
     <string name="dark_theme">Malhela</string>
@@ -447,9 +447,9 @@
     <string name="shared">Komuna</string>
     <string name="whats_new">Novaĵoj</string>
     <string name="whats_new_disclaimer">* nur la plej grandaj ĝisdatigoj aperas ĉi tie, sed ĉiam ankaŭ estas malpli grandaj plibonigoj</string>
-    <string name="global_theme_success">La aktuala etoso estis sukcese aplikata al ĉiuj aplikaĵoj de Fossify. De nun, ŝanĝoj al tiu ĉi etoso estos aŭtomate sinkronigitaj.</string>
+    <string name="global_theme_success">La aktuala etoso estis sukcese aplikata al ĉiuj aplikaĵoj de Maxitendo. De nun, ŝanĝoj al tiu ĉi etoso estos aŭtomate sinkronigitaj.</string>
     <string name="app_icon_color_warning">Atentu: Kelkaj lanĉiloj eble ne traktos ĝuste la tajloradon de aplikaĵaj bildsimboloj. Se la bildsimbolo malaperas, provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
-    <string name="apply_to_all_apps">Apliki kolorojn al ĉiuj aplikaĵoj de Fossify</string>
+    <string name="apply_to_all_apps">Apliki kolorojn al ĉiuj aplikaĵoj de Maxitendo</string>
     <string name="faq_6_text_commons">Tiu ĉi problemo aperas kiam via lanĉilo ne tute subtenas la tajloradon de bildsimboloj. Provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
     <string name="maximum_share_reached">Ne eblas kunhavigi tiom ĉi da enhavo samtempe</string>
     <string name="send_email">Sendi retmesaĝon</string>
@@ -701,7 +701,7 @@
     <string name="notification_sound">Sciigosono</string>
     <string name="customize_colors">Tajlori kolorojn</string>
     <string name="during_day_at">Dum la tago je %1$02d:%2$02d</string>
-    <string name="purchase_simple_thank_you">Aĉeti Fossify Dankon</string>
+    <string name="purchase_simple_thank_you">Aĉeti Maxitendo Dankon</string>
     <string name="no_reminder">Neniu memorigilo</string>
     <string name="alarm_warning">Bonvolu certigi, ke la alarmo ĝuste funkcias antaŭ dependi de ĝi. Ĝi povus misfunkcii pro sistemaj limigoj ligitaj al la konservado de la baterio.</string>
     <string name="alarm">Alarmo</string>
@@ -874,11 +874,11 @@
     <string name="more_apps_from_us">Pli da aplikaĵoj niaj</string>
     <string name="rate_us">Taksu nin</string>
     <string name="rate">Taksi</string>
-    <string name="copyright">v %1$s\nKopirajto © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nKopirajto © Maxitendo %2$d</string>
     <string name="social">Sociaj retejoj</string>
     <string name="privacy_policy">Privateca politiko</string>
-    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
-    <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
+    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
+    <string name="update_thank_you">Bonvolu ĝisdatigi Maxitendo Dankon al la plej nova versio</string>
     <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
     <string name="before_rate_read_faq">Antaŭ taksi nin, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. Se vi havas iun problemon, la solvo eble estos tie.</string>
     <string name="make_sure_upgrade">Rimarku ankaŭ, ke tiu ĉi versio de la aplikaĵo ne plu estas ĝisdatigita. Uzu la version Pro por multe da plibonigoj.</string>
@@ -886,16 +886,16 @@
     <string name="website_label">Por fontkodo, iru al</string>
     <string name="donate_please"><![CDATA[
             Saluton,<br><br>
-            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
+            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
             Dankon!
         ]]></string>
-    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
+    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
     <string name="known_issues">Konataj problemoj</string>
     <string name="keyboard_short">Klavaro</string>
     <string name="rate_our_app">Bonvolu taksi nian aplikaĵon :)</string>
     <string name="thank_you">Dankon</string>
     <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>
-    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
+    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
     <string name="new_app"><![CDATA[
             He,<br><br>
             Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>
@@ -914,8 +914,8 @@
     <string name="sideloaded_app"><![CDATA[
             Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href="%s">ĉi tie</a>.
         ]]></string>
-    <string name="donate_to_fossify">Donaci al Fossify</string>
-    <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
+    <string name="donate_to_fossify">Donaci al Maxitendo</string>
+    <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Maxitendo</string>
     <string name="voice_recorder_short">Sonregistrilo</string>
     <string name="rate_us_prompt">Saluton,\n\nŜajnas, ke vi jam sufiĉe longe uzas tiun ĉi aplikaĵon, kaj ni vere tion aprezas.\n\nSe ni rajtas peti ion de vi, bonvolu taksi nin je Google Play. Tio vere multe helpus nin.\n\nEĉ se vi ne tion faras, vi ne vidos tiun ĉi mesaĝon denove.\n\nDankon!</string>
     <string name="before_asking_question">Antaŭ fari demandon, bonvolu legi la</string>
@@ -928,7 +928,7 @@
     <string name="cryptocurrency">Ĉifrovaluto</string>
     <string name="faq_2_text_commons"><![CDATA[
             Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
-            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+            La tradukada gvido troviĝas <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> se vi havas demandojn.
         ]]></string>
     <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
     <string name="faq_8_title_commons">Kial mi devus promociiĝi al la versio Pro?</string>
@@ -941,7 +941,7 @@
     <string name="faq_7_title_commons">La mono estis prenita el mi bankokonto, sed mi ne povas elŝuti la aplikaĵon. Kion povas mi fari?</string>
     <string name="faq_7_text_commons">Pagoj estas tute traktitaj pro Google, kies sistemo fojfoje misfunkcias. Simple viŝu la aplikaĵan kaŝon de Google Play, restartigu vian aparaton, kaj provu elŝuti ĝin denove.</string>
     <string name="faq_5_text_commons">Se vi vere forigis ilin, tio ne eblas. Tamen, estas rubujo kiu defaŭlte esta ŝaltita kaj igas, ke dosieroj moviĝu al la rubujo anstataŭ esti forigitaj.</string>
-    <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je hello@fossify.org kaj vi ricevos ĝin.</string>
+    <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je maxitendo01@proton.me kaj vi ricevos ĝin.</string>
     <string name="translation_bulgarian">Bulgara</string>
     <string name="why_upgrade_batch_renaming">Altnivela renomado de multaj dosieroj</string>
     <string name="why_upgrade_printing_support">Subteno de presado</string>
@@ -977,8 +977,8 @@
     <string name="translation_kabyle">Kabila</string>
     <string name="translation">Tradukado</string>
     <string name="contributors_label"><![CDATA[
-            Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
-            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+            Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Maxitendo, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
+            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> se vi havas demandojn.
             Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!
         ]]></string>
     <string name="m3u_parser_title">M3U Parser (traktado de dosieroj de m3u-ludlistoj)</string>
@@ -1031,7 +1031,7 @@
     <string name="apng_title">APNG Android (subteno de WebP-aj movbildoj)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF-legilo)</string>
     <string name="zip4j_title">Zip4j (densigado kaj maldensigado de ZIP-dosieroj)</string>
-    <string name="pro_app_refund">Ne forgesu, ke se vi malinstalas iun ajn pagan aplikaĵon ene de du horoj, vi estos aŭtomate repagita. Se vi volas repagon post tiam, simple kontaktu nin je hello@fossify.org, kaj vi ricevos repagon. Tiel, facilas provi ĝin :)</string>
+    <string name="pro_app_refund">Ne forgesu, ke se vi malinstalas iun ajn pagan aplikaĵon ene de du horoj, vi estos aŭtomate repagita. Se vi volas repagon post tiam, simple kontaktu nin je maxitendo01@proton.me, kaj vi ricevos repagon. Tiel, facilas provi ĝin :)</string>
     <string name="developer_description">Aro de simplaj, malfermitkodaj aplikaĵoj de Android kun tajloreblaj fenestraĵoj, sen reklamoj nek nenecesaj permesoj.</string>
     <string name="why_upgrade_zooming">Zomado</string>
     <string name="start_free_trial">Komenci senpagan provon</string>

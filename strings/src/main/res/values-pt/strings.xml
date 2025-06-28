@@ -170,7 +170,7 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
             Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at https://github.com/Maxitendo/Discussion , or just shoot me a message at github.com/Maxitendo@gmail.com if you need help.
+        You can find the guide at https://github.com/Maxitendo/Discussion , or just shoot me a message at maxitendo01@proton.me if you need help.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Este problema surge quando o seu iniciador não suporta totalmente a personalização de ícones. Tente iniciar a aplicação através do Google Play ou de um widget, se acessível.</string>
@@ -185,12 +185,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Maxitendo suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
     <string name="deprecated_app_g">AVISO: Esta versão da aplicação já não está em desenvolvimento. Pode obter a versão Pro em https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">Não se esqueça de desinstalar qualquer aplicação paga no prazo de 2 horas para ser reembolsado automaticamente. Para ser reembolsado posteriormente, contacte-nos para github.com/Maxitendo@gmail.com. Assim é mais fácil testar :)</string>
+    <string name="pro_app_refund_g">Não se esqueça de desinstalar qualquer aplicação paga no prazo de 2 horas para ser reembolsado automaticamente. Para ser reembolsado posteriormente, contacte-nos para maxitendo01@proton.me. Assim é mais fácil testar :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Adicionar número</string>
@@ -322,21 +322,3 @@
     <string name="relation_brother_in_law_g">Brother-in-law</string>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="date">Data</string>
-    <string name="starts">Começa</string>
-    <string name="ends">Finais</string>
-    <string name="time_zone">Fuso horário</string>
-    <string name="event_type">Tipo de evento</string>
-    <string name="availability">Disponibilidade</string>
-    <string name="attendees">Participantes</string>
-    <string name="typeface">Tipo de letra</string>
-</resources>

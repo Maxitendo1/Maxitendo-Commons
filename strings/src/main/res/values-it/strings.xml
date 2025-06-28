@@ -160,13 +160,13 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Sì, certo. Si può spargere la voce riguardo le app o dare feedback e voti positivi. Si può anche aiutare a tradurre le app in una nuova lingua, o aggiornare le traduzioni esistenti.
-        Si può trovare la guida su https://github.com/Maxitendo/Discussion , o scrivimi un messaggio a github.com/Maxitendo@gmail.com se ti serve aiuto.
+        Si può trovare la guida su https://github.com/Maxitendo/Discussion , o scrivimi un messaggio a maxitendo01@proton.me se ti serve aiuto.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Questo problema si verifica quando il programma di avvio non supporta completamente la personalizzazione delle icone. Prova ad avviare l\'app tramite Google Play o un widget, se accessibile.         Dopo l\'avvio, ripristina il colore predefinito dell\'icona dell\'app. In casi estremi, potrebbe essere necessario reinstallare l\'app.</string>
     <string name="faq_8_text_commons_g">Dato che la tua versione non verrà più aggiornata, gli errori che potresti trovare non verranno mai corretti. Non ci saranno inoltre nuove funzioni aggiuntive. Puoi acquistare la versione Pro su Google Play per una piccola cifra.
         Si paga una sola volta, ciò significa che quando la acquisti non dovrai mai più pagare. Neanche quando userai un nuovo dispositivo. Se non ti piacerà la versione Pro, ti basta disinstallarla entro alcune ore e otterrai automaticamente un rimborso.
-        Se vuoi chiedere un rimborso in un momento successivo, contattaci su github.com/Maxitendo@gmail.com e lo otterrai.</string>
+        Se vuoi chiedere un rimborso in un momento successivo, contattaci su maxitendo01@proton.me e lo otterrai.</string>
     <string name="faq_100_title_commons_g">What is a private contact?</string>
     <string name="faq_100_text_commons_g">A private contact is created within an application. This contact will not be visible to other applications.
         If you uninstall the app, all private contacts will be deleted along with the app, so back up your contacts before uninstalling the app.</string>
@@ -175,12 +175,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Maxitendo suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
     <string name="deprecated_app_g">DEPRECATA: Questa versione dell\'app non è più supportata, ottieni la versione Pro a https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">Non dimenticarti che se disinstalli qualsiasi app a pagamento entro le due ore dall\'acquisto, verrai automaticamente rimborsato. Se vuoi essere rimborsato quando vuoi dopo le due ore, puoi contattarci a github.com/Maxitendo@gmail.com. In questo modo puoi facilmente provare l\'app :)</string>
+    <string name="pro_app_refund_g">Non dimenticarti che se disinstalli qualsiasi app a pagamento entro le due ore dall\'acquisto, verrai automaticamente rimborsato. Se vuoi essere rimborsato quando vuoi dopo le due ore, puoi contattarci a maxitendo01@proton.me. In questo modo puoi facilmente provare l\'app :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Aggiungi numero</string>
@@ -312,21 +312,3 @@
     <string name="relation_brother_in_law_g">Brother-in-law</string>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="date">Dattero</string>
-    <string name="starts">Inizia</string>
-    <string name="ends">Finisce</string>
-    <string name="time_zone">Fuso orario</string>
-    <string name="event_type">Tipo di evento</string>
-    <string name="availability">Disponibilità</string>
-    <string name="attendees">Partecipanti</string>
-    <string name="typeface">Carattere tipografico</string>
-</resources>

@@ -334,12 +334,12 @@
     <string name="undo_changes_confirmation">您确定要撤销更改吗？</string>
     <string name="cannot_be_undone">此操作无法撤销。</string>
     <string name="save_before_closing">您尚未保存更改，是否保存？</string>
-    <string name="apply_to_all_apps">应用颜色设置到所有 Fossify 应用</string>
+    <string name="apply_to_all_apps">应用颜色设置到所有 Maxitendo 应用</string>
     <string name="app_icon_color_warning">注意：某些启动器无法正确处理自定义的应用图标。如图标消失，请尝试通过 Google Play 商店或者微件启动对应的应用。启动后请还原为默认的绿色图标色 #106D1F。在某些情形下你可能要重新安装应用。</string>
     <string name="global_theme_success">颜色已成功更新。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
-    <string name="shared_theme_note">请注意：即便你使用的是专业版的应用，你仍要需要通过 Fossify Thank You 应用来同步颜色。</string>
+    <string name="shared_theme_note">请注意：即便你使用的是专业版的应用，你仍要需要通过 Maxitendo Thank You 应用来同步颜色。</string>
     <string name="purchase_thank_you"><![CDATA[
-            请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 解锁此功能并支持开发。谢谢！
+            请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> 解锁此功能并支持开发。谢谢！
         ]]></string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
@@ -580,7 +580,7 @@
     <string name="during_day_at_hh_mm">日间 hh:mm</string>
     <string name="during_day_at">日间 %1$02d:%2$02d</string>
     <string name="settings">设置</string>
-    <string name="purchase_simple_thank_you">购买 Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">购买 Maxitendo Thank You</string>
     <string name="general_settings">常规</string>
     <string name="color_customization">颜色自定义</string>
     <string name="improved_color_customization">改进的颜色自定义</string>
@@ -797,7 +797,7 @@
     <string name="donate">捐款</string>
     <string name="follow_us">关注我们</string>
     <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+\nCopyright © Maxitendo %2$d</string>
     <string name="support">支持</string>
     <string name="help_us">帮助我们</string>
     <string name="social">社交网络</string>
@@ -811,13 +811,13 @@
     <string name="device_os">设备系统：%s</string>
     <string name="donate_please"><![CDATA[
             你好，<br><br>
-            希望您喜欢本应用。它不包含广告，请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 应用支持开发，安装该应用后不会再显示此对话框。<br><br>
+            希望您喜欢本应用。它不包含广告，请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> 应用支持开发，安装该应用后不会再显示此对话框。<br><br>
             谢谢！
         ]]></string>
-    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢本应用。本应用不包含广告，也不会收集您的数据。如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。&lt;br&gt;&lt;br&gt;非常感谢！</string>
-    <string name="donate_short">如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。</string>
+    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢本应用。本应用不包含广告，也不会收集您的数据。如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。&lt;br&gt;&lt;br&gt;非常感谢！</string>
+    <string name="donate_short">如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。</string>
     <string name="purchase">购买</string>
-    <string name="update_thank_you">请更新 Fossify Thank You 到最新版本</string>
+    <string name="update_thank_you">请更新 Maxitendo Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">在提问之前，请先打开应用的设置并阅读常见问题。也许您可以在那里找到答案。</string>
     <string name="before_rate_read_faq">在评分之前，请先打开应用的设置并阅读常见问题。如果您在使用中遇到了问题，也许您可以在那里找到答案。</string>
     <string name="make_sure_latest">另外，请确保您正在使用的是最新版本的应用。</string>
@@ -836,7 +836,7 @@
     <string name="rate_our_app">请为本应用评分 :)</string>
     <string name="thank_you">非常感谢</string>
     <string name="widget_locked_pro">微件已被锁定。\n请升级到专业版解锁。</string>
-    <string name="features_locked">此功能已被锁定，请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用以获取全部功能。&lt;br&gt;&lt;br&gt;购买是一次性的。如果您不满意，我们可以为您退款。</string>
+    <string name="features_locked">此功能已被锁定，请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; 应用以获取全部功能。&lt;br&gt;&lt;br&gt;购买是一次性的。如果您不满意，我们可以为您退款。</string>
     <string name="new_app"><![CDATA[
             嘿，<br><br>
             最近发布了一些新应用：<br><br>
@@ -874,7 +874,7 @@
     <string name="faq_2_title_commons">我想支持你们的工作，但我无法捐款。还有什么是我能够做的吗？</string>
     <string name="faq_2_text_commons"><![CDATA[
             是的，当然了。您可以向其他人介绍这些应用或者给予良好反馈和评价。您也可以帮忙将应用翻译成新的语言，或是更新一些现有的翻译。
-            翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
+            翻译指南位于 <a href="https://github.com/Maxitendo/Discussion">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a>联系我们。
         ]]></string>
     <string name="faq_3_title_commons">我误删了文件。我应该如何恢复它们？</string>
     <string name="faq_3_text_commons">非常不幸，您已经无法恢复它们了。如果您在删除确认对话框中确认了删除操作，那么文件就会立即被彻底删除。因为它们没有经过回收站删除，因此也就无法通过回收站还原。</string>
@@ -887,7 +887,7 @@
     <string name="faq_7_title_commons">我已付费，但我无法下载这个应用，我该怎么办？</string>
     <string name="faq_7_text_commons">我们的付款是由 Google 处理的，他们的系统偶尔会发生故障。您可以在清除 Google Play 的应用缓存之后，重新启动设备并再次尝试下载。</string>
     <string name="faq_8_title_commons">为什么我需要升级到专业版？</string>
-    <string name="faq_8_text_commons">由于本应用的免费版不再更新，您在使用中遇到的问题可能永远也不会得到改善，也不会得到新的功能。您可以在 Google Play 商店支付少许费用购买专业版。此购买是一次性的，以后不会再产生其他费用，即使是在新设备上使用也一样。如果您不满意专业版，可以在购买后的数小时内卸载，我们将自动为您退款。如果您在超过自动退款期限后仍然希望退款，请通过 hello@fossify.org 联系我们为您办理。</string>
+    <string name="faq_8_text_commons">由于本应用的免费版不再更新，您在使用中遇到的问题可能永远也不会得到改善，也不会得到新的功能。您可以在 Google Play 商店支付少许费用购买专业版。此购买是一次性的，以后不会再产生其他费用，即使是在新设备上使用也一样。如果您不满意专业版，可以在购买后的数小时内卸载，我们将自动为您退款。如果您在超过自动退款期限后仍然希望退款，请通过 maxitendo01@proton.me 联系我们为您办理。</string>
     <string name="faq_9_title_commons">我如何同时选中多个项目?</string>
     <string name="faq_9_text_commons">您可以通过多种方式同时选中多个项目。第一种方式是长按一个项目进入选择模式，然后点击其他项目即可选择它们。第二种方式类似于在电脑上使用鼠标选择项目， 长按一个项目进入选择模式并且不要松手，然后将手指向拖动到其他项目上面即可选择它们。第三种方式是先长按一个项目，然后再长按另一个项目，即可选择它们和位于两者之间的所有项目。如果您想要选择所有项目，先长按一个项目，然后点击位于视图左上角的项目计数器，即可选择或者取消选择所有项目。</string>
     <string name="faq_10_title_commons">我已经购买了这个应用，但我无法在其他设备下载它。</string>
@@ -897,8 +897,8 @@
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
     <string name="contributors_label"><![CDATA[
-            此列表包含了每一个显著帮助了 Fossify 套件内任何应用的人，而不仅是这个应用。翻译由志愿者处理，
-            如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
+            此列表包含了每一个显著帮助了 Maxitendo 套件内任何应用的人，而不仅是这个应用。翻译由志愿者处理，
+            如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a>联系我们。
             感谢所有贡献者和其他支持者！
         ]]></string>
     <string name="why_upgrade">立即获取专业版！</string>
@@ -986,7 +986,7 @@
         <item quantity="other">试用期将在 %d 天后结束。</item>
     </plurals>
     <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">别忘了：如果您在付款 2 小时以内卸载了任意一款付费应用，系统将自动为您退款。如果您想在超过 2 小时之后退款，请通过 hello@fossify.org 联系我们为您办理。请放心试用 :)</string>
+    <string name="pro_app_refund">别忘了：如果您在付款 2 小时以内卸载了任意一款付费应用，系统将自动为您退款。如果您想在超过 2 小时之后退款，请通过 maxitendo01@proton.me 联系我们为您办理。请放心试用 :)</string>
     <string name="developer_description">一系列简洁、开源的安卓应用，带有自定义微件，不含广告，不要求非必要的权限。</string>
     <string name="translation_welsh">威尔士语</string>
     <string name="translation_english">英语</string>
@@ -1060,11 +1060,11 @@
     <string name="translation_gujarati">古吉拉特语</string>
     <string name="format_phone_numbers">调整电话号码格式</string>
     <string name="platforms">平台</string>
-    <string name="donate_to_fossify">向 Fossify 捐赠</string>
+    <string name="donate_to_fossify">向 Maxitendo 捐赠</string>
     <string name="cryptocurrency">加密货币</string>
     <string name="translation_belarusian">白俄罗斯语</string>
     <string name="translation_central_kurdish">中库尔德语</string>
-    <string name="all_fossify_apps">全部 Fossify 应用</string>
+    <string name="all_fossify_apps">全部 Maxitendo 应用</string>
     <string name="theme_and_colors">主题和颜色</string>
     <string name="known_issues">已知问题</string>
     <string name="translation_kabyle">卡比尔语</string>

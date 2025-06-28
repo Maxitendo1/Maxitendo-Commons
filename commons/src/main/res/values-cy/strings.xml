@@ -217,7 +217,7 @@
     <string name="global_theme_success">Diweddarwyd y lliwiau yn llwyddiannus. Mae thema newydd o\'r enw \'Rhennir\' wedi ei ychwanegu. Defnyddia honno i ddiweddaru lliwiau pob ap yn y dyfodol.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Pryna <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> i ddatgloi’r nodwedd hon a chefnogi datblygiad, os gweli’n dda. Diolch!
+            Pryna <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a> i ddatgloi’r nodwedd hon a chefnogi datblygiad, os gweli’n dda. Diolch!
         ]]>
     </string>
     <string name="light_theme">Golau</string>
@@ -681,7 +681,7 @@
     <string name="donate_please">
         <![CDATA[
             S\'mae<br><br>
-            Gobeithio dy fod yn mwynhau\'r ap. Nid yw\'n cynnwys unrhyw hysbysebion, felly a fyddi di mor garedig â chefnogi ei ddatblygiad gan brynu ap <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Mi fydd hefyd yn stopio\'r neges hon ymddangos eto.<br><br>
+            Gobeithio dy fod yn mwynhau\'r ap. Nid yw\'n cynnwys unrhyw hysbysebion, felly a fyddi di mor garedig â chefnogi ei ddatblygiad gan brynu ap <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a>. Mi fydd hefyd yn stopio\'r neges hon ymddangos eto.<br><br>
             Diolch!
         ]]>
     </string>

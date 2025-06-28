@@ -330,12 +330,12 @@
     <string name="undo_changes_confirmation">Sicuro di annullare le modifiche?</string>
     <string name="cannot_be_undone">Questa azione non può essere annullata.</string>
     <string name="save_before_closing">Ci sono modifiche non salvate. Salvare prima di uscire?</string>
-    <string name="apply_to_all_apps">Applica i colori a tutte le app di Fossify</string>
+    <string name="apply_to_all_apps">Applica i colori a tutte le app di Maxitendo</string>
     <string name="app_icon_color_warning">Attenzione: alcuni launcher potrebbero non gestire correttamente la personalizzazione dell\'icona dell\'app. Se l\'icona scompare, prova ad avviare l\'applicazione tramite Google Play o un widget, se accessibile. Dopo l\'avvio, ripristina il colore predefinito dell\'icona verde #106D1F. In casi estremi, potrebbe essere necessario reinstallare l\'applicazione.</string>
     <string name="global_theme_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
-    <string name="shared_theme_note">Nota che anche se usi la versione Pro dell\'app, per motivi tecnici è necessario Grazie Fossify. Si occupa della sincronizzazione dei colori.</string>
+    <string name="shared_theme_note">Nota che anche se usi la versione Pro dell\'app, per motivi tecnici è necessario Grazie Maxitendo. Si occupa della sincronizzazione dei colori.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
+            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Maxitendo</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
         ]]></string>
     <string name="light_theme">Chiaro</string>
     <string name="dark_theme">Scuro</string>
@@ -626,7 +626,7 @@
     <string name="during_day_at_hh_mm">Durante il giorno alle oo:mm</string>
     <string name="during_day_at">Durante il giorno alle %1$02d:%2$02d</string>
     <string name="settings">Impostazioni</string>
-    <string name="purchase_simple_thank_you">Acquista Grazie Fossify</string>
+    <string name="purchase_simple_thank_you">Acquista Grazie Maxitendo</string>
     <string name="general_settings">Generale</string>
     <string name="color_customization">Personalizzazione del colore</string>
     <string name="improved_color_customization">Miglioramento della personalizzazione dei colori</string>
@@ -857,14 +857,14 @@
     <string name="donate_please">
         <![CDATA[
             Ciao,<br><br>
-            speriamo che tu sia contento dell\'app. Non contiene pubblicità, supporta lo sviluppo acquistando l\'app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
+            speriamo che tu sia contento dell\'app. Non contiene pubblicità, supporta lo sviluppo acquistando l\'app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Maxitendo</a>. Inoltre questa finestra non verrà più mostrata.<br><br>
             Grazie!
         ]]>
     </string>
-    <string name="donate_new">Ciao,&lt;br&gt;&lt;br&gt;spero che l\'app ti piaccia. Non contiene pubblicità e non raccogliamo nemmeno i tuoi dati, sostieni il suo sviluppo acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;. Avrai anche tutte le funzionalità dell\'app sbloccate, inclusa la personalizzazione del colore.&lt;br&gt;&lt;br&gt;Grazie!</string>
-    <string name="donate_short">Per favore, sostienici acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;, sbloccherà anche tutte le funzionalità dell\'app, inclusa la personalizzazione del colore.</string>
+    <string name="donate_new">Ciao,&lt;br&gt;&lt;br&gt;spero che l\'app ti piaccia. Non contiene pubblicità e non raccogliamo nemmeno i tuoi dati, sostieni il suo sviluppo acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Maxitendo&lt;/a&gt;. Avrai anche tutte le funzionalità dell\'app sbloccate, inclusa la personalizzazione del colore.&lt;br&gt;&lt;br&gt;Grazie!</string>
+    <string name="donate_short">Per favore, sostienici acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Maxitendo&lt;/a&gt;, sbloccherà anche tutte le funzionalità dell\'app, inclusa la personalizzazione del colore.</string>
     <string name="purchase">Acquista</string>
-    <string name="update_thank_you">Aggiorna Grazie Fossify alla versione più recente</string>
+    <string name="update_thank_you">Aggiorna Grazie Maxitendo alla versione più recente</string>
     <string name="before_asking_question_read_faq">Prima di fare una domanda, controlla le impostazioni dell\'app e le domande frequenti. Magari si trova la soluzione.</string>
     <string name="before_rate_read_faq">Prima di valutarci, controlla le impostazioni dell\'app e leggi le domande frequenti. Se riscontri problemi, la soluzione potrebbe trovarsi là.</string>
     <string name="make_sure_latest">Assicurati anche che tu stia usando la versione più recente dell\'app.</string>
@@ -876,7 +876,7 @@
     <string name="thank_you">Grazie</string>
     <string name="widget_locked_pro">Il widget è bloccato.
 \nSi prega di aggiornare alla versione Pro per sbloccarlo.</string>
-    <string name="features_locked">Questa funzione è bloccata, acquista &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt; per sbloccare l\'app completa.&lt;br&gt;&lt;br&gt;Si tratta di un pagamento unico e se non sarai soddisfatto, potremo rimborsarti.</string>
+    <string name="features_locked">Questa funzione è bloccata, acquista &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Maxitendo&lt;/a&gt; per sbloccare l\'app completa.&lt;br&gt;&lt;br&gt;Si tratta di un pagamento unico e se non sarai soddisfatto, potremo rimborsarti.</string>
     <string name="new_app">
         <![CDATA[
             Ehi,<br><br>
@@ -919,7 +919,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Sì, certo. Puoi spargere la voce sulle app o fornire feedback e valutazioni positive. Puoi anche contribuire a tradurre le app in una nuova lingua o ad aggiornare alcune traduzioni esistenti.
-            La guida alla traduzione è disponibile su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+            La guida alla traduzione è disponibile su <a href=https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:maxitendo01@proton.me>maxitendo01@proton.me</a> per qualsiasi domanda.
         ]]>
     </string>
     <string name="faq_3_title_commons">Ho eliminato dei file per errore, come posso recuperarli?</string>
@@ -935,7 +935,7 @@
     <string name="faq_8_title_commons">Perchè dovrei aggiornare alla versione Pro?</string>
     <string name="faq_8_text_commons">Dato che la tua versione non verrà più aggiornata, gli errori che potresti trovare non verranno mai corretti. Non ci saranno inoltre nuove funzioni aggiuntive. Puoi acquistare la versione Pro su Google Play per una piccola cifra.
         Si paga una sola volta, ciò significa che quando la acquisti non dovrai mai più pagare. Neanche quando userai un nuovo dispositivo. Se non ti piacerà la versione Pro, ti basta disinstallarla entro alcune ore e otterrai automaticamente un rimborso.
-        Se vuoi chiedere un rimborso in un momento successivo, contattaci su hello@fossify.org e lo otterrai.</string>
+        Se vuoi chiedere un rimborso in un momento successivo, contattaci su maxitendo01@proton.me e lo otterrai.</string>
     <string name="faq_9_title_commons">Come posso selezionare più elementi alla volta?</string>
     <string name="faq_9_text_commons">Ci sono diversi modi per farlo. Il primo è aprire la modalità di selezione premendo a lungo un elemento, poi toccare gli altri elementi da selezionare. Il secondo è simile alla selezione di elementi sul PC con il mouse,
         apri la modalità di selezione premendo a lungo un elemento, poi con il dito ancora premuto trascinalo sugli altri elementi da selezionare. Il terzo modo di selezionare più elementi è premendone a lungo uno, poi premere a lungo un altro e tutti quelli in mezzo vegono selezionati. Se
@@ -947,8 +947,8 @@
     <string name="development">Sviluppo</string>
     <string name="contributors_label">
         <![CDATA[
-            Questo elenco contiene tutti coloro che hanno aiutato in modo significativo qualsiasi applicazione della suite Fossify, non solo questa. Le traduzioni sono gestite da volontari,
-            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+            Questo elenco contiene tutti coloro che hanno aiutato in modo significativo qualsiasi applicazione della suite Maxitendo, non solo questa. Le traduzioni sono gestite da volontari,
+            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:maxitendo01@proton.me>maxitendo01@proton.me</a> per qualsiasi domanda.
             Grazie a tutti i collaboratori e agli altri sostenitori!
         ]]>
     </string>
@@ -1079,7 +1079,7 @@
         <item quantity="other">La prova scade tra %d giorni.</item>
     </plurals>
     <string name="deprecated_app">DEPRECATA: Questa versione dell\'app non è più supportata, ottieni la versione Pro a https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Non dimenticarti che se disinstalli qualsiasi app a pagamento entro le due ore dall\'acquisto, verrai automaticamente rimborsato. Se vuoi essere rimborsato quando vuoi dopo le due ore, puoi contattarci a hello@fossify.org. In questo modo puoi facilmente provare l\'app :)</string>
+    <string name="pro_app_refund">Non dimenticarti che se disinstalli qualsiasi app a pagamento entro le due ore dall\'acquisto, verrai automaticamente rimborsato. Se vuoi essere rimborsato quando vuoi dopo le due ore, puoi contattarci a maxitendo01@proton.me. In questo modo puoi facilmente provare l\'app :)</string>
     <string name="developer_description">Un gruppo di app Android semplici, open source, con widget personalizzabili, senza pubblicità ed autorizzazioni inutili.</string>
     <string name="password">Password</string>
     <string name="week_number_short">set.</string>
@@ -1119,7 +1119,7 @@
     <string name="notification_sound">Suono di notifica</string>
     <string name="january_short">Gen</string>
     <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+\nCopyright © Maxitendo %2$d</string>
     <string name="translation_english">Inglese</string>
     <string name="translation_hindi">Hindi</string>
     <string name="launcher_short">Launcher</string>
@@ -1131,7 +1131,7 @@
     <string name="translation_chuvash">Ciuvascio</string>
     <string name="translation_gujarati">Gujarati</string>
     <string name="format_phone_numbers">Formatta i numeri di telefono</string>
-    <string name="donate_to_fossify">Dona a Fossify</string>
+    <string name="donate_to_fossify">Dona a Maxitendo</string>
     <string name="platforms">Piattaforme</string>
     <string name="fee_up_to_pct">Fino al %1$d%% di tasse</string>
     <string name="cryptocurrency">Cryptovalute</string>
@@ -1139,7 +1139,7 @@
     <string name="translation_belarusian">Bielorusso</string>
     <string name="translation_central_kurdish">Curdo centrale</string>
     <string name="theme_and_colors">Tema e colori</string>
-    <string name="all_fossify_apps">Tutte le app Fossify</string>
+    <string name="all_fossify_apps">Tutte le app Maxitendo</string>
     <string name="known_issues">Problemi noti</string>
     <string name="translation_kabyle">Cabilo</string>
     <string name="number_of_items">Numero di elementi</string>

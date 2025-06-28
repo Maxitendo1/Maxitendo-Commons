@@ -169,13 +169,13 @@
     <string name="update_thank_you_g">Молимо ажурирајте Maxitendo Thank You на најновију верзију</string>
     <string name="faq_2_text_commons_g">
         <![CDATA[
-        Наравно. Можете да ширите причу о апликацијама или да сачините добру повратну информацију (рецензију) и дате нам добру оцену. Такође можете помоћи тако што ћете превести апликације на нови језик или ажурирати неке већ постојеће преводе. Упутство можете пронаћи на <a href="https://github.com/Maxitendo/Discussion">овом веб сајту</a>, или ми једноставно пошаљите поруку на <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> ако вам је потребна помоћ.
+        Наравно. Можете да ширите причу о апликацијама или да сачините добру повратну информацију (рецензију) и дате нам добру оцену. Такође можете помоћи тако што ћете превести апликације на нови језик или ажурирати неке већ постојеће преводе. Упутство можете пронаћи на <a href="https://github.com/Maxitendo/Discussion">овом веб сајту</a>, или ми једноставно пошаљите поруку на <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> ако вам је потребна помоћ.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Овај проблем настаје када ваш покретач не подржава у потпуности прилагођавање икона. Покушајте да покренете апликацију преко Гоогле Плаи-а или виџета, ако је доступан.</string>
     <string name="faq_8_text_commons_g">Пошто се верзија ваше апликације више не ажурира, грешке које сте можда приметили никада неће бити исправљене. Такође неће бити додаvane нове функције. Про верзију можете купити на Google Play-у за малу суму новца.
          То је једнократно плаћање, што значи да када једном купите, више никада нећете морати поново да плаћате. Чак ни након добијања новог уређаја. Ако вам се не свиђа Про верзија, можете је само деинсталирати у року од неколико сати и аутоматски ћете добити свој новац назад.
-         Ако желите повраћај новца било када касније, само нас контактирајте на github.com/Maxitendo@gmail.com и добићете га.</string>
+         Ако желите повраћај новца било када касније, само нас контактирајте на maxitendo01@proton.me и добићете га.</string>
     <string name="faq_100_title_commons_g">Шта је приватни контакт?</string>
     <string name="faq_100_text_commons_g">Приватни контакт се креира у оквиру апликације. Овај контакт неће бити видљив другим апликацијама.
          Ако деинсталирате апликацију, сви приватни контакти ће бити избрисани заједно са апликацијом, па направите резервну копију својих контаката пре него што деинсталирате апликацију.</string>
@@ -184,12 +184,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             Ова листа садржи све који су приметно помогли било којој апликацији у оквиру Maxitendo пакета, не само овој. Преводима се баве волонтери,
-            јавите нам ако и ви желите да помогнете. Водич за превођење је на <a href="https://github.com/Maxitendo/Discussion">овом веб сајту</a>, или нас контактирајте на <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> ако имате питања.
+            јавите нам ако и ви желите да помогнете. Водич за превођење је на <a href="https://github.com/Maxitendo/Discussion">овом веб сајту</a>, или нас контактирајте на <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> ако имате питања.
             Хвала свим сарадницима и осталим присталицама!
         ]]>
     </string>
     <string name="deprecated_app_g">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, преузмите Про верзију на https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на github.com/Maxitendo@gmail.com и добићете га. То олакшава испробавање :)</string>
+    <string name="pro_app_refund_g">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на maxitendo01@proton.me и добићете га. То олакшава испробавање :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Додај број</string>
@@ -321,16 +321,6 @@
     <string name="relation_brother_in_law_g">Девер</string>
     <string name="relation_sister_in_law_g">Свастика</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="billing_error_application_signature_not_correct">Да бисте платили преко RuStore-а, потребно је да инсталирате верзију апликације са RuStore-а</string>
 
     <!-- Calendar -->
     <string name="date">Датум</string>

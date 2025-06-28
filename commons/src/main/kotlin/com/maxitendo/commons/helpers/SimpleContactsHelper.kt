@@ -39,13 +39,13 @@ class SimpleContactsHelper(val context: Context) {
             allContacts.forEach {
                 val contactId = it.rawId
                 val contact = names.firstOrNull { it.rawId == contactId }
-                val name = contact?.name ?: it.phoneNumbers.firstOrNull()?.normalizedNumber
+                val name = contact?.name ?: it.phoneNumbers.firstOrNull()?.value
                 if (name != null) {
                     it.name = name
                 }
 
                 val photoUri = contact?.photoUri
-                if (photoUri != null) {
+                if (photoUri != null && photoUri != "") {
                     it.photoUri = photoUri
                 }
             }
@@ -187,6 +187,7 @@ class SimpleContactsHelper(val context: Context) {
             Phone.TYPE,
             Phone.LABEL,
             Phone.IS_PRIMARY,
+            Phone.PHOTO_URI,
             Data.STARRED
         )
 
@@ -202,9 +203,10 @@ class SimpleContactsHelper(val context: Context) {
             val type = cursor.getIntValue(Phone.TYPE)
             val label = cursor.getStringValue(Phone.LABEL) ?: ""
             val isPrimary = cursor.getIntValue(Phone.IS_PRIMARY) != 0
+            val photoUri = cursor.getStringValue(Phone.PHOTO_URI) ?: ""
 
             if (contacts.firstOrNull { it.rawId == rawId } == null) {
-                val contact = SimpleContact(rawId, contactId, "", "", ArrayList(), ArrayList(), ArrayList())
+                val contact = SimpleContact(rawId, contactId, "", photoUri, ArrayList(), ArrayList(), ArrayList())
                 contacts.add(contact)
             }
 

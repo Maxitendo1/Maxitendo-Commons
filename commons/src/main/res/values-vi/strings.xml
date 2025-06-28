@@ -291,8 +291,8 @@
     <string name="undo_changes_confirmation">Hoàn tác các thay đổi?</string>
     <string name="cannot_be_undone">Hành động này không thể hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
-    <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các ứng dụng Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
-    <string name="purchase_thank_you">Hãy mua ứng dụng &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!</string>
+    <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các ứng dụng Maxitendo. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
+    <string name="purchase_thank_you">Hãy mua ứng dụng &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!</string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="auto_light_dark_theme">Tự động</string>
@@ -624,7 +624,7 @@
     <string name="donate_please">
         <![CDATA[
             Xin chào,<br><br>
-            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
+            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Maxitendo Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
             Thank you!
         ]]>
     </string>
@@ -668,7 +668,7 @@
     <string name="faq_8_title_commons">Tại sao tôi nên nâng cấp lên phiên bản Pro?</string>
     <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
         Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
-        Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.</string>
+        Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại maxitendo01@proton.me và bạn sẽ nhận được nó.</string>
     <string name="notice">Ứng dụng này sử dụng các thư viện bên thứ ba sau đây. Cảm ơn.</string>
     <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>
@@ -694,7 +694,7 @@
     <string name="filters_title">Bộ lọc ảnh Android (bộ lọc hình ảnh)</string>
     <string name="gesture_views_title">Chế độ xem cử chỉ (hình ảnh có thể phóng to)</string>
     <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
+    <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại maxitendo01@proton.me và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
     <string name="developer_description">Một bộ sưu tập ứng dụng Android đơn giản, mã nguồn mở, với các tiện ích có thể tùy chỉnh, không quảng cáo và không yêu cầu quyền không cần thiết.</string>
     <string name="faq_9_title_commons">Làm sao chọn nhiều mục cùng một lúc?</string>
     <string name="error">Lỗi: %s</string>
@@ -734,7 +734,7 @@
     <string name="widgets">Widget</string>
     <string name="list_view">Danh sách</string>
     <string name="more_apps_from_us">Các app khác</string>
-    <string name="copyright">v %1$s\nBản quyền © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nBản quyền © Maxitendo %2$d</string>
     <string name="root">Root</string>
     <string name="exif">EXIF</string>
     <string name="system_default">Theo hệ thống</string>
@@ -808,10 +808,10 @@
     <string name="donate">Ủng hộ</string>
     <string name="platforms">Nền tảng</string>
     <string name="file_manager_short">File Manager</string>
-    <string name="donate_to_fossify">Ủng hộ Fossify</string>
+    <string name="donate_to_fossify">Ủng hộ Maxitendo</string>
     <string name="contributors">Đóng góp</string>
     <string name="translation">Biên dịch</string>
-    <string name="purchase_simple_thank_you">Mua Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Mua Maxitendo Thank You</string>
     <string name="known_issues">Vấn đề</string>
     <string name="support">Hỗ trợ</string>
     <string name="help_us">Giúp đỡ</string>
@@ -821,6 +821,6 @@
     <string name="version_placeholder">Phiên bản %s</string>
     <string name="hello">Xin chào :)</string>
     <string name="about_footer">Tạo bằng ❤️ từ Slovakia</string>
-    <string name="all_fossify_apps">Tất cả ứng dụng Fossify</string>
+    <string name="all_fossify_apps">Tất cả ứng dụng Maxitendo</string>
     <string name="translation_vietnamese">Tiếng Việt</string>
 </resources>

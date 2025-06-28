@@ -170,13 +170,13 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         Oui, bien sûr. Vous pouvez recommander cette application et/ou mettre une bonne évaluation. Vous pouvez aussi nous aider en traduisant les applications dans une nouvelle langue, ou en actualisant les traductions existantes.
-        Vous pouvez trouver le guide à l\'adresse https://github.com/Maxitendo/Discussion , ou simplement m\'envoyer un courriel à github.com/Maxitendo@gmail.com si vous avez besoin d\'aide.
+        Vous pouvez trouver le guide à l\'adresse https://github.com/Maxitendo/Discussion , ou simplement m\'envoyer un courriel à maxitendo01@proton.me si vous avez besoin d\'aide.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">Ce problème se produit lorsque votre lanceur ne prend pas entièrement en charge la personnalisation des icônes. Essayez de lancer l’application via Google Play ou un widget, s’il est accessible.         Après le lancement, restaurez la couleur par défaut de l’icône de l’application. Dans les cas extrêmes, il peut être nécessaire de réinstaller l’application.</string>
     <string name="faq_8_text_commons_g">La version de votre application n\'étant plus mise à jour, les bugs que vous avez peut-être repérés ne seront jamais corrigés. Il n\'y aura pas non plus de nouvelles fonctions ajoutées. Vous pouvez acheter la version Pro sur Google Play pour une petite somme d\'argent.
          C\'est un paiement unique, ce qui signifie qu\'une fois que vous l\'achetez, vous n\'aurez plus jamais à payer. Pas même après avoir acheté un nouvel appareil. Si vous n’aimez pas la version Pro, vous pouvez simplement la désinstaller après quelques heures et vous serez automatiquement remboursé.
-         Si vous souhaitez un remboursement à tout moment, contactez-nous à l\'adresse github.com/Maxitendo@gmail.com et vous l\'obtiendrez. </string>
+         Si vous souhaitez un remboursement à tout moment, contactez-nous à l\'adresse maxitendo01@proton.me et vous l\'obtiendrez. </string>
     <string name="faq_100_title_commons_g">What is a private contact?</string>
     <string name="faq_100_text_commons_g">A private contact is created within an application. This contact will not be visible to other applications.
         If you uninstall the app, all private contacts will be deleted along with the app, so back up your contacts before uninstalling the app.</string>
@@ -185,12 +185,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Maxitendo suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
     <string name="deprecated_app_g">ATTENTION : cette version de l\'application n\'est plus maintenue. Procurez-vous la version Pro à l\'adresse https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">N’oubliez pas que si vous désinstallez une application payante dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement, à tout moment, contactez-nous à github.com/Maxitendo@gmail.com et vous l\'obtiendrez. Alors n\'hésitez pas et essayez nos applications :)</string>
+    <string name="pro_app_refund_g">N’oubliez pas que si vous désinstallez une application payante dans les 2 heures, vous serez automatiquement remboursé. Si vous souhaitez un remboursement, à tout moment, contactez-nous à maxitendo01@proton.me et vous l\'obtiendrez. Alors n\'hésitez pas et essayez nos applications :)</string>
 
     <!-- Contacts -->
     <string name="add_number">Ajouter un numéro</string>
@@ -322,21 +322,3 @@
     <string name="relation_brother_in_law_g">Brother-in-law</string>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="date">Date</string>
-    <string name="starts">Commence</string>
-    <string name="ends">Finit</string>
-    <string name="time_zone">Fuseau horaire</string>
-    <string name="event_type">Type d’événement</string>
-    <string name="availability">Disponibilité</string>
-    <string name="attendees">Participants</string>
-    <string name="typeface">Fonte de caractères</string>
-</resources>

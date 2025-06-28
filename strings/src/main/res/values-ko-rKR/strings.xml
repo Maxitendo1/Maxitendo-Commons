@@ -160,13 +160,13 @@
     <string name="faq_2_text_commons_g">
         <![CDATA[
         예, 물론입니다. 다른 사람에게 앱을 추천하시거나, 좋은 피드백과 평가를 제공해 주실 수 있습니다. 또한 새로운 언어로 앱을 번역하거나 기존 번역을 업데이트 하면 도움이 됩니다.
-        번역 가이드는 https://github.com/Maxitendo/Discussion에서 찾아볼 수 있습니다. 도움이 필요하시다면 github.com/Maxitendo@gmail.com 으로 메시지를 보내주시기 바랍니다.
+        번역 가이드는 https://github.com/Maxitendo/Discussion에서 찾아볼 수 있습니다. 도움이 필요하시다면 maxitendo01@proton.me 으로 메시지를 보내주시기 바랍니다.
         ]]>
     </string>
     <string name="faq_6_text_commons_g">이 문제는 런처가 아이콘 사용자 지정을 완전히 지원하지 않을 때 발생합니다. Google Play 또는 위젯(사용 가능한 경우)을 통해 앱을 실행해 보세요.         실행 후 기본 앱 아이콘 색상을 복원합니다. 극단적인 경우 앱을 다시 설치해야 할 수 있습니다.</string>
     <string name="faq_8_text_commons_g">앱 버전이 더 이상 업데이트되지 않으므로, 발견하신 버그는 수정되지 않습니다. 또한 새로운 기능이 추가되지 않습니다. 구글 플레이에서 적은 금액으로 프로 버전을 구매할 수 있습니다.
         일회성 결제이므로 한 번 구매하면 다시는 결제할 필요가 없습니다. 새 기기를 구입한 후에도 마찬가지입니다. Pro 버전이 마음에 들지 않으면 몇 시간 내에 제거하면 자동으로 돈을 돌려받을 수 있습니다.
-        나중에 환불을 원하시면 github.com/Maxitendo@gmail.com 으로 문의하시면 환불 받으실 수 있습니다.</string>
+        나중에 환불을 원하시면 maxitendo01@proton.me 으로 문의하시면 환불 받으실 수 있습니다.</string>
     <string name="faq_100_title_commons_g">비공개 연락처란 무엇인가요?</string>
     <string name="faq_100_text_commons_g">비공개 연락처는 애플리케이션 내에서 만들어집니다. 이 연락처는 다른 애플리케이션에서 볼 수 없습니다.
         앱을 제거하면 모든 비공개 연락처가 앱과 함께 삭제되므로 앱을 제거하기 전에 연락처를 백업하세요.</string>
@@ -175,12 +175,12 @@
     <string name="contributors_label_g">
         <![CDATA[
             This list contains everyone that noticeably helped any app within the Maxitendo suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:github.com/Maxitendo@gmail.com">github.com/Maxitendo@gmail.com</a> if you have any questions.
+            let us know if you want to help too. The guide to translating is at <a href="https://github.com/Maxitendo/Discussion">this website</a>, or just contact us at <a href="mailto:maxitendo01@proton.me">maxitendo01@proton.me</a> if you have any questions.
             Thanks to all contributors and other supporters!
         ]]>
     </string>
     <string name="deprecated_app_g">구버전 경고: 이 버전의 앱은 더이상 관리되지 않습니다. Pro 버전을 설치해 주세요: https://play.google.com/store/apps/details?id=com.maxitendo.xxx.pro</string>
-    <string name="pro_app_refund_g">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, github.com/Maxitendo@gmail.com 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
+    <string name="pro_app_refund_g">플레이스토어에서 구매한 앱은 2시간 내에 삭제하면 자동으로 환불받을 수 있다는 사실을 항상 잊지 마시기 바랍니다. 만약 이후에 환불이 필요하시다면, maxitendo01@proton.me 으로 연락 주시면 해결해 드리겠습니다. 이제 한번 써보는 것도 나쁘지 않겠죠 :)</string>
 
     <!-- Contacts -->
     <string name="add_number">번호 추가</string>
@@ -312,21 +312,3 @@
     <string name="relation_brother_in_law_g">Brother-in-law</string>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
-    <!-- RuStore -->
-    <string name="billing_general_error">Error</string>
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
-    <string name="billing_subscriptions">Subscriptions</string>
-    <string name="billing_change_to_google_play">Change to Google Play</string>
-    <string name="billing_change_to_ru_store">Change to RuStore</string>
-    <string name="date">날짜</string>
-    <string name="starts">시작</string>
-    <string name="ends">끝납니다</string>
-    <string name="time_zone">시간대</string>
-    <string name="event_type">이벤트 유형</string>
-    <string name="availability">가용도</string>
-    <string name="attendees">참석자</string>
-    <string name="typeface">서체</string>
-</resources>

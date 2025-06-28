@@ -350,9 +350,9 @@
     <string name="undo_changes_confirmation">क्या आप वाकई अपने परिवर्तन पूर्ववत करना चाहते हैं?</string>
     <string name="cannot_be_undone">यह कार्रवाई पूर्ववत नहीं की जा सकती।</string>
     <string name="save_before_closing">आपके पास सहेजे नहीं गए परिवर्तन हैं। बाहर निकलने से पहले सहेजें?</string>
-    <string name="apply_to_all_apps">सभी Fossify ऐप्स पर रंग लागू करें</string>
-    <string name="shared_theme_note">ध्यान दें कि भले ही आप Pro ऐप संस्करण का उपयोग कर रहे हैं, फिर भी आपको तकनीकी कारणों से Fossify Thank You की आवश्यकता है। यह रंग समन्वयन का ख्याल रखता है।</string>
-    <string name="purchase_thank_you">कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें। धन्यवाद!</string>
+    <string name="apply_to_all_apps">सभी Maxitendo ऐप्स पर रंग लागू करें</string>
+    <string name="shared_theme_note">ध्यान दें कि भले ही आप Pro ऐप संस्करण का उपयोग कर रहे हैं, फिर भी आपको तकनीकी कारणों से Maxitendo Thank You की आवश्यकता है। यह रंग समन्वयन का ख्याल रखता है।</string>
+    <string name="purchase_thank_you">कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; खरीदें। धन्यवाद!</string>
     <string name="dark_red">गहरा लाल</string>
     <string name="stop_showing_hidden">छुपे हुए मीडिया को दिखाना बंद करें</string>
     <string name="remove">हटाएं</string>
@@ -475,17 +475,17 @@
 \n
 \nधन्यवाद!</string>
     <string name="faq_8_title_commons">मुझे Pro वर्शन में अपग्रेड क्यों करना चाहिए?</string>
-    <string name="faq_8_text_commons">चूंकि आपका ऐप वर्शन अब अपडेट नहीं है, इसलिए आपके द्वारा देखे गए बग कभी भी ठीक नहीं किए जाएंगे। कोई नया प्रकार्य भी नहीं जोड़ा जाएगा। आप Google Play पर थोड़े से पैसे देकर Pro वर्शन खरीद सकते हैं। यह एक बार का भुगतान है, जिसका अर्थ है कि एक बार इसे खरीदने के बाद आपको दोबारा कभी भुगतान नहीं करना पड़ेगा। नई डिवाइस लेने के बाद भी नहीं. यदि आपको Pro वर्शन पसंद नहीं आएगा, तो आप इसे कुछ घंटों के भीतर अनइंस्टॉल कर सकते हैं और आपको अपने पैसे स्वचालित रूप से वापस मिल जाएंगे। यदि आप बाद में कभी भी रिफंड चाहते हैं, तो बस hello@fossify.org पर हमसे संपर्क करें और आपको यह मिल जाएगा।</string>
+    <string name="faq_8_text_commons">चूंकि आपका ऐप वर्शन अब अपडेट नहीं है, इसलिए आपके द्वारा देखे गए बग कभी भी ठीक नहीं किए जाएंगे। कोई नया प्रकार्य भी नहीं जोड़ा जाएगा। आप Google Play पर थोड़े से पैसे देकर Pro वर्शन खरीद सकते हैं। यह एक बार का भुगतान है, जिसका अर्थ है कि एक बार इसे खरीदने के बाद आपको दोबारा कभी भुगतान नहीं करना पड़ेगा। नई डिवाइस लेने के बाद भी नहीं. यदि आपको Pro वर्शन पसंद नहीं आएगा, तो आप इसे कुछ घंटों के भीतर अनइंस्टॉल कर सकते हैं और आपको अपने पैसे स्वचालित रूप से वापस मिल जाएंगे। यदि आप बाद में कभी भी रिफंड चाहते हैं, तो बस maxitendo01@proton.me पर हमसे संपर्क करें और आपको यह मिल जाएगा।</string>
     <string name="other_help">अन्य सहायता</string>
-    <string name="donate_new">नमस्ते,&lt;br&gt;&lt;br&gt;आशा है कि आप ऐप का आनंद ले रहे हैं। इसमें कोई विज्ञापन नहीं है और हम आपका डेटा भी एकत्र नहीं कर रहे हैं, कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify खरीदकर इसके विकास का समर्थन करें। धन्यवाद आप&lt;/a&gt;. आपके पास रंग अनुकूलन सहित सभी ऐप सुविधाएं भी अनलॉक होंगी।&lt;br&gt;&lt;br&gt;धन्यवाद!</string>
-    <string name="donate_short">कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदकर हमारा समर्थन करें, यह रंग सहित सभी ऐप सुविधाओं को भी अनलॉक कर देगा। अनुकूलन।</string>
+    <string name="donate_new">नमस्ते,&lt;br&gt;&lt;br&gt;आशा है कि आप ऐप का आनंद ले रहे हैं। इसमें कोई विज्ञापन नहीं है और हम आपका डेटा भी एकत्र नहीं कर रहे हैं, कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo खरीदकर इसके विकास का समर्थन करें। धन्यवाद आप&lt;/a&gt;. आपके पास रंग अनुकूलन सहित सभी ऐप सुविधाएं भी अनलॉक होंगी।&lt;br&gt;&lt;br&gt;धन्यवाद!</string>
+    <string name="donate_short">कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; खरीदकर हमारा समर्थन करें, यह रंग सहित सभी ऐप सुविधाओं को भी अनलॉक कर देगा। अनुकूलन।</string>
     <string name="make_sure_upgrade">यह भी ध्यान दें कि यह ऐप वर्शन अब विकसित नहीं किया जा रहा है, कई सुधारों के लिए Pro संस्करण प्राप्त करें।</string>
-    <string name="features_locked">यह सुविधा लॉक है, कृपया संपूर्ण ऐप अनलॉक करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; खरीदें।&lt;br &lt;br&gt;यह केवल एक बार भुगतान है और यदि आप संतुष्ट नहीं होंगे, तो हम आपको धनवापसी कर सकते हैं।</string>
+    <string name="features_locked">यह सुविधा लॉक है, कृपया संपूर्ण ऐप अनलॉक करने के लिए &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt; खरीदें।&lt;br &lt;br&gt;यह केवल एक बार भुगतान है और यदि आप संतुष्ट नहीं होंगे, तो हम आपको धनवापसी कर सकते हैं।</string>
     <string name="gallery_short">गैलरी</string>
     <string name="flashlight_short">फ़्लैशलाइट</string>
     <string name="keyboard_short">कीबोर्ड</string>
     <string name="sideloaded_app">ऐसा लगता है कि आपका ऐप वर्शन दूषित है। कृपया मूल वर्शन &lt;a href=%s&gt;यहां&lt;/a&gt; से डाउनलोड करें।</string>
-    <string name="faq_2_text_commons">हाँ बिल्कुल। आप ऐप्स के बारे में प्रचार कर सकते हैं या अच्छी प्रतिक्रिया और रेटिंग दे सकते हैं। आप ऐप्स को नई भाषा में अनुवाद करके या बस कुछ मौजूदा अनुवादों को अपडेट करके भी सहायता कर सकते हैं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/FossifyOrg/general-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;इस वेबसाइट&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; पर हमसे संपर्क करें।</string>
+    <string name="faq_2_text_commons">हाँ बिल्कुल। आप ऐप्स के बारे में प्रचार कर सकते हैं या अच्छी प्रतिक्रिया और रेटिंग दे सकते हैं। आप ऐप्स को नई भाषा में अनुवाद करके या बस कुछ मौजूदा अनुवादों को अपडेट करके भी सहायता कर सकते हैं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/MaxitendoOrg/general-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;इस वेबसाइट&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:maxitendo01@proton.me&gt;maxitendo01@proton.me&lt;/a&gt; पर हमसे संपर्क करें।</string>
     <string name="faq_3_title_commons">मैंने गलती से कुछ फाइलें हटा दी हैं, मैं उन्हें कैसे पुनर्प्राप्त कर सकता हूं?</string>
     <string name="faq_4_text_commons">हां, जैसे ही आप किसी विजेट को अपनी होम स्क्रीन पर खींचते हैं तो एक विजेट विन्यास स्क्रीन दिखाई देती है। आपको निचले बाएं कोने पर रंगीन वर्ग दिखाई देंगे, नया रंग चुनने के लिए बस उन्हें दबाएं। आप अल्फा को समायोजित करने के लिए स्लाइडर का भी उपयोग कर सकते हैं।</string>
     <string name="why_upgrade_contact_private_contacts">निजी तौर पर संग्रहीत संपर्क</string>
@@ -507,8 +507,8 @@
 \nआपको जीवनकाल में बस एक बार इसके लिए भुगतान करना होगा और यदि आप संतुष्ट नहीं हैं, तो आप इसे अनइंस्टॉल कर सकते हैं और रिफंड प्राप्त कर सकते हैं।
 \n
 \nवहाँ मिलते हैं :)</string>
-    <string name="pro_app_refund">यह न भूलें कि यदि आप किसी भी भुगतान किए गए ऐप को 2 घंटे के भीतर अनइंस्टॉल करते हैं, तो आपको स्वचालित रूप से धनवापसी कर दी जाएगी। यदि आप बाद में कभी भी रिफंड चाहते हैं, तो बस hello@fossify.org पर हमसे संपर्क करें और आपको यह मिल जाएगा। इससे इसे आज़माना आसान हो जाता है :)</string>
-    <string name="contributors_label">इस सूची में वे सभी लोग शामिल हैं जिन्होंने केवल इस ऐप को ही नहीं, बल्कि Fossify suite के भीतर किसी भी ऐप की उल्लेखनीय रूप से सहायता की। अनुवाद स्वयंसेवकों द्वारा किया जाता है, यदि आप भी सहायता करना चाहते हैं तो हमें बताएं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/FossifyOrg/general-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; पर हमसे संपर्क करें। सभी योगदानकर्ताओं और अन्य समर्थकों को धन्यवाद!</string>
+    <string name="pro_app_refund">यह न भूलें कि यदि आप किसी भी भुगतान किए गए ऐप को 2 घंटे के भीतर अनइंस्टॉल करते हैं, तो आपको स्वचालित रूप से धनवापसी कर दी जाएगी। यदि आप बाद में कभी भी रिफंड चाहते हैं, तो बस maxitendo01@proton.me पर हमसे संपर्क करें और आपको यह मिल जाएगा। इससे इसे आज़माना आसान हो जाता है :)</string>
+    <string name="contributors_label">इस सूची में वे सभी लोग शामिल हैं जिन्होंने केवल इस ऐप को ही नहीं, बल्कि Maxitendo suite के भीतर किसी भी ऐप की उल्लेखनीय रूप से सहायता की। अनुवाद स्वयंसेवकों द्वारा किया जाता है, यदि आप भी सहायता करना चाहते हैं तो हमें बताएं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/MaxitendoOrg/general-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;this website&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:maxitendo01@proton.me&gt;maxitendo01@proton.me&lt;/a&gt; पर हमसे संपर्क करें। सभी योगदानकर्ताओं और अन्य समर्थकों को धन्यवाद!</string>
     <string name="why_upgrade_many_other_improvements">कई अन्य सुधार</string>
     <string name="iso_speed">ISO गति</string>
     <string name="use_default">तयशुदा उपयोग करें</string>
@@ -780,7 +780,7 @@
     <string name="no_sound">कोई ध्वनि नहीं</string>
     <string name="during_day_at_hh_mm">दिन के दौरान hh:mm पर</string>
     <string name="during_day_at">दिन के दौरान %1$02d:%2$02d पर</string>
-    <string name="purchase_simple_thank_you">Fossify Thank You ख़रीदें</string>
+    <string name="purchase_simple_thank_you">Maxitendo Thank You ख़रीदें</string>
     <string name="general_settings">सामान्य</string>
     <string name="improved_color_customization">बेहतर रंग अनुकूलन</string>
     <string name="color_customization">रंग अनुकूलन</string>
@@ -936,7 +936,7 @@
     <string name="rate">रेट</string>
     <string name="donate">दान करें</string>
     <string name="copyright">v %1$s
-\nकॉपीराइट © Fossify %2$d</string>
+\nकॉपीराइट © Maxitendo %2$d</string>
     <string name="other">अन्य</string>
     <string name="hello">नमस्ते :)</string>
     <string name="privacy_policy">गोपनीयता नीति</string>
@@ -945,9 +945,9 @@
     <string name="additional_info">अतिरिक्त जानकारी</string>
     <string name="app_version">ऐप संस्करण: %s</string>
     <string name="device_os">डिवाइस OS: %s</string>
-    <string name="donate_please">नमस्ते,&lt;br&gt;&lt;br&gt; आशा है कि आप ऐप का आनंद ले रहे होंगे। इसमें कोई विज्ञापन नहीं है, कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify धन्यवाद&lt;/a&gt; ऐप खरीदकर इसके विकास का समर्थन करें। इस संवाद को दोबारा प्रदर्शित होने से भी रोका जाएगा।&lt;br&gt;&lt;br&gt; धन्यवाद!</string>
+    <string name="donate_please">नमस्ते,&lt;br&gt;&lt;br&gt; आशा है कि आप ऐप का आनंद ले रहे होंगे। इसमें कोई विज्ञापन नहीं है, कृपया &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo धन्यवाद&lt;/a&gt; ऐप खरीदकर इसके विकास का समर्थन करें। इस संवाद को दोबारा प्रदर्शित होने से भी रोका जाएगा।&lt;br&gt;&lt;br&gt; धन्यवाद!</string>
     <string name="purchase">खरीदें</string>
-    <string name="update_thank_you">कृपया Fossify Thank You को नवीनतम संस्करण में अपडेट करें</string>
+    <string name="update_thank_you">कृपया Maxitendo Thank You को नवीनतम संस्करण में अपडेट करें</string>
     <string name="before_asking_question_read_faq">कोई प्रश्न पूछने से पहले, कृपया ऐप सेटिंग जांचें और पहले अक्सर पूछे जाने वाले प्रश्न पढ़ें। शायद समाधान वहीं है।</string>
     <string name="before_rate_read_faq">इससे पहले कि आप हमें रेटिंग दें, कृपया ऐप सेटिंग जांचें और पहले अक्सर पूछे जाने वाले प्रश्न पढ़ें। यदि आपको कोई समस्या है, तो शायद समाधान मौजूद है।</string>
     <string name="make_sure_latest">यह भी सुनिश्चित करें कि आप नवीनतम ऐप संस्करण का उपयोग कर रहे हैं।</string>
@@ -1084,7 +1084,7 @@
     <string name="translation_gujarati">गुजराती</string>
     <string name="fee_up_to_pct">%1$d%% तक शुल्क</string>
     <string name="cryptocurrency">क्रिप्टोकरेंसी</string>
-    <string name="donate_to_fossify">Fossify को दान करें</string>
+    <string name="donate_to_fossify">Maxitendo को दान करें</string>
     <string name="format_phone_numbers">फोन नंबर प्रारूपित करें</string>
     <string name="platforms">प्लेटफार्म</string>
     <string name="little_to_no_fee">बहुत कम या कोई शुल्क नहीं</string>

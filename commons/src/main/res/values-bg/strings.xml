@@ -323,7 +323,7 @@
     <string name="undo_changes_confirmation">Сигурни ли сте, че искате да отмените промените\?</string>
     <string name="cannot_be_undone">Действието е необратимо.</string>
     <string name="save_before_closing">Има незапазени промени. Запазване преди изход\?</string>
-    <string name="global_theme_success">Текущата тема е приложена на всички приложения на Fossify. Бъдещите промени на темата ще бъдат синхронизирани автоматично.</string>
+    <string name="global_theme_success">Текущата тема е приложена на всички приложения на Maxitendo. Бъдещите промени на темата ще бъдат синхронизирани автоматично.</string>
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тъмна</string>
     <string name="auto_theme">Автоматична</string>
@@ -770,7 +770,7 @@
     <string name="rate">Оценяване</string>
     <string name="donate">Дарения</string>
     <string name="follow_us">Последвайте ни</string>
-    <string name="copyright">v %1$s\nАвторски права © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nАвторски права © Maxitendo %2$d</string>
     <string name="support">Поддръжка</string>
     <string name="help_us">Помогнете ни</string>
     <string name="social">Общност</string>
@@ -834,7 +834,7 @@
     <string name="faq_7_title_commons">Парите са приспаднати от банковата ми сметка, но не мога да изтегля приложението. Какво мога да направя\?</string>
     <string name="faq_7_text_commons">Плащанията се обработват изцяло от Google, системната им има гличове от време на време. Просто изчистете кеша на приложението Google Play и рестартирайте устройството си, след което отново го изтегляте.</string>
     <string name="faq_8_title_commons">Защо трябва да обновя до Про версията\?</string>
-    <string name="faq_8_text_commons">Тъй като версията на приложението ви вече не се актуализира, грешките, които сте забелязали, никога няма да бъдат поправени. Няма да се добавят и нови функции. Можете да закупите Pro версията в Google Play за малка сума пари. Това е еднократно плащане, което означава, че след като го закупите, никога няма да се налага да плащате отново. Дори и след получаване на ново устройство. Ако няма да ви хареса Pro версията, можете просто да я деинсталирате в рамките на няколко часа и автоматично ще си върнете парите. Ако искате възстановяване на сумата по -късно, просто се свържете с нас на hello@fossify.org и ще го получите.</string>
+    <string name="faq_8_text_commons">Тъй като версията на приложението ви вече не се актуализира, грешките, които сте забелязали, никога няма да бъдат поправени. Няма да се добавят и нови функции. Можете да закупите Pro версията в Google Play за малка сума пари. Това е еднократно плащане, което означава, че след като го закупите, никога няма да се налага да плащате отново. Дори и след получаване на ново устройство. Ако няма да ви хареса Pro версията, можете просто да я деинсталирате в рамките на няколко часа и автоматично ще си върнете парите. Ако искате възстановяване на сумата по -късно, просто се свържете с нас на maxitendo01@proton.me и ще го получите.</string>
     <string name="faq_9_title_commons">Как мога да избера няколко елемента наведнъж\?</string>
     <string name="faq_10_title_commons">Закупих приложението, но не мога да го изтегля на друго устройство.</string>
     <string name="faq_10_text_commons">Опитай да изчистиш кеша на Google Play приложението и да рестартираш устройството. Това е някакъв проблем с Google Play, който всъщност не е свързан със самото приложение.</string>
@@ -915,7 +915,7 @@
     <string name="notice">Приложението използва следните библиотеки от трети страни, за да улесни живота ми. Благодаря им.</string>
     <string name="third_party_licences">Лицензи на трети страни</string>
     <string name="welcome_to_app_name">Добре дошли при %s!</string>
-    <string name="pro_app_refund">Не забравяйте, че ако премахнете някое платено приложение в рамките на 2 часа след плащането, сумата автоматично ще бъде възстановена. Ако желаете възстановяване на сумата след този период, просто се свържете с нас на hello@fossify.org и ще ви ги върнем. Така е по-лесно да изпробвате приложенията :)</string>
+    <string name="pro_app_refund">Не забравяйте, че ако премахнете някое платено приложение в рамките на 2 часа след плащането, сумата автоматично ще бъде възстановена. Ако желаете възстановяване на сумата след този период, просто се свържете с нас на maxitendo01@proton.me и ще ви ги върнем. Така е по-лесно да изпробвате приложенията :)</string>
     <string name="developer_description">Група обикновени приложения с отворен код за Андроид с гъвкави приспособления, без реклами и ненужни разрешения.</string>
     <string name="audio">Аудио</string>
     <string name="genre">Жанр</string>
@@ -961,10 +961,10 @@
     <string name="upgraded_from_free_calendar">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. Ако искате да прехвърлите местно пазените събития, трябва да го направите ръчно, като ги изнесете във файл от безплатната версия на приложението и ги внесете тук от горното меню.\n\nСлед като сте доволни от настройките си в Про, можете да махнете старата безплатна версия, тъй като тя вече няма да ви е необходима, а също ще предотврати показването на този прозорец.\n\nБлагодаря!</string>
     <string name="upgraded_from_free_notes">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. Ако искате да прехвърлите бележките, трябва да го направите ръчно, като ги изнесете във файл от безплатната версия на приложението и ги внесете тук от горното меню.\n\nСлед като сте доволни от настройките си в Про, можете да махнете старата безплатна версия, тъй като тя вече няма да ви е необходима, а така ще предотврати показването на този прозорец.\n\nБлагодаря!</string>
     <string name="known_issues">Известни дефекти</string>
-    <string name="donate_please"><![CDATA[Здравейте,<br><br>надяваме се, че се наслаждавате на приложението. То не съдържа реклами,подкрепете развитието му, като закупите приложението <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, което също така ще предотврати повторното показване на този диалог.<br><br>Благодарим ви!]]></string>
-    <string name="features_locked">Това е платена възможност, поръчайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, за да отключите всички възможности на приложението.&lt;bг&gt;&lt;br&gt;Това е еднократно плащане и ако не останете доволни ще ви върнем парите.</string>
+    <string name="donate_please"><![CDATA[Здравейте,<br><br>надяваме се, че се наслаждавате на приложението. То не съдържа реклами,подкрепете развитието му, като закупите приложението <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Thank You</a>, което също така ще предотврати повторното показване на този диалог.<br><br>Благодарим ви!]]></string>
+    <string name="features_locked">Това е платена възможност, поръчайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;, за да отключите всички възможности на приложението.&lt;bг&gt;&lt;br&gt;Това е еднократно плащане и ако не останете доволни ще ви върнем парите.</string>
     <string name="translation_belarusian">Беларуски</string>
-    <string name="contributors_label"><![CDATA[Този списък съдържа всички, които значително са помогнали за някое от приложенията в пакета на Fossify, а не само на това. Преводите се извършват от доброволци — уведомете ни, ако искате да помогнете и вие. Ръководството за превод се намира на <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>тази страница</a>, или просто се свържете с нас на <a href=mailto:hello@fossify.org>hello@fossify.org</a>, ако имате въпроси. Благодарим на всички сътрудници и поддръжници!]]></string>
+    <string name="contributors_label"><![CDATA[Този списък съдържа всички, които значително са помогнали за някое от приложенията в пакета на Maxitendo, а не само на това. Преводите се извършват от доброволци — уведомете ни, ако искате да помогнете и вие. Ръководството за превод се намира на <a href=https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>тази страница</a>, или просто се свържете с нас на <a href=mailto:maxitendo01@proton.me>maxitendo01@proton.me</a>, ако имате въпроси. Благодарим на всички сътрудници и поддръжници!]]></string>
     <string name="m3u_parser_title">M3U Parser (обработка на списъци за възпроизвеждане m3u)</string>
     <string name="trial_expires_soon">Пробният период изтича скоро.</string>
     <string name="why_upgrade_advanced_photo_video_editor">Разширен редактор за снимки и видео</string>
@@ -979,10 +979,10 @@
     <string name="espresso_title">Espresso (помощ при изпитване)</string>
     <string name="notification_sound">Звук на известието</string>
     <string name="upgraded_from_free_contacts">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. Ако сте имали контакти в „%s“, трябва да ги преместите ръчно, като ги изнесете във файл от безплатната версия на приложението и ги внесете тук от горното меню.\n\nСлед като сте доволни от настройките си в Про, можете да махнете старата безплатна версия, тъй като тя вече няма да ви е необходима, а също ще предотврати показването на този прозорец.\n\nБлагодаря!</string>
-    <string name="donate_short">Подкрепете ни, като закупите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Така ще отключите всички възможности на приложението, включително настройка на цветовете.</string>
+    <string name="donate_short">Подкрепете ни, като закупите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;. Така ще отключите всички възможности на приложението, включително настройка на цветовете.</string>
     <string name="cryptocurrency">Криптовалута</string>
     <string name="upgraded_to_pro">Здравейте,\n\nизглежда, че вече имате и версията на приложението Pro. След като сте доволни от нея и може би сте прехвърлили данните си, можете да деинсталирате тази, за да избегнете случайното ѝ стартиране, тъй като вече няма да ви е необходима.\n\nБлагодаря!</string>
-    <string name="update_thank_you">Обновете Fossify Thank You до последното издание</string>
+    <string name="update_thank_you">Обновете Maxitendo Thank You до последното издание</string>
     <string name="translation_chuvash">Чувашки</string>
     <string name="translation_esperanto">Есперанто</string>
     <string name="glide_title">Glide (зареждане и складиране на изображения)</string>
@@ -998,10 +998,10 @@
     <string name="zip4j_title">Zip4j (работа с формата ZIP)</string>
     <string name="android_lame_title">AndroidLame (кодиране на mp3)</string>
     <string name="start_free_trial">Начало на пробен период</string>
-    <string name="donate_new">Здравейте,&lt;br&gt;&lt;br&gt;надяваме се, че се наслаждавате на приложението. То не съдържа реклами и не събира данни, подкрепете развитието му, като закупите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Освен това ще имате отключени всички възможности на приложението, включително настройка на цветовете.&lt;br&gt;&lt;br&gt;Благодарим ви!</string>
-    <string name="all_fossify_apps">Всички приложения от Fossify</string>
+    <string name="donate_new">Здравейте,&lt;br&gt;&lt;br&gt;надяваме се, че се наслаждавате на приложението. То не съдържа реклами и не събира данни, подкрепете развитието му, като закупите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Maxitendo Thank You&lt;/a&gt;. Освен това ще имате отключени всички възможности на приложението, включително настройка на цветовете.&lt;br&gt;&lt;br&gt;Благодарим ви!</string>
+    <string name="all_fossify_apps">Всички приложения от Maxitendo</string>
     <string name="new_app"><![CDATA[Здравейте,<br><br>искаме само да ви кажем, че скоро пуснахме нови приложения:<br><br><a href=%1$s>%2$s</a><br><br><a href=%3$s>%4$s</a><br><br><a href=%5$s>%6$s</a><br><br>Можете да ги изтеглите като докоснете заглавията или пиктограмите им.<br><br>Благодарим ви]]></string>
-    <string name="donate_to_fossify">Даряване на Fossify</string>
+    <string name="donate_to_fossify">Даряване на Maxitendo</string>
     <string name="platforms">Платформи</string>
     <string name="little_to_no_fee">Почти без такси</string>
     <string name="fee_up_to_pct">Такса до %1$d %%</string>
@@ -1023,15 +1023,15 @@
     <string name="deprecated_app">Изведено от употреба: това приложение вече не се поддържа, надградете до Про на https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="improved_color_customization">Подобрена настройка на цветовете</string>
     <string name="app_icon_color_warning">Внимание: Някои начални екрани може да не изобразят правилно потребителските настройки на пиктограмите на приложенията. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
-    <string name="apply_to_all_apps">Прилагане на цветовете към всички приложения на Fossify</string>
-    <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про, все още се нуждаете от Fossify Thank You по технически причини. То се грижи за синхронизирането на цветовете.</string>
-    <string name="purchase_thank_you"><![CDATA[Поръчайте <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, за да отключите тази възможност и да подкрепите разработката. Благодарим ви!]]></string>
-    <string name="purchase_simple_thank_you">Поръчайте Fossify Thank You</string>
+    <string name="apply_to_all_apps">Прилагане на цветовете към всички приложения на Maxitendo</string>
+    <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про, все още се нуждаете от Maxitendo Thank You по технически причини. То се грижи за синхронизирането на цветовете.</string>
+    <string name="purchase_thank_you"><![CDATA[Поръчайте <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Maxitendo Thank You</a>, за да отключите тази възможност и да подкрепите разработката. Благодарим ви!]]></string>
+    <string name="purchase_simple_thank_you">Поръчайте Maxitendo Thank You</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Пробният период изтича след %d ден.</item>
         <item quantity="other">Пробният период изтича след %d дена.</item>
     </plurals>
-    <string name="faq_2_text_commons"><![CDATA[Да, разбира се. Можете да разкажете за приложенията или да давате добри отзиви и оценки. Можете също така да помогнете, като преведете приложенията на нов език или подобрите съществуващи преводи. Ръководството за превод се намира на <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>тази страница</a>, или просто се свържете с нас на <a href=mailto:hello@fossify.org>hello@fossify.org</a>, ако имате въпроси.]]></string>
+    <string name="faq_2_text_commons"><![CDATA[Да, разбира се. Можете да разкажете за приложенията или да давате добри отзиви и оценки. Можете също така да помогнете, като преведете приложенията на нов език или подобрите съществуващи преводи. Ръководството за превод се намира на <a href=https://github.com/MaxitendoOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>тази страница</a>, или просто се свържете с нас на <a href=mailto:maxitendo01@proton.me>maxitendo01@proton.me</a>, ако имате въпроси.]]></string>
     <string name="faq_9_text_commons">Има много начини да го направите. Първият е да стартирате режим на избор чрез задържане върху даден елемент, след което кратко докоснете други елементи, за да ги изберете. Вторият начин е подобен на избирането на елементи с мишка, просто стартирайте режима за избор чрез задържане върху даден елемент, след което без да вдигате пръста, го плъзнете върху другите елементи, които желаете да изберете. Третият начин за избор на множество елементи е задържане върху даден елемент, след това задържане върху друг и всички елементи между тях ще бъдат избрани. Ако искате да изберете всички елементи, просто задръжте даден елемент, след което докоснете брояча на избрани елементи в горния ляв ъгъл. По този начин ще изберете или откажете избора на всички елементи.</string>
     <string name="faq_6_text_commons">Такъв проблем може да възникне ако началният екран не може да покаже правилно потребителските настройки на пиктограмата на приложението. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
     <string name="translation_kabyle">Кабилски</string>

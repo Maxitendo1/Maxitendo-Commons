@@ -124,8 +124,8 @@ internal fun AboutNewSection(
                             // Use the first icon as default, or implement logic to get current selected icon
                             appIconIds[0]
                         } else {
-                            // Fallback to the app's launcher icon (Special Contacts)
-                            com.maxitendo.contacts.R.mipmap.ic_launcher
+                            // Fallback to a generic icon from commons
+                            com.maxitendo.commons.R.drawable.ic_person_vector
                         }
 
                         // Load icon as bitmap to handle both mipmap and drawable resources
@@ -134,23 +134,17 @@ internal fun AboutNewSection(
                             if (drawable != null) {
                                 BitmapPainter(drawable.toBitmap().asImageBitmap())
                             } else {
-                                // Fallback to the app launcher icon as bitmap
-                                val launcherDrawable = ContextCompat.getDrawable(context, com.maxitendo.contacts.R.mipmap.ic_launcher)
-                                if (launcherDrawable != null) {
-                                    BitmapPainter(launcherDrawable.toBitmap().asImageBitmap())
+                                // Fallback to a generic icon from commons
+                                val fallbackDrawable = ContextCompat.getDrawable(context, com.maxitendo.commons.R.drawable.ic_person_vector)
+                                if (fallbackDrawable != null) {
+                                    BitmapPainter(fallbackDrawable.toBitmap().asImageBitmap())
                                 } else {
-                                    // Final fallback to a drawable resource
-                                    val fallbackDrawable = ContextCompat.getDrawable(context, com.maxitendo.contacts.R.drawable.ic_people_rounded)
-                                    if (fallbackDrawable != null) {
-                                        BitmapPainter(fallbackDrawable.toBitmap().asImageBitmap())
-                                    } else {
-                                        // Ultimate fallback - create a simple colored painter
-                                        BitmapPainter(
-                                            android.graphics.Bitmap.createBitmap(1, 1, android.graphics.Bitmap.Config.ARGB_8888)
-                                                .apply { eraseColor(android.graphics.Color.GRAY) }
-                                                .asImageBitmap()
-                                        )
-                                    }
+                                    // Ultimate fallback - create a simple colored painter
+                                    BitmapPainter(
+                                        android.graphics.Bitmap.createBitmap(1, 1, android.graphics.Bitmap.Config.ARGB_8888)
+                                            .apply { eraseColor(android.graphics.Color.GRAY) }
+                                            .asImageBitmap()
+                                    )
                                 }
                             }
                         }

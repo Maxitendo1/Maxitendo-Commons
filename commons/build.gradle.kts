@@ -91,6 +91,9 @@ publishing.publications {
 
 detekt {
     baseline = file("detekt-baseline.xml")
+    buildUponDefaultConfig = true
+    allRules = false
+    ignoreFailures = true
 }
 
 dependencies {

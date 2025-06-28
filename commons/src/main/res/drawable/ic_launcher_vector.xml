@@ -49,12 +49,12 @@
         android:pathData="M115,98.5 L115,101.5 L125,101.5 L125,98.5 Z"/>
     
     <!-- Small dots representing additional components -->
-    <circle android:fillColor="#FFFFFF" android:cx="65" android:cy="65" android:r="4"/>
-    <circle android:fillColor="#FFFFFF" android:cx="135" android:cy="65" android:r="4"/>
-    <circle android:fillColor="#FFFFFF" android:cx="65" android:cy="135" android:r="4"/>
-    <circle android:fillColor="#FFFFFF" android:cx="135" android:cy="135" android:r="4"/>
-    
+    <path android:fillColor="#FFFFFF" android:pathData="M65,61 A4,4 0 1,1 65,69 A4,4 0 1,1 65,61 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M135,61 A4,4 0 1,1 135,69 A4,4 0 1,1 135,61 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M65,131 A4,4 0 1,1 65,139 A4,4 0 1,1 65,131 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M135,131 A4,4 0 1,1 135,139 A4,4 0 1,1 135,131 Z"/>
+
     <!-- Center dot -->
-    <circle android:fillColor="#4CAF50" android:cx="100" android:cy="100" android:r="3"/>
+    <path android:fillColor="#4CAF50" android:pathData="M100,97 A3,3 0 1,1 100,103 A3,3 0 1,1 100,97 Z"/>
     
 </vector>

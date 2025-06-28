@@ -9,11 +9,14 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.graphics.painter.BitmapPainter
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.dimensionResource
@@ -24,6 +27,8 @@ import androidx.compose.ui.text.toUpperCase
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
+import androidx.core.content.ContextCompat
+import androidx.core.graphics.drawable.toBitmap
 import androidx.core.text.HtmlCompat
 import com.maxitendo.commons.R
 import com.maxitendo.commons.compose.extensions.MyDevices
@@ -119,22 +124,49 @@ internal fun AboutNewSection(
                             // Use the first icon as default, or implement logic to get current selected icon
                             appIconIds[0]
                         } else {
-                            // Fallback to a default icon
-                            R.drawable.ic_people_vector
+                            // Fallback to the app's launcher icon (Special Contacts)
+                            com.maxitendo.contacts.R.mipmap.ic_launcher
+                        }
+
+                        // Load icon as bitmap to handle both mipmap and drawable resources
+                        val iconPainter = remember(currentIconId) {
+                            val drawable = ContextCompat.getDrawable(context, currentIconId)
+                            if (drawable != null) {
+                                BitmapPainter(drawable.toBitmap().asImageBitmap())
+                            } else {
+                                // Fallback to the app launcher icon as bitmap
+                                val launcherDrawable = ContextCompat.getDrawable(context, com.maxitendo.contacts.R.mipmap.ic_launcher)
+                                if (launcherDrawable != null) {
+                                    BitmapPainter(launcherDrawable.toBitmap().asImageBitmap())
+                                } else {
+                                    // Final fallback to a drawable resource
+                                    val fallbackDrawable = ContextCompat.getDrawable(context, com.maxitendo.contacts.R.drawable.ic_people_rounded)
+                                    if (fallbackDrawable != null) {
+                                        BitmapPainter(fallbackDrawable.toBitmap().asImageBitmap())
+                                    } else {
+                                        // Ultimate fallback - create a simple colored painter
+                                        BitmapPainter(
+                                            android.graphics.Bitmap.createBitmap(1, 1, android.graphics.Bitmap.Config.ARGB_8888)
+                                                .apply { eraseColor(android.graphics.Color.GRAY) }
+                                                .asImageBitmap()
+                                        )
+                                    }
+                                }
+                            }
                         }
 
                         Icon(
                             modifier = Modifier
                                 .size(68.dp)
                                 .shadow(elevation = 10.dp, shape = RoundedCornerShape(34.dp), clip = true),
-                            painter = painterResource(id = currentIconId),
+                            painter = iconPainter,
                             contentDescription = null,
                             tint = Color.Unspecified
                         )
                         Icon(
                             modifier = Modifier
                                 .size(72.dp),
-                            painter = painterResource(id = currentIconId),
+                            painter = iconPainter,
                             contentDescription = appName,
                             tint = Color.Unspecified
                         )

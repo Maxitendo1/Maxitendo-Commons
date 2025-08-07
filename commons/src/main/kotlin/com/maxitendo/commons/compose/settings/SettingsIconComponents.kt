@@ -15,7 +15,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 
-// Color definitions matching Goodwy Keyboard pattern
 val preferenceOrange = Color(0xFFFF9500)
 val preferenceBlue = Color(0xFF007AFF)
 val preferenceGreen = Color(0xFF34C759)
@@ -32,6 +31,7 @@ val preferenceGrey = Color(0xFF8E8E93)
  * @param backgroundColor The background color for the icon
  * @param modifier Optional modifier for customization
  */
+
 @Composable
 fun SettingsIcon(
     icon: ImageVector,
@@ -65,7 +65,7 @@ fun SettingsIcon(
 fun AppearanceSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
         icon = Icons.Outlined.Palette,
-        backgroundColor = preferenceBlue,
+        backgroundColor = preferenceOrange,
         modifier = modifier
     )
 }
@@ -76,8 +76,8 @@ fun AppearanceSettingsIcon(modifier: Modifier = Modifier) {
 @Composable
 fun GeneralSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
-        icon = Icons.Outlined.Settings,
-        backgroundColor = preferenceGreen,
+        icon = Icons.Filled.Settings,
+        backgroundColor = preferenceBlue,
         modifier = modifier
     )
 }
@@ -89,7 +89,7 @@ fun GeneralSettingsIcon(modifier: Modifier = Modifier) {
 fun AdvancedSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
         icon = Icons.Rounded.SettingsSuggest,
-        backgroundColor = preferenceRed,
+        backgroundColor = preferencePurple,
         modifier = modifier
     )
 }
@@ -100,8 +100,8 @@ fun AdvancedSettingsIcon(modifier: Modifier = Modifier) {
 @Composable
 fun NotificationsSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
-        icon = Icons.Outlined.Notifications,
-        backgroundColor = preferenceYellow,
+        icon = Icons.Filled.Notifications,
+        backgroundColor = preferenceRed,
         modifier = modifier
     )
 }
@@ -138,7 +138,7 @@ fun AboutSettingsIcon(modifier: Modifier = Modifier) {
 @Composable
 fun CallsSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
-        icon = Icons.Outlined.Phone,
+        icon = Icons.Filled.Phone,
         backgroundColor = preferenceGreen,
         modifier = modifier
     )
@@ -150,7 +150,7 @@ fun CallsSettingsIcon(modifier: Modifier = Modifier) {
 @Composable
 fun MessagesSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
-        icon = Icons.Outlined.Message,
+        icon = Icons.Filled.Message,
         backgroundColor = preferenceBlue,
         modifier = modifier
     )

@@ -16,14 +16,13 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.unit.dp
 
 val preferenceOrange = Color(0xFFFF9500)
-val preferenceBlue = Color(0xFF007AFF)
-val preferenceGreen = Color(0xFF34C759)
-val preferencePurple = Color(0xFFAF52DE)
-val preferenceCyan = Color(0xFF5AC8FA)
-val preferenceRed = Color(0xFFFF3B30)
-val preferenceMagenta = Color(0xFFFF2D92)
-val preferenceYellow = Color(0xFFFFCC00)
-val preferenceGrey = Color(0xFF8E8E93)
+val preferenceBlue = Color(0xFF007BFF)
+val preferenceGreen = Color(0xFF34C85A)
+val preferencePurple = Color(0xFF5955D6)
+val preferenceCyan = Color(0xFF31ADE7)
+val preferenceRed = Color(0xFFFF3A2E)
+val preferenceYellow = Color(0xFFFFCC01)
+val preferenceGrey = Color(0xFF8F8E95)
 
 /**
  * Base settings icon component that creates a rounded square background with an icon
@@ -89,7 +88,7 @@ fun GeneralSettingsIcon(modifier: Modifier = Modifier) {
 fun AdvancedSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
         icon = Icons.Rounded.SettingsSuggest,
-        backgroundColor = preferencePurple,
+        backgroundColor = preferenceYellow,
         modifier = modifier
     )
 }
@@ -165,7 +164,7 @@ fun MessagesSettingsIcon(modifier: Modifier = Modifier) {
 fun TabsSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
         icon = Icons.Outlined.Tab,
-        backgroundColor = preferencePurple,
+        backgroundColor = preferenceGreen,
         modifier = modifier
     )
 }
@@ -177,7 +176,7 @@ fun TabsSettingsIcon(modifier: Modifier = Modifier) {
 fun SwipeGesturesSettingsIcon(modifier: Modifier = Modifier) {
     SettingsIcon(
         icon = Icons.Filled.Gesture,
-        backgroundColor = preferenceOrange,
+        backgroundColor = preferencePurple,
         modifier = modifier
     )
 }

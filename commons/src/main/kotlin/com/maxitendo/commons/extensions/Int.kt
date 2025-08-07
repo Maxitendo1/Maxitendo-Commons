@@ -194,15 +194,6 @@ fun Int.countdown(intervalMillis: Long, callback: (count: Int) -> Unit) {
     }
 }
 
-fun Int.adjustSimColorForBackground(bg: Int): Int {
-    val hsv = FloatArray(3)
-    Color.colorToHSV(bg, hsv)
-    if (hsv[2] < 0.5) {
-        return this.lightenColor(24)
-    }
-    return this
-}
-
 fun Int.adjustForContrast(
     background: Int,
     minContrast: Double = WCAG_AA_NORMAL,

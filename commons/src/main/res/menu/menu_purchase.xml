@@ -12,7 +12,7 @@
         android:id="@+id/restorePurchases"
         android:icon="@drawable/ic_restore_purchase"
         android:title="@string/restore_purchase"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="never" />
     <item
         android:id="@+id/openSubscriptions"
         android:title="@string/billing_subscriptions"

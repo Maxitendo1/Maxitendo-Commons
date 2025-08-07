@@ -212,7 +212,7 @@ fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou)
                 -12434878 -> md_grey_800
                 -16777216 -> md_grey_black_dark
 
-                //com.maxitendo
+                //Maxitendo
                 -65794 -> bw_20  //add
                 -1118482 -> bw_30  //add
                 -2171170 -> bw_40  //add

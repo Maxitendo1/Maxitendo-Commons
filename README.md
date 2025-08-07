@@ -1,7 +1,5 @@
 <div align="center">
 </br>
-<img src="commons/src/main/res/drawable/ic_launcher.png" width="200" />
-
 </div>
 
 <div align="center">

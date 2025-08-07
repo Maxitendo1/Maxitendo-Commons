@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomActionMenuItem">
+        <attr name="android:id" />
+        <attr name="android:title" />
+        <attr name="android:icon" />
+        <attr name="android:visible" />
+        <attr name="showAsAction" />
+    </declare-styleable>
+
+    <!-- IndicatorFastScroll attributes -->
+    <attr name="indicatorFastScrollerStyle" format="reference" />
+    <attr name="indicatorFastScrollerThumbStyle" format="reference" />
+    <attr name="fastScrollerIconColor" format="color" />
+    <attr name="fastScrollerTextPadding" format="dimension" />
+    <attr name="fastScrollerThumbColor" format="color" />
+
+    <declare-styleable name="FastScrollerView">
+        <attr name="fastScrollerIconColor" />
+        <attr name="android:textAppearance" />
+        <attr name="android:textColor" />
+        <attr name="fastScrollerTextPadding" />
+    </declare-styleable>
+
+    <declare-styleable name="FastScrollerThumbView">
+        <attr name="fastScrollerThumbColor" />
+        <attr name="fastScrollerIconColor" />
+        <attr name="android:textAppearance" />
+        <attr name="android:textColor" />
+    </declare-styleable>
+
+    <!-- SwipeActionView attributes -->
+    <declare-styleable name="SwipeActionView">
+        <attr name="sav_swipeLeftRippleColor" format="color|reference"/>
+        <attr name="sav_swipeRightRippleColor" format="color|reference"/>
+        <attr name="sav_rippleTakesPadding" format="boolean"/>
+
+        <attr name="sav_tools_previewBackground" format="integer">
+            <!-- Preview background for swipe left gesture -->
+            <enum name="swipeLeft" value="1"/>
+            <!-- Preview background for swipe right gesture -->
+            <enum name="swipeRight" value="2"/>
+        </attr>
+
+        <attr name="sav_tools_previewRipple" format="integer">
+            <!-- Preview ripple for swipe left gesture -->
+            <enum name="swipeLeft" value="1"/>
+            <!-- Preview ripple for swipe right gesture -->
+            <enum name="swipeRight" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- RecyclerViewFastScroller attributes -->
+    <declare-styleable name="RecyclerViewFastScroller">
+        <attr name="trackDrawable" format="reference" />
+        <attr name="handleDrawable" format="reference" />
+        <attr name="popupDrawable" format="reference" />
+        <attr name="popupTextStyle" format="reference" />
+        <attr name="fastScrollEnabled" format="boolean" />
+        <attr name="popupPosition" format="enum">
+            <enum name="beforeTrack" value="0" />
+            <enum name="afterTrack" value="1" />
+        </attr>
+        <attr name="fastScrollDirection" format="enum">
+            <enum name="vertical" value="0" />
+            <enum name="horizontal" value="1" />
+        </attr>
+        <attr name="handleWidth" format="dimension" />
+        <attr name="handleHeight" format="dimension" />
+        <attr name="handleHasFixedSize" format="boolean" />
+        <attr name="supportSwipeToRefresh" format="boolean" />
+
+        <attr name="trackMarginStart" format="dimension" />
+        <attr name="trackMarginEnd" format="dimension" />
+
+        <attr name="handleVisibilityDuration" format="integer" />
+    </declare-styleable>
+</resources>

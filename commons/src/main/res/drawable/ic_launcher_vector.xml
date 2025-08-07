@@ -1,0 +1,60 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M100,10 A90,90 0 1,1 100,190 A90,90 0 1,1 100,10 Z"/>
+    
+    <!-- Central hub block -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,85 L115,85 A3,3 0 0,1 118,88 L118,112 A3,3 0 0,1 115,115 L85,115 A3,3 0 0,1 82,112 L82,88 A3,3 0 0,1 85,85 Z"/>
+    
+    <!-- Top block -->
+    <path
+        android:fillColor="#E8F5E8"
+        android:pathData="M88,55 L112,55 A2,2 0 0,1 114,57 L114,73 A2,2 0 0,1 112,75 L88,75 A2,2 0 0,1 86,73 L86,57 A2,2 0 0,1 88,55 Z"/>
+    
+    <!-- Bottom block -->
+    <path
+        android:fillColor="#E8F5E8"
+        android:pathData="M88,125 L112,125 A2,2 0 0,1 114,127 L114,143 A2,2 0 0,1 112,145 L88,145 A2,2 0 0,1 86,143 L86,127 A2,2 0 0,1 88,125 Z"/>
+    
+    <!-- Left block -->
+    <path
+        android:fillColor="#E8F5E8"
+        android:pathData="M55,88 L75,88 A2,2 0 0,1 77,90 L77,110 A2,2 0 0,1 75,112 L55,112 A2,2 0 0,1 53,110 L53,90 A2,2 0 0,1 55,88 Z"/>
+    
+    <!-- Right block -->
+    <path
+        android:fillColor="#E8F5E8"
+        android:pathData="M125,88 L145,88 A2,2 0 0,1 147,90 L147,110 A2,2 0 0,1 145,112 L125,112 A2,2 0 0,1 123,110 L123,90 A2,2 0 0,1 125,88 Z"/>
+    
+    <!-- Connection lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M98.5,85 L101.5,85 L101.5,75 L98.5,75 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M98.5,115 L101.5,115 L101.5,125 L98.5,125 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M85,98.5 L85,101.5 L75,101.5 L75,98.5 Z"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M115,98.5 L115,101.5 L125,101.5 L125,98.5 Z"/>
+    
+    <!-- Small dots representing additional components -->
+    <path android:fillColor="#FFFFFF" android:pathData="M65,61 A4,4 0 1,1 65,69 A4,4 0 1,1 65,61 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M135,61 A4,4 0 1,1 135,69 A4,4 0 1,1 135,61 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M65,131 A4,4 0 1,1 65,139 A4,4 0 1,1 65,131 Z"/>
+    <path android:fillColor="#FFFFFF" android:pathData="M135,131 A4,4 0 1,1 135,139 A4,4 0 1,1 135,131 Z"/>
+
+    <!-- Center dot -->
+    <path android:fillColor="#4CAF50" android:pathData="M100,97 A3,3 0 1,1 100,103 A3,3 0 1,1 100,97 Z"/>
+    
+</vector>

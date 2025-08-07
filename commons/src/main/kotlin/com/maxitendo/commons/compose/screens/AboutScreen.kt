@@ -30,7 +30,7 @@ import com.maxitendo.commons.compose.lists.SimpleColumnScaffold
 import com.maxitendo.commons.compose.theme.AppThemeSurface
 import com.maxitendo.commons.extensions.baseConfig
 import com.maxitendo.commons.extensions.isPlayStoreInstalled
-import com.maxitendo.commons.extensions.isRuStoreInstalled
+
 import com.maxitendo.strings.R as stringsR
 
 @Composable
@@ -95,7 +95,7 @@ internal fun AboutNewSection(
         val context = LocalContext.current
         val textColor = MaterialTheme.colorScheme.onSurface
         val playStoreInstalled = context.isPlayStoreInstalled()
-        val ruStoreInstalled = context.isRuStoreInstalled()
+
         Column(Modifier.padding(top = 8.dp, start = 16.dp, end = 16.dp, bottom = 26.dp)) {
             ListItem(
                 modifier = Modifier
@@ -141,7 +141,7 @@ internal fun AboutNewSection(
             Spacer(modifier = Modifier.size(8.dp))
             HtmlText(stringResource(stringsR.string.about_summary), textColor = textColor)
             Spacer(modifier = Modifier.size(24.dp))
-            if ((playStoreInstalled || ruStoreInstalled)) {
+            if (playStoreInstalled) {
                 Card(
                     shape = RoundedCornerShape(16.dp),
                     colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
@@ -195,18 +195,9 @@ internal fun AboutNewSection(
                             .width(42.dp)) {
                             Icon(modifier = Modifier.alpha(0.2f).size(42.dp),
                                 imageVector = Icons.Rounded.Circle, contentDescription = stringResource(id = R.string.more_maxitendo_apps), tint = textColor)
-                            if (ruStoreInstalled && !context.baseConfig.useGooglePlay) {
-                                Icon(modifier = Modifier
-                                    .size(42.dp)
-                                    .padding(9.dp),
-                                    painter = painterResource(id = R.drawable.ic_rustore),
-                                    contentDescription = stringResource(id = R.string.more_maxitendo_apps), tint = textColor)
-                            }
-                            else {
-                                Icon(modifier = Modifier.size(42.dp).padding(start = 10.dp, end = 6.dp, top = 8.dp, bottom = 8.dp),
-                                    painter = painterResource(id = R.drawable.ic_google_play_vector),
-                                    contentDescription = stringResource(id = R.string.more_maxitendo_apps), tint = textColor)
-                            }
+                            Icon(modifier = Modifier.size(42.dp).padding(start = 10.dp, end = 6.dp, top = 8.dp, bottom = 8.dp),
+                                painter = painterResource(id = R.drawable.ic_google_play_vector),
+                                contentDescription = stringResource(id = R.string.more_maxitendo_apps), tint = textColor)
                         }
                     }
                 }
